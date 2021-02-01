@@ -1,0 +1,39 @@
+/* 
+.card-foot{
+  height:300px ; 
+} */
+
+/* Navbar */
+.nav_list{
+  list-style: none;
+}
+
+
+/* 1 index.php */
+.news{
+
+  /* colors */
+  background-color: rgb(120, 120, 218);
+
+  /* sizing */
+  display: grid;
+  min-height: 300px;
+
+  /* Justify */
+  text-align: center;
+}
+
+
+/* 2 apropos.php */
+
+
+
+
+/* 3 nossejours.php */
+
+
+
+/* 4 contact.php */
+
+
+

@@ -1,0 +1,4 @@
+https://avatars.dicebear.com/api/avataaars/example.svg ; 
+https://avatars.dicebear.com/api/avataaars/example.svg?options%5Btop%5D%5B%5D=shortHair&options%5BaccessoriesChance%5D=93
+https://avatars.dicebear.com/api/human/.svg
+https://avatars.dicebear.com/api/avataaars/.svg
