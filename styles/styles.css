@@ -1,39 +1,101 @@
-/* 
-.card-foot{
-  height:300px ; 
+/* ------- Définition des fonts ------- */
+
+/* @font-face {
+  font-family: "Poppins";
+  src: url('/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
 } */
 
-/* Navbar */
-.nav_list{
-  list-style: none;
+.logo {
+  margin-top: 50px ;
+  margin-left: 20px ;
+  z-index: auto;
 }
 
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
 
-/* 1 index.php */
-.news{
+/* Navbar */
 
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  background-color: rgb(54, 77, 92);
+  height: 5rem;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+
+/* Links */
+
+li {
+  display: inline;
+  font-family: "Poppins";
+}
+
+/* unvisited link */
+
+a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* mouse over link */
+
+a:hover {
+  text-decoration: none;
+}
+
+/* selected link */
+
+a:active {
+  color: blue;
+}
+
+/* ----------1 index.php ---------- */
+
+.wrapper {
+  text-align: center;
+  align-self: center;
+  margin-top: 0px;
+}
+
+.news {
   /* colors */
-  background-color: rgb(120, 120, 218);
-
+  background-color: aliceblue;
   /* sizing */
   display: grid;
   min-height: 300px;
-
   /* Justify */
   text-align: center;
 }
 
+.clock {
+  background-color: rgb(23, 47, 75);
+  margin: ;
+}
 
-/* 2 apropos.php */
+/* p {
+  font-family: "Poppins";
+} */
 
+/* ---------- 2 apropos.php ---------- */
 
+/* ---------- 3 nossejours.php ---------- */
 
+/*---------- 4 contact.php ----------*/
 
-/* 3 nossejours.php */
-
-
-
-/* 4 contact.php */
-
-
-
+/*---------- 4 contact.php ----------*/

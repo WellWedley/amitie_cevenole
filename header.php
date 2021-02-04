@@ -1,25 +1,32 @@
 <nav>
     <!-- Logo de l'association -->
-    <a class="navbar-brand" href="./index.php">
-        <img width="70" height="70" src="./img/logo/logo_amitie_cevenole1.png" alt="Logo de l'association Amitie Cevenole">
-        Amitié Cévenole
-    </a>
+  
+    
     <ul class="nav_list">
         <li>
-            <a href="./index.php">Accueil</a>
+        <a class="logo" href="./index.php">
+        <img width="70" height="70" src="./img/logo/logo_amitie_cevenole1.png" alt="Logo de l'association Amitie Cevenole">
+    </a>
         </li>
         <li>
-            <a href="./apropos.php">A propos</a>
+            <a href="./index.php">ACCUEIL</a>
         </li>
+        <span class="dot"></span>
         <li>
-            <a href="./sejours.php">Nos séjours</a>
+            <a href="./apropos.php">NOTRE ASSO</a>
         </li>
+        <span class="dot"></span>
         <li>
-            <a href="contact.php">Contact</a>
+            <a href="./sejours.php">NOS SEJOURS</a>
         </li>
+        <span class="dot"></span>
+        <li>
+            <a href="contact.php">ACTUALITE DES SEJOURS</a>
+        </li>
+        <span class="dot"></span>
         <li>
             <a href="">
-                Espace Membres
+                CONTACT
             </a>
         </li>
     </ul>
