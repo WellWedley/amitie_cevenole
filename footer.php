@@ -7,7 +7,7 @@
           <div class="card-body text-center ">
             <h5 class="card-title ">Qui sommes nous</h5>
             <p class="card-text mt-5 ">Si vous ne nous connaissez pas encore, vous pouvez découvrir l'histoire de l'association, grâce au bouton ci-dessous.</p>
-            <a href="./apropos.php" class="btn btn-primary">A propos</a>
+            <a href="./apropos.php" class="btn btn-primary mb-4">A propos</a>
           </div>
         </div>
       </div>
@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 ">
+      <div class="col-md-3">
         <div class="card card-foot">
           <div class="card-body text-center">
             <h5 class="card-title ">Contact</h5>
@@ -33,7 +33,7 @@
 
             </address>
             <a href="tel:0661555236"><img width="50" src="./img/logo/map.png"></img></a>
-            <p><em>2 Rue Ernest Castan, 34090 Montpellier</em></p>
+            <p class="mb-1"><em>2 Rue Ernest Castan, 34090 Montpellier</em></p>
             </a>
           </div>
         </div>
@@ -41,12 +41,11 @@
       <div class="col-md-3 ">
         <div class="card card-foot">
           <div class="card-body text-center">
-            <h5 class="card-title ">Plus</h5>
-            <ul class="list-group list-group-flush mt-4">
+            <h5 class="card-title mt-2">Plus</h5>
+            <ul class="list-group list-group-flush mt-4 mb-5">
               <li class="list-group-item"> <a href="">Consulter les CGV</a></li>
               <li class="list-group-item"> <a href="">Aides financières</a></li>
               <li class="list-group-item"><a href="">Nous rejoindre</a></li>
-              <a href=""></a>
             </ul>
 
             </a>
