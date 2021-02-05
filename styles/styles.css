@@ -6,9 +6,8 @@
 } */
 
 .logo {
-  z-index: auto;
+  z-index: 1;
   position: fixed;
-  top: 50%;
 }
 
 .dot {
@@ -32,7 +31,6 @@
   position: fixed;
   width: 100%;
   overflow: hidden;
-  z-index: 1;
   margin-bottom: 50px;
 }
 
