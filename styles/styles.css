@@ -6,9 +6,9 @@
 } */
 
 .logo {
-  margin-top: 50px ;
-  margin-left: 20px ;
   z-index: auto;
+  position: fixed;
+  top: 50%;
 }
 
 .dot {
