@@ -5,10 +5,16 @@
   src: url('/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
 } */
 
-.logo {
+.logo_container {
   z-index: 1;
   position: fixed;
+
 }
+
+.logo{
+  width: 50%;
+}
+
 
 .dot {
   height: 20px;
