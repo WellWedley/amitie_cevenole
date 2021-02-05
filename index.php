@@ -5,7 +5,6 @@
     <?php
     include_once 'head.php';
     ?>
-    <!--<link rel="stylesheet" href="./styles/style.css">-->
 </head>
 
 <body class="body">

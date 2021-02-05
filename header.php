@@ -1,13 +1,10 @@
 <nav>
     <!-- Logo de l'association -->
-  
-    
-    <ul class="nav_list">
-        <li>
-        <a class="logo" href="./index.php">
-        <img width="70" height="70" src="./img/logo/logo_amitie_cevenole1.png" alt="Logo de l'association Amitie Cevenole">
+    <a href="./index.php">
+        <img class="logo" src="./img/logo/logo_amitie_cevenole1.png" alt="Logo de l'association Amitie Cevenole">
     </a>
-        </li>
+
+    <ul class="nav_list">
         <li>
             <a href="./index.php">ACCUEIL</a>
         </li>
@@ -21,11 +18,11 @@
         </li>
         <span class="dot"></span>
         <li>
-            <a href="contact.php">ACTUALITE DES SEJOURS</a>
+            <a href="./actualites.php">ACTUALITE DES SEJOURS</a>
         </li>
         <span class="dot"></span>
         <li>
-            <a href="">
+            <a href="./contact.php">
                 CONTACT
             </a>
         </li>
