@@ -8,14 +8,13 @@
 .logo_container {
   z-index: 1;
   position: fixed;
+
 }
 
-.logo {
-  width: 10%;
-  position: fixed;
-  left: 0;
-  top: 0;
+.logo{
+  width: 50%;
 }
+
 
 .dot {
   height: 20px;
@@ -27,24 +26,18 @@
 
 /* Navbar */
 
-.nav_container {
+.nav_list {
   display: flex;
   align-items: center;
   justify-content: center;
   list-style: none;
   background-color: rgb(54, 77, 92);
-  height: 11%;
+  height: 5rem;
   font-size: 20px;
   position: fixed;
   width: 100%;
   overflow: hidden;
   margin-bottom: 50px;
-}
-
-.nav_list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Links */
@@ -57,7 +50,7 @@ li {
 /* unvisited link */
 
 a:link, a:visited {
-  color: rgb(12, 8, 8);
+  color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
@@ -94,9 +87,9 @@ a:active {
   text-align: center;
 }
 
-.clock .jour {
+.clock {
   background-color: rgb(23, 47, 75);
-  margin: 150px 0;
+  margin: ;
 }
 
 /* p {
@@ -110,22 +103,3 @@ a:active {
 /*---------- 4 contact.php ----------*/
 
 /*---------- 4 contact.php ----------*/
-
-/*---------- 4 tests.php ----------*/
-
-.carte {
-  text-align: center;
-  background: linear-gradient(45deg, #CCFFFF, #caafd6);
-  border-radius: 10px;
-  padding: 15px;
-  margin: auto;
-  width: 300px;
-  height: 350px;
-
-}
-
-.footer_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}

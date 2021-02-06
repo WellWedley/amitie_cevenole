@@ -1,31 +1,60 @@
 <?php include './styles/bootstrap_scripts.php' ?>
 <footer class="page-footer mt-5">
-<div class="footer_container">
-    
-      <div class="carte">
-        <h1>Suivre nos aventures</h1>
-        <a href="https://www.facebook.com/amitiecevenole" target="_blank" class="fa fa-facebook">
-          <img width="50" src="img/logo/fb.png" alt="Lien facebook de l'association">
-          <p> Amitié Cévenole - Officiel</p>
-        </a>
-        <p>
-          <a href="#">Postuler</a>
-        </p>
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-md-3 ">
+        <div class="card card-foot">
+          <div class="card-body text-center ">
+            <h5 class="card-title ">Qui sommes nous</h5>
+            <p class="card-text mt-5 ">Si vous ne nous connaissez pas encore, vous pouvez découvrir l'histoire de l'association, grâce au bouton ci-dessous.</p>
+            <a href="./apropos.php" class="btn btn-primary mb-4">A propos</a>
+          </div>
+        </div>
       </div>
-      <div class="carte">
-        <h1>Notre adresse</h1>
-
-        <p>AEPC Amitié Cévenole</p>
-        <p>2 Rue Ernest Castan, 34090 Montpellier</p>
-        </a>
+      <div class="col-md-3">
+        <div class="card card-foot">
+          <div class="card-body text-center">
+            <h5 class="card-title ">Nous sommes aussi sur Facebook</h5>
+            <p class="card-text mt-4">C'est d'ailleurs ici que ça se passe pour avoir les dernières nouvelles sur nos séjours.</p>
+            <a href="https://www.facebook.com/amitiecevenole" target="_blank" class="fa fa-facebook">
+              <img width="50" src="img/logo/fb.png" alt="Lien facebook de l'association">
+              <p> Amitié Cévenole - Officiel</p>
+            </a>
+          </div>
+        </div>
       </div>
+      <div class="col-md-3">
+        <div class="card card-foot">
+          <div class="card-body text-center">
+            <h5 class="card-title ">Contact</h5>
+            <p class="card-text mt-5">C'est ici que ça se passe ! </p>
+            <address>
+              <a href="mailto:sejour.aepc@gmail.com">sejour.aepc@gmail.com</a><br>
 
-      <div class="carte">
-        <h1>Email</h1>
-        <address>
-          <a href="mailto:sejour.aepc@gmail.com">sejour.aepc@gmail.com</a><br>
-        </address>
+            </address>
+            <a href="tel:0661555236"><img width="50" src="./img/logo/map.png"></img></a>
+            <p class="mb-1"><em>2 Rue Ernest Castan, 34090 Montpellier</em></p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <div class="card card-foot">
+          <div class="card-body text-center">
+            <h5 class="card-title mt-2">Plus</h5>
+            <ul class="list-group list-group-flush mt-4 mb-5">
+              <li class="list-group-item"> <a href="">Consulter les CGV</a></li>
+              <li class="list-group-item"> <a href="">Aides financières</a></li>
+              <li class="list-group-item"><a href="">Nous rejoindre</a></li>
+            </ul>
+
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
+  </div>
+  <p class="text-white text-center"> © 2020 Copyright : Amitié Cévenole </p>
 
 </footer>
