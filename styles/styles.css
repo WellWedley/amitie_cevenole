@@ -57,7 +57,7 @@ li {
 /* unvisited link */
 
 a:link, a:visited {
-  color: rgb(12, 8, 8);
+  color: rgb(243, 240, 240);
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;

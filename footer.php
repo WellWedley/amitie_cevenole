@@ -1,4 +1,4 @@
-<?php include './styles/bootstrap_scripts.php' ?>
+<?php include_once './styles/bootstrap_scripts.php' ?>
 <footer class="page-footer mt-5">
 <div class="footer_container">
     
