@@ -1,9 +1,10 @@
+<?php include_once './classes/sejours.php'?>
 <div class="nav_container">
     <nav>
         <!-- Logo de l'association -->
         <div class="logo_container">
             <a href="./index.php">
-                <img class="logo" src="./img/logo/logo_amitie_cevenole1.png" alt="Logo de l'association Amitie Cevenole">
+                <img class="logo" src="./img/logo/logo.svg" alt="Logo de l'association Amitie Cevenole">
             </a>
         </div>
 

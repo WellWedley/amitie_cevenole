@@ -13,21 +13,31 @@
     include_once './header.php';
     ?>
     <div class="wrapper">
+
         <div class="news">
             <div class="clock jour">
-               
+
+            </div>
+            <div class="clock jour">
+
             </div>
             <div class="clock hour">
-               
+
+            </div>
+            <div class="clock hour">
+
             </div>
             <div class="clock minute">
-               
+
+            </div>
+            <div class="clock minute">
+
             </div>
 
         </div>
 
-        </div>
-        <?php include_once 'footer.php' ?>
+    </div>
+    <?php include_once 'footer.php' ?>
     </div>
 </body>
 

@@ -1,9 +1,13 @@
 /* ------- Définition des fonts ------- */
 
-/* @font-face {
-  font-family: "Poppins";
-  src: url('/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
-} */
+@font-face {
+  font-family: Poppins;
+  src: url('/fonts/Poppins-ExtraBold.ttf') format('truetype');
+}
+
+body {
+  background-image: url('./img/background.svg');
+}
 
 .logo_container {
   z-index: 1;
@@ -11,15 +15,15 @@
 }
 
 .logo {
-  width: 10%;
+  width: 177px;
   position: fixed;
-  left: 0;
-  top: 0;
+  left: 39px;
+  top: 28px;
 }
 
 .dot {
-  height: 20px;
-  width: 20px;
+  height: 28px;
+  width: 28px;
   background-color: rgb(255, 255, 255);
   border-radius: 50%;
   display: inline-block;
@@ -39,6 +43,7 @@
   width: 100%;
   overflow: hidden;
   margin-bottom: 50px;
+  height: 144px;
 }
 
 .nav_list {
@@ -51,7 +56,6 @@
 
 li {
   display: inline;
-  font-family: "Poppins";
 }
 
 /* unvisited link */
@@ -62,6 +66,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-family: Poppins;
 }
 
 /* mouse over link */
@@ -81,51 +86,89 @@ a:active {
 .wrapper {
   text-align: center;
   align-self: center;
-  margin-top: 0px;
+  position: relative;
+  top: 200px;
 }
 
 .news {
   /* colors */
-  background-color: aliceblue;
   /* sizing */
-  display: grid;
+  display: flex;
+  flex-direction: row;
   min-height: 300px;
+  justify-content: space-between;
   /* Justify */
-  text-align: center;
 }
 
-.clock .jour {
-  background-color: rgb(23, 47, 75);
-  margin: 150px 0;
+.clock {
+  /* colors */
+  background-color: #364D5C;
+  /* sizing */
+  margin: 0 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  /* Justify */
 }
 
-/* p {
-  font-family: "Poppins";
-} */
+p {
+  font-family: Poppins;
+}
 
 /* ---------- 2 apropos.php ---------- */
 
 /* ---------- 3 nossejours.php ---------- */
 
-/*---------- 4 contact.php ----------*/
+/*---------- 4 actualites.php ----------*/
 
-/*---------- 4 contact.php ----------*/
+/*---------- 5 contact.php ----------*/
 
-/*---------- 4 tests.php ----------*/
+/*---------- 4 footer.php ----------*/
 
-.carte {
+.foot_content {
   text-align: center;
-  background: linear-gradient(0deg,#caafd6, #CCFFFF );
-  border-radius: 10px;
+  background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
   padding: 15px;
-  margin: auto;
-  width: 300px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 150px;
+}
 
+.map {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 39px;
+  margin-left: 39px;
+}
+
+.map_img {
+  width: 75px;
+  height: auto;
+}
+
+.cgv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0 222px;
 }
+
+.footer_nav {
+  position: relative;
+  bottom: 0px;
+  height: 237px;
+  background-color: #364D5C;
+  z-index: 2;
+}
+/*---------- 4 tests.php ----------*/
+
+
+/*---------- @media queries ----------*/
