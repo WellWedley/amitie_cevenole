@@ -1,5 +1,5 @@
 <?php include_once './styles/bootstrap_scripts.php' ?>
-<footer class="page-footer mt-5">
+<footer>
   
 <div class="footer_container">
 
@@ -19,7 +19,6 @@
 
       <div>
         <h1>Notre adresse</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.4006484408146!2d3.8789395157256905!3d43.619019462657945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0e73d40c47%3A0x92ff8424f62abf17!2sAmiti%C3%A9%20C%C3%A9venole%20(AEPC)!5e0!3m2!1sfr!2sfr!4v1612632835682!5m2!1sfr!2sfr" width="" height="" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <div>
         <img class="map_img" src="./img/logo/map.svg" alt="">
