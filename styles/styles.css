@@ -5,29 +5,28 @@
   src: url('../fonts/poppins/Poppins-ExtraBold.ttf') format('truetype');
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 html {
   height: 100%;
+  margin: 0 !important;
 }
 
 body {
-  background-image: url('../img/img_fond.svg') ;
+  background: url('../img/img_fond.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   position: relative;
   min-height: 100%;
+  margin: 0 !important;
+  overflow-x: hidden;
 }
 
 .logo {
-  width: 100%;
-  height: auto;
-  position: relative;
+  width: 128px;
+  height: 127px;
+  position: fixed;
+  margin: 0 !important;
+  z-index: 7;
 }
 
 .dot {
@@ -40,7 +39,7 @@ body {
 
 /* Navbar */
 
-.nav_container {
+nav {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,10 +49,12 @@ body {
   position: fixed;
   width: 100%;
   overflow: hidden;
-  height: 144px;
+  height: 100px;
   font-family: 'Poppins';
-  z-index: 1;
   box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+  margin:0 !important;  
+  z-index: 6;
+  
 }
 
 ul {
@@ -72,10 +73,11 @@ li {
 
 a:link, a:visited {
   color: rgb(243, 240, 240);
-  padding: 14px 25px;
+  padding-right:  25px;
+  padding-left: 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline;
 }
 
 /* mouse over link */
@@ -90,39 +92,38 @@ a:active {
   color: blue;
 }
 
-/* ----------1 index.php ---------- */
-
-.wrapper {
-  text-align: center;
-  align-self: center;
-  top: 200px;
-  height: 100%;
-}
+/* ----------   1 index.php    ---------- */
 
 .news {
   /* colors */
   /* sizing */
   display: flex;
   flex-direction: row;
-  width: 1051px;
+  width: 100%;
   /* Justify */
-  justify-content: space-around;
   /* POSITION */
   position: absolute;
-  left: 420px;
-  top: 890px;
+  margin-left: 237px;
+  top: 800px;
+  left: 140px;
 }
 
 .clock {
   /* colors */
   background-color: #364D5C;
   /* sizing */
-  margin-right: 6px;
   width: 163px;
   height: 163px;
   border-radius: 10px;
   /* Justify */
-  position: relative;
+}
+
+.clock:nth-child(odd) {
+  margin-right: 6px;
+}
+
+.clock:nth-child(even) {
+  margin-right: 25px;
 }
 
 .nos_sejours {
@@ -130,10 +131,17 @@ a:active {
   flex-direction: row;
   align-items: center;
   text-align: center;
-  width: 1317px;
+  width: 100%;
   height: 532px;
+  position: absolute;
+  top: 1432px;
+}
+
+.nos_sejours .inscription_box, .nos_sejours .presente_sejours {
   background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
-  margin: 0 302px 850px 302px;
+  height: 542px;
+  width: 542px;
+  margin-left: 300px;
 }
 
 /* ---------- 2 apropos.php ---------- */
@@ -211,7 +219,8 @@ footer {
 
 /*---------- @media queries ----------*/
 
-@media screen and(max-width:568px) and(max-height:320x) {
+
+@media screen (max-width:568px) and(max-height:320x) {
   footer {
     width: 100%;
   }

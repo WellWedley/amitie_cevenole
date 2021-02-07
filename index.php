@@ -14,22 +14,22 @@
 
 
     <div class="news">
-        <div class="clock jour">
+        <div class="clock jour_diz">
 
         </div>
-        <div class="clock jour">
+        <div class="clock jour_unit">
 
         </div>
-        <div class="clock hour">
+        <div class="clock hour_diz">
 
         </div>
-        <div class="clock hour">
+        <div class="clock hour_unit">
 
         </div>
-        <div class="clock minute">
+        <div class="clock minute_diz">
 
         </div>
-        <div class="clock minute">
+        <div class="clock minute_unit">
 
         </div>
     </div>
