@@ -11,8 +11,8 @@
     <?php
     include_once './header.php';
     ?>
-
-
+    <div class="intro_content">
+       
     <div class="news">
         <div class="clock jour_diz">
 
@@ -51,7 +51,7 @@
 
 
     <?php include_once 'footer.php' ?>
-   
+
 </body>
 
 </html>
