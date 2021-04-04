@@ -1,0 +1,1245 @@
+/* ------- Définition des fonts ------- */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins ExtL';
+    src: url('../fonts/poppins/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Black';
+    src: url('../fonts/poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+    background: url('../img/bg/img_fond_blank.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 5vw;
+    box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+    background-color: #364D5C;
+    font-size: 1.4vw;
+    font-family: 'Poppins';
+}
+
+.nav_mobile {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo_wrap_mobile {
+    display: none;
+}
+
+.logo {
+    position: absolute;
+    z-index: 7;
+    width: 7vw;
+    top: 11%;
+    left: 4vw;
+}
+
+nav>a img {
+    width: 8%;
+    position: relative;
+    z-index: 1000;
+}
+
+ul span {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+nav ul>li {
+    display: inline;
+    margin: 0 0.5em;
+    color: white;
+}
+
+a:link, ul a:visited {
+    color: rgb(243, 240, 240);
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* Début page NOTRE ACTUALITÉ*/
+
+.actu_sejours {
+    position: relative;
+    left: 14vw;
+    top: 8vw;
+    width: 55vw;
+}
+
+.actu_sejours .titre_slider {
+    position: relative;
+    color: #364D5C;
+    font-family: "Poppins Black";
+    font-size: 2.5vw;
+}
+
+#slider {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 27vw;
+    position: absolute;
+    top: 13.8vw;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
+}
+
+#slider div:nth-child(even) {
+    position: relative;
+}
+
+#slider .img_gallery {
+    width: 50vw;
+    height: 100%;
+}
+
+.img_wrap {
+    scroll-snap-align: start;
+}
+
+.img_wrap img {
+    width: 45vw;
+    height: 100%;
+}
+
+.gallery_wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#gallery_wrapper {
+    transition: transform 1s;
+}
+
+.arrow {
+    height: 4vw;
+}
+
+.arrow:hover {
+    height: 4.5vw;
+    transition: height .5s;
+}
+
+.previous_wrapper {
+    position: absolute;
+    z-index: 5;
+    top: 25vw;
+}
+
+.next_wrapper {
+    position: absolute;
+    top: 25vw;
+    left: 87.5vw;
+    z-index: 5;
+}
+
+.previous_arrow {
+    position: relative;
+    margin: 0 4vw;
+}
+
+.next_arrow {
+    position: relative;
+    margin: 0 4vw;
+}
+
+#play_pause {
+    position: relative;
+    display: flex;
+
+    top: 31vw;
+    left: 47.5vw;
+    width: 2.5vw;
+}
+
+.play, .pause {
+    width: 2.5vw;
+    height: 100%;
+    
+}
+
+/* ACTUALITÉS FACEBOOK & SÉJOURS*/
+
+.actu_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 45vw;
+}
+
+.feed_fb {
+    position: relative;
+    width: 40%;
+    height: 50vw;
+    line-height: 2.7vw;
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+}
+
+.feed_fb_content {
+    border: none;
+    top: 2vw;
+    left: 7.5vw;
+    position: absolute;
+    width: 25.5vw;
+    height: 45vw;
+    overflow-y: hidden;
+}
+
+.feed_fb .feed_title {
+    color: #364D5C;
+    font-family: "Poppins Black";
+    font-size: 3vw;
+    width: 40vw;
+    position: relative;
+    top: -6vw;
+}
+
+.facebook_iframe {
+    border: none;
+}
+
+.fb_actu_link_container {
+    position: relative;
+    top: 43.7vw;
+    left: 16vw;
+    width: 23vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fb_actu_link_container .text_fb {
+    color: black;
+    font-family: "Poppins Medium";
+    font-size: 1.5vw;
+    position: relative;
+    top: -3vw;
+    left: -7.3vw;
+}
+
+.fb_actu_link_container .fb_actu_img {
+    height: 4vw;
+    width: auto;
+}
+
+.fb_actu_link_container:hover .fb_actu_img {
+    position: relative;
+    animation: .7s jumpFb ease-in-out forwards;
+    transition-delay: 0;
+}
+
+@keyframes jumpFb {
+    from {
+        top: -.5vw;
+    }
+    to {
+        top: 0;
+    }
+}
+
+.sejours_en_cours {
+    position: relative;
+    top: -8.6vw;
+    height: 60vw;
+    width: 50vw;
+}
+
+.en_cours_1, .en_cours_2, .en_cours_3 {
+    display: flex;
+    flex-direction: row;
+    margin: 2vw 0;
+    overflow: hidden;
+}
+
+.en_cours_1_title {
+    color: #364D5C;
+    font-family: "Poppins Black";
+    font-size: 3vw;
+    width: 50vw;
+    position: relative;
+    top: 1.7vw;
+}
+
+.wrap_button1, .wrap_button2, .wrap_button3 {
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    width: 50%;
+    height: 14.5vw;
+}
+
+.modal_1_button, .modal_2_button, .modal_3_button {
+    color: #fff;
+    background-color: #054872;
+    border-style: none;
+    font-family: "Poppins Bold";
+    font-size: 1.1vw;
+    padding: 0 1vw;
+    box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+    position: relative;
+    left: 25%;
+    top: 6.5vw;
+}
+
+.en_cours_wrap_img1, .en_cours_wrap_img2, .en_cours_wrap_img3 {}
+
+.en_cours_img {
+    position: relative;
+    height: 14.5vw;
+    width: 25vw;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 5;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 30vw;
+    /* Could be more or less, depending on screen size */
+}
+
+.modal-content h1 {
+    font-family: "Poppins Bold";
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    font-size: 3.5vw;
+}
+
+/* The Close Button */
+
+.close {
+    color: #054872;
+    float: right;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*---------- 4 footer.php ----------*/
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 70vw;
+    height: 15vw;
+    background-color: #364D5C;
+}
+
+footer .foot_content {
+    position: relative;
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: 30vw;
+    bottom: 10vw;
+}
+
+.foot_content_pair {
+    margin: 0 2.8vw;
+}
+
+footer h3 {
+    font-family: "Poppins Bold";
+    font-size: 1.5vw;
+}
+
+footer a {
+    font-family: "Poppins Medium";
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-family: "Poppins ExtL";
+    color: black;
+    font-size: 1.4vw;
+}
+
+.fb_container h3, .map_container h3, .mail_container h3 {
+    position: relative;
+    text-align: center;
+}
+
+.fb_container img {
+    position: relative;
+    top: -.8vw;
+    width: 100%;
+    height: 4vw;
+}
+
+.fb_container .officiel {
+    position: relative;
+    top: -1vw;
+    font-size: 1.4vw;
+}
+
+.postuler {
+    position: relative;
+    top: -2vw;
+    text-align: center;
+}
+
+.recrutement {
+    position: relative;
+    top: -2vw;
+    margin-top: -1vw;
+    text-align: center;
+}
+
+.map_img {
+    position: relative;
+    top: -.8vw;
+    width: 100%;
+    height: 4vw;
+}
+
+.gps {
+    position: relative;
+    text-align: center;
+    top: -1.5vw;
+    color: #fff;
+    font-family: "Poppins Medium";
+    font-size: 1.4vw;
+}
+
+.telephone {
+    position: relative;
+    top: -3.2vw;
+    text-align: center;
+}
+
+.phone_img {
+    position: relative;
+    width: 100%;
+    height: 2vw;
+    top: -4.3vw;
+}
+
+.num_1 {
+    position: relative;
+    top: -5.5vw;
+}
+
+.num_1 p {
+    color: #fff;
+    font-family: "Poppins Medium";
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.ou {
+    position: relative;
+    top: -6.8vw;
+    text-align: center;
+}
+
+.num_2 {
+    position: relative;
+    top: -7.6vw;
+}
+
+.num_2 p {
+    font-size: 1.4vw;
+    color: #fff;
+    font-family: "Poppins Medium";
+    text-align: center;
+}
+
+.col_none {
+    height: 0;
+}
+
+.mail_container img {
+    position: relative;
+    top: -.2vw;
+    width: 100%;
+    height: 3.5vw;
+}
+
+.mail_container .foot_address p {
+    color: #fff;
+    font-family: "Poppins Medium";
+    position: relative;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+.cgv_container h3 {
+    position: relative;
+    top: -1vw;
+    text-align: center;
+}
+
+.cgv_container .text_cgv {
+    position: relative;
+    top: -1.1vw;
+}
+
+.cgv_container .cgv_lien p {
+    text-align: center;
+    position: relative;
+    top: -1vw;
+    color: #fff;
+    font-family: "Poppins Medium";
+    font-size: 1.6vw;
+}
+
+/*---------- @media queries ----------*/
+
+/* Responsive sur les écrans mobiles */
+
+@media screen and (max-width:1024px) {
+    @keyframes slideRight {
+        from {
+            left: -32vw;
+        }
+        to {
+            left: 0%;
+        }
+    }
+    @-webkit-keyframes slideRight {
+        from {
+            left: -32vw;
+        }
+        to {
+            left: 0%;
+        }
+    }
+    @keyframes slideLeft {
+        from {
+            left: 0%;
+        }
+        to {
+            left: -32vw;
+        }
+    }
+    @-webkit-keyframes slideLeft {
+        from {
+            left: 0%;
+        }
+        to {
+            left: -32vw;
+        }
+    }
+}
+
+@media screen and (max-width:425px) {
+    li p {
+        display: none;
+    }
+    .nav_pc {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .logo_wrap_mobile {
+        position: absolute;
+        display: inline;
+        z-index: 8;
+        left: 1vw;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    nav {
+        overflow-y: auto;
+        height: calc(100vh - 30vh);
+        scrollbar-width: none;
+        /* Firefox */
+    }
+    nav ul {
+        position: relative;
+        padding: 0;
+        font-size: 2.5vw;
+        width: 100%;
+        height: 30vh;
+        left: 1.5vw;
+    }
+    nav ul li {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    /* Menu burger */
+    #menu-burger {
+        position: absolute;
+        top: 2.8vw;
+        right: 4.8vw;
+        display: inline-block;
+        cursor: pointer;
+    }
+    #menu-burger .bar1, #menu-burger .bar2, #menu-burger .bar3 {
+        width: 4vw;
+        height: .8vw;
+        background-color: #fff;
+        transition: 0.4s;
+    }
+    #menu-burger .bar2 {
+        margin: .5vw 0;
+    }
+    #menu-burger.clicked .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-1.25vw, .5vw);
+        background-color: #fff;
+    }
+    #menu-burger.clicked .bar2 {
+        opacity: 0;
+    }
+    #menu-burger.clicked .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-1.4vw, -1.4vw);
+    }
+    /* Main menu (slide) */
+    #menu {
+        position: fixed;
+        right: -25%;
+        top: 0;
+        background: #364D5C;
+        width: 26vw;
+        min-height: 100%;
+    }
+    #menu ul {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: left;
+        justify-content: start;
+        top: 15vw;
+        width: 23vw;
+    }
+    #menu ul li {
+        margin-bottom: 3vw;
+        list-style: none;
+        width: 22.5vw;
+    }
+    #menu ul li a {
+        transition: .5s;
+        text-align: left;
+    }
+    #menu.visible {
+        animation: 1s slideRight ease-in forwards;
+        transition-delay: 0;
+    }
+    #menu.invisible {
+        animation: 1.7s slideLeft ease-out forwards;
+        transition-delay: 0;
+    }
+    .logo_mobile img {
+        position: fixed;
+        width: 12.5vw;
+        left: 2vw;
+    }
+    .horizontal_mobile_bar {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0vw;
+        height: 9vw;
+        width: 100%;
+        background-color: #364D5C;
+        box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+        z-index: 7;
+    }
+    #slider .img_gallery {
+        width: 40vw;
+        height: 100%;
+    }
+    .img_wrap {
+        scroll-snap-align: start;
+    }
+    #slider {
+        height: 35vw;
+    }
+    .img_wrap img {
+        width: 49vw;
+        height: 100%
+    }
+    .next_wrapper, .previous_wrapper {
+        top: 28vw;
+    }
+    .arrow {
+        height: 6vw;
+    }
+    .actu_sejours .titre_slider {
+        font-size: 3.5vw;
+        width: 75vw;
+    }
+    .feed_fb {
+        display: none;
+    }
+    .sejours_en_cours {
+        height: 80vw;
+        width: 70vw;
+        position: relative;
+    }
+    .en_cours_1, .en_cours_2, .en_cours_3 {
+        display: flex;
+        flex-direction: row;
+        margin: 2vw 0;
+        overflow: hidden;
+    }
+    .actu_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 50vw;
+    }
+    .en_cours_1_title {
+        color: #364D5C;
+        font-family: "Poppins Black";
+        font-size: 3.5vw;
+        width: 65vw;
+        position: relative;
+        top: 1.5vw;
+    }
+    .wrap_button1, .wrap_button2, .wrap_button3 {
+        background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+        width: 50%;
+        height: 23vw;
+    }
+    .modal_1_button, .modal_2_button, .modal_3_button {
+        color: #fff;
+        background-color: #054872;
+        border-style: none;
+        font-family: "Poppins Bold";
+        font-size: 2.5vw;
+        padding: 0 1vw;
+        box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+        position: relative;
+        left: 10%;
+        top: 8.8vw;
+    }
+    .en_cours_img {
+        position: relative;
+        height: 23vw;
+        /*Même hauteur que wrap_button_1 etc...*/
+        width: 35vw;
+    }
+    .en_cours_wrap_img1, .en_cours_wrap_img2, .en_cours_wrap_img3 {
+        position: relative;
+        width: 20%;
+    }
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 5;
+        /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+    }
+    /* Modal Content/Box */
+    .modal-content {
+        background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+        margin: 15% auto;
+        /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        height: 30vw;
+        /* Could be more or less, depending on screen size */
+    }
+    .modal-content h1 {
+        font-family: "Poppins Bold";
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+        font-size: 3.5vw;
+    }
+    /* The Close Button */
+    .close {
+        position: relative;
+        top: -4vw;
+        color: #054872;
+        float: right;
+        font-size: 8vw;
+        font-weight: bold;
+    }
+    .close:hover, .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    footer {
+        flex-direction: column;
+        top: 63vw;
+        height: 240vw;
+    }
+    footer .foot_content_pair {
+        margin: 10vw 0;
+    }
+    footer .foot_content {
+        width: 70vw;
+        height: 75vw;
+    }
+    footer p {
+        font-size: 2.7vw;
+    }
+    .foot_content .fb_container .fb_img {
+        height: 9vw;
+    }
+    .map_img, .foot_content .mail_container .mail_img, .phone_img {
+        height: 7vw;
+    }
+    .fb_container h3, .map_container h3, .mail_container h3, .postuler, .telephone, .cgv h3 {
+        font-size: 3.5vw;
+    }
+    .telephone {
+        top: -6vw;
+        margin: 1vw;
+    }
+    .fb_container .officiel, .gps, .num_1 p, .num_2 p, .foot_content .text_cgv, .foot_content .foot_address .address_para, .foot_content .cgv_lien p, .ou {
+        font-size: 2.8vw;
+        text-align: center;
+    }
+    .gps {
+        top: -5vw;
+    }
+}
+
+@media screen and (min-width:426px)and ( max-width:768px) {
+    li p {
+        display: none;
+    }
+    .nav_pc {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .logo_wrap_mobile {
+        position: absolute;
+        display: inline;
+        z-index: 8;
+        left: 1vw;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    nav {
+        overflow-y: auto;
+        height: calc(100vh - 30vh);
+        scrollbar-width: none;
+        /* Firefox */
+    }
+    nav ul {
+        position: relative;
+        padding: 0;
+        font-size: 2.5vw;
+        width: 100%;
+        height: 30vh;
+        left: 1.5vw;
+    }
+    nav ul li {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    /* Menu burger */
+    #menu-burger {
+        position: absolute;
+        top: 2.8vw;
+        right: 4.8vw;
+        display: inline-block;
+        cursor: pointer;
+    }
+    #menu-burger .bar1, #menu-burger .bar2, #menu-burger .bar3 {
+        width: 4vw;
+        height: .8vw;
+        background-color: #fff;
+        transition: 0.4s;
+    }
+    #menu-burger .bar2 {
+        margin: .5vw 0;
+    }
+    #menu-burger.clicked .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-1.25vw, .5vw);
+        background-color: #fff;
+    }
+    #menu-burger.clicked .bar2 {
+        opacity: 0;
+    }
+    #menu-burger.clicked .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-1.4vw, -1.4vw);
+    }
+    /* Main menu (slide) */
+    #menu {
+        position: fixed;
+        right: -25%;
+        top: 0;
+        background: #364D5C;
+        width: 26vw;
+        min-height: 100%;
+    }
+    #menu ul {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: left;
+        justify-content: start;
+        top: 15vw;
+        width: 23vw;
+    }
+    #menu ul li {
+        margin-bottom: 3vw;
+        list-style: none;
+        width: 22.5vw;
+    }
+    #menu ul li a {
+        transition: .5s;
+        text-align: left;
+    }
+    #menu.visible {
+        animation: 1s slideRight ease-in forwards;
+        transition-delay: 0;
+    }
+    #menu.invisible {
+        animation: 1.7s slideLeft ease-out forwards;
+        transition-delay: 0;
+    }
+    .logo_mobile img {
+        position: fixed;
+        width: 12.5vw;
+        left: 2vw;
+    }
+    .horizontal_mobile_bar {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0vw;
+        height: 9vw;
+        width: 100%;
+        background-color: #364D5C;
+        box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+        z-index: 7;
+    }
+    .actu_wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .feed_fb {
+        display: none;
+    }
+    /* .feed_fb {
+        text-align: center;
+        position: relative;
+        width: 90%;
+        height: 90vw;
+        line-height: 2.7vw;
+        background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    } */
+    /* .feed_fb_content {
+        border: none;
+        top: 2vw;
+        left: 5vw;
+        position: absolute;
+        width: 80vw;
+        height: 80vw;
+        overflow-y: hidden;
+    } */
+    .fb_actu_link_container {
+        top: 75.7vw;
+        left: 45%;
+    }
+    .modal_1_button, .modal_2_button, .modal_3_button {
+        color: #fff;
+        background-color: #054872;
+        border-style: none;
+        font-family: "Poppins Bold";
+        font-size: 1.8vw;
+        padding: 0 1vw;
+        box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+        position: relative;
+        left: 10%;
+        top: 5vw;
+    }
+    .sejours_en_cours {
+        width: 80%;
+    }
+    .wrap_button1, .wrap_button2, .wrap_button3 {
+        width: 50%;
+        height: 30vw;
+    }
+    .modal_1_button, .modal_2_button, .modal_3_button {
+        top: 13vw;
+        font-size: 2vw;
+    }
+    .en_cours_img {
+        position: relative;
+        height: 30vw;
+        /*Même hauteur que wrap_button_1 etc...*/
+        width: 40vw;
+    }
+    footer {
+        flex-direction: column;
+        top: 100vw;
+        height: 170vw;
+    }
+    footer .foot_content_pair {
+        margin: 10vw 0;
+    }
+    footer .foot_content {
+        width: 50vw;
+        height: 55vw;
+    }
+    footer p {
+        font-size: 1.7vw;
+    }
+    .fb_img, .map_img, .mail_img, .phone_img {
+        height: 5vw;
+    }
+    .fb_container h3, .map_container h3, .mail_container h3, .postuler, .telephone, .cgv h3 {
+        font-size: 2.7vw;
+    }
+    .telephone {
+        margin: 1vw;
+    }
+    .fb_container .officiel, .gps, .num_1 p, .num_2 p, .foot_content .text_cgv, .foot_content .foot_address .address_para, .foot_content .cgv_lien p, .ou {
+        font-size: 1.8vw;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    li p {
+        display: none;
+    }
+    .nav_pc {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .logo_wrap_mobile {
+        position: absolute;
+        display: inline;
+        z-index: 8;
+        left: 1vw;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    nav {
+        overflow-y: auto;
+        height: calc(100vh - 30vh);
+        scrollbar-width: none;
+        /* Firefox */
+    }
+    nav ul {
+        position: relative;
+        padding: 0;
+        font-size: 2.5vw;
+        width: 100%;
+        height: 30vh;
+        left: 1.5vw;
+    }
+    nav ul li {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    /* Menu burger */
+    #menu-burger {
+        position: absolute;
+        top: 2.8vw;
+        right: 4.8vw;
+        display: inline-block;
+        cursor: pointer;
+    }
+    #menu-burger .bar1, #menu-burger .bar2, #menu-burger .bar3 {
+        width: 4vw;
+        height: .8vw;
+        background-color: #fff;
+        transition: 0.4s;
+    }
+    #menu-burger .bar2 {
+        margin: .5vw 0;
+    }
+    #menu-burger.clicked .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-1.25vw, .5vw);
+        background-color: #fff;
+    }
+    #menu-burger.clicked .bar2 {
+        opacity: 0;
+    }
+    #menu-burger.clicked .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-1.4vw, -1.4vw);
+    }
+    /* Main menu (slide) */
+    #menu {
+        position: fixed;
+        right: -25%;
+        top: 0;
+        background: #364D5C;
+        width: 26vw;
+        min-height: 100%;
+    }
+    #menu ul {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: left;
+        justify-content: start;
+        top: 15vw;
+        width: 23vw;
+    }
+    #menu ul li {
+        margin-bottom: 3vw;
+        list-style: none;
+        width: 22.5vw;
+    }
+    #menu ul li a {
+        transition: .5s;
+        text-align: left;
+    }
+    #menu.visible {
+        animation: 1s slideRight ease-in forwards;
+        transition-delay: 0;
+    }
+    #menu.invisible {
+        animation: 1.7s slideLeft ease-out forwards;
+        transition-delay: 0;
+    }
+    .logo_mobile img {
+        position: fixed;
+        width: 12.5vw;
+        left: 2vw;
+    }
+    .horizontal_mobile_bar {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0vw;
+        height: 9vw;
+        width: 100%;
+        background-color: #364D5C;
+        box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+        z-index: 7;
+    }
+    .close {
+        color: #054872;
+        float: right;
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    footer {
+        top: 70vw;
+        height: 15vw;
+    }
+}

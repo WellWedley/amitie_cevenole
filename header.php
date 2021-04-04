@@ -1,38 +1,59 @@
-<?php include_once './classes/sejours.php' ?>
- <a href="./index.php">
-        <img class="logo" src="./img/logo/logo.svg" alt="Logo de l'association Amitie Cevenole">
+
+<div class="logo_wrap_mobile">
+    <a class="logo_mobile" href="./index.php">
+        <img src="./img/logo/logo.svg" alt="Logo de l'association Amitie Cevenole">
     </a>
-   
-    <nav>
+</div>
 
-        <!-- Logo de l'association -->
-        <ul>
-            <li>
-                <a href="./index.php">ACCUEIL</a>
-            </li>
+<div class="horizontal_mobile_bar">
+    <div id="menu-burger">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+</div>
+<nav class="nav_pc" id="menu">
+    <!-- Logo de l'association -->
+    <ul>
+        <a class="logo" href="./index.php">
+            <img src="./img/logo/logo.svg" alt="Logo de l'association Amitie Cevenole">
+        </a>
 
-            <span class="dot"></span>
-            <li>
-                <a href="./apropos.php">NOTRE ASSO</a>
-            </li>
-            <span class="dot"></span>
-            <li>
-                <a href="./sejours.php">NOS SEJOURS</a>
-            </li>
-            <span class="dot"></span>
-            <li>
-            <li>
-                <a href="./inscription.php">S'INSCRIRE</a>
-            </li>
-            <span class="dot"></span>
-            <li>
-                <a href="./actualites.php">NOTRE ACTUALITE</a>
-            </li>
-            <span class="dot"></span>
-            <li>
-                <a href="./contact.php">
-                    CONTACT
-                </a>
-            </li>
-        </ul>
-    </nav>
+        <li>
+            <a href="./index.php">ACCUEIL</a>
+        </li>
+        <li>
+            <p>●</p>
+        </li>
+        <li>
+            <a href="./notre_asso.php">NOTRE ASSO</a>
+        </li>
+        <li>
+            <p>●</p>
+        </li>
+        <li>
+            <a href="./nos_sejours.php">NOS SÉJOURS</a>
+        </li>
+        <li>
+            <p>●</p>
+        </li>
+        <li>
+            <a href="./inscriptions.php">S'INSCRIRE</a>
+        </li>
+        <li>
+            <p>●</p>
+        </li>
+        <li>
+            <a href="./notre_actualite.php">NOTRE ACTUALITÉ</a>
+        </li>
+        <li>
+            <p>●</p>
+        </li>
+        <li>
+            <a href="./contact.php">
+                CONTACT
+            </a>
+        </li>
+    </ul>
+</nav>
+<script src="./js/menuBurger.js"></script>
