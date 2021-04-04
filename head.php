@@ -41,12 +41,13 @@
     <meta http-equiv="cache-control" content="no-cache, must-revalidate">
     <meta http-equiv="imagetoolbar" content="no" />
     <link rel="shortcut icon" href="./img/favico/logo_amitie_cevenole1.ico" type=“image/x-icon”>
+    <link rel="stylesheet"  href="./styles/styles.css"/>
     <!-- Additional CSS-->
     <?php
     $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1);
     $nomPublic = '';
     if ($curPageName == 'index.php') {
-        echo '<link rel="stylesheet"  href="./styles/styles.css"/>';
+        echo '<link rel="stylesheet"  href="./styles/index.css"/>';
         $nomPublic = "Accueil ";
     } else if ($curPageName == 'notre_asso.php') {
         echo '<link rel="stylesheet"  href="./styles/style_notre_asso.css"/>';

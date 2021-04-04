@@ -60,33 +60,27 @@
     </div>
 
     <div class="presente_sejours">
-            <h3>Nos séjours 2021</h3>
-            <div class="list_sejours">
-                <li>
-                    <a href="./files/catalogues/cevennes_explor.pdf" target="_blank"> Cévennes Explor' 12-16 ans</a>
-                </li>
-                <li>
+        <h3>Nos séjours 2021</h3>
+        <div class="list_sejours">
+            <li>
+                <a href="./files/catalogues/cevennes_explor.pdf" target="_blank"> Cévennes Explor' 12-16 ans</a>
+            </li>
+            <li>
 
-                    <a href="./files/catalogues/explor_ados.pdf" target="_blank">Explor' Ados 12-16 ans</a>
-                </li>
-                <li>
+                <a href="./files/catalogues/explor_ados.pdf" target="_blank">Explor' Ados 12-16 ans</a>
+            </li>
+            <li>
 
-                    <a href="./files/catalogues/graines_explorateur.pdf" target="_blank">Graines  d'explorateur 8-11 ans</a>
-                </li>
-                <li>
+                <a href="./files/catalogues/graines_explorateur.pdf" target="_blank">Graines d'explorateur 8-11 ans</a>
+            </li>
+            <li>
 
-                    <a href="./files/catalogues/graines_fermier.pdf" target="_blank">Graines de Fermier 8-11 ans</a>
-                </li>
-            </div>
-            <a class="detail_sejour" href="./nos_sejours.php" >Voir le détail des séjours</a>
-
+                <a href="./files/catalogues/graines_fermier.pdf" target="_blank">Graines de Fermier 8-11 ans</a>
+            </li>
         </div>
+        <a class="detail_sejour" href="./nos_sejours.php">Voir le détail des séjours</a>
 
-
-
-
-
-
+    </div>
     <?php include 'footer.php' ?>
 </body>
 

@@ -1,0 +1,125 @@
+
+.intro_content {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 12.4vw;
+    justify-content: center;
+    text-align: center;
+    width: 79%;
+    height: 18vw;
+    left: 10%;
+    align-items: center;
+  }
+  
+  .intro_content div {
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    margin: 0 5%;
+    color: #054872;
+  }
+  
+  .first_circle {
+    margin-left: 5%;
+  }
+  
+  #first_circle {
+    transition: opacity .5s;
+  }
+  
+  #second_circle {
+    transition: opacity 7.5s;
+  }
+  
+  #third_circle {
+    transition: opacity 9s;
+  }
+  
+  .first_content, .content_align {
+    font-size: 1.8vw;
+  }
+  
+  .content_align {
+    margin-top: -1.3em;
+  }
+  
+  .proposition {
+    position: absolute;
+    top: 7vw;
+    left: 16%;
+    color: #054872;
+    font-family: "Poppins";
+    font-size: 1.2vw;
+  }
+  
+  .decompte {
+    position: relative;
+    width: 60vw;
+    top: 40vw;
+    left: 25vw;
+  }
+  
+  .prochain_depart {
+    position: relative;
+    color: #054872;
+    font-family: "Poppins";
+    font-size: 1.2vw;
+  }
+  
+  .news {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  }
+  
+  .news .clock {
+    /* colors */
+    background-color: #364D5C;
+    /* sizing */
+    width: 8vw;
+    height: 8vw;
+    border-radius: 10px;
+    /* Justify */
+    text-align: center;
+    justify-content: center;
+    font-size: 2.3vw;
+  }
+  
+  .news .jour_diz {
+    width: 16vw;
+  }
+  
+  .news .heures, .news .minutes, .news .secondes {
+    width: 10vw;
+  }
+  
+  .clock h1 {
+    font-family: "Poppins Medium";
+    position: relative;
+    top: -3.5vw;
+    color: #fff;
+  }
+  
+  .clock p {
+    font-size: 1.4vw;
+    font-family: "Poppins Black";
+    position: relative;
+    top: -7.5vw;
+    color: #fff;
+  }
+  
+  .clock:nth-child(even) {
+    margin: 0 1vw;
+  }
+  
+  .clock:last-child {
+    margin-right: 0;
+  }
+  
