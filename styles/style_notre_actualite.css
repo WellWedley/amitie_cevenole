@@ -68,6 +68,7 @@
 .arrow:hover {
     height: 4.5vw;
     transition: height .5s;
+    cursor: pointer;
 }
 
 .previous_wrapper {
@@ -97,13 +98,18 @@
     position: relative;
     display: flex;
     top: 31vw;
-    left: 47.5vw;
+    left: 50vw;
     width: 2.5vw;
 }
 
 .play, .pause {
-    width: 2.5vw;
+    width: 3vw;
     height: 100%;
+}
+.pause:hover,.play:hover {
+    cursor: pointer;
+    width: 3.5vw;
+    transition: width .5s;
 }
 
 /* ACTUALITÉS FACEBOOK & SÉJOURS*/

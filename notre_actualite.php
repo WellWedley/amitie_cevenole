@@ -23,11 +23,11 @@
         </div>
 
     </div>
-    <!-- <div id="play_pause">
+    <div id="play_pause">
 
-        <img class="play" src="./img/logo/play.png" alt="Jouer le diaporama">
-        <img class="pause" src="./img/logo/pause.png" alt="Arrêter le diaporama">
-    </div> -->
+        <img class="play" id="play" src="./img/logo/play.png" alt="Jouer le diaporama">
+        <img class="pause" id="pause" src="./img/logo/pause.png" alt="Arrêter le diaporama">
+    </div>
         <div class="next_wrapper" id="next_wrapper">
             <img class="arrow next_arrow" src="img/logo/next.png" alt="Diapositive suivante">
         </div>
