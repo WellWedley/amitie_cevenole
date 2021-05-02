@@ -1,0 +1,79 @@
+/* ------- Définition des fonts ------- */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins ExtL';
+    src: url('../fonts/poppins/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Black';
+    src: url('../fonts/poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+    background: url('../img/bg/img_fond_blank.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+.mentions_wrap {
+    position: relative;
+    top: 15vw;
+    width: 40vw;
+    left: 27vw;
+    background-color: aliceblue;
+    padding: 3vw;
+      
+}
+
+.mentions_title {
+    color: #054872;
+    text-align: center;
+    font-family: "Poppins Medium";
+    font-size: 3vw;
+    position: relative;
+   
+}
+
+.list_mentions {
+    text-align: left;
+    font-family: "Poppins ExtL";
+    top: 7vw;
+    left: -16vw;
+    color: #054872;
+    font-size: 1.2vw;
+}
+footer{
+    top: 35vw;
+}
+.mentions_lien {
+    color: #fff;
+    font-family: "Poppins Medium";
+    font-size: 1.6vw;
+    position: relative;
+    top: -2vw;
+  }

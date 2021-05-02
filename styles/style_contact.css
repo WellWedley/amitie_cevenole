@@ -1,0 +1,254 @@
+body {
+    background: url('../img/bg/img_fond_contact.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+/* DÉBUT DE LA PAGE CONTACT */
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #054872;
+    font-family: "Poppins ExtL";
+    font-size: 2vw;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #054872;
+    font-family: "Poppins ExtL";
+    font-size: 2vw;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #054872;
+    font-family: "Poppins ExtL";
+    font-size: 2vw;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #054872;
+    font-family: "Poppins ExtL";
+    font-size: 2vw;
+}
+
+.contact_title_wrap {
+    position: relative;
+    top: 17.7vw;
+    left: 15vw;
+    width: 80vw;
+}
+
+.contact_title {
+    position: relative;
+    left: 5vw;
+    font-family: "Poppins Bold";
+    font-size: 3vw;
+    color: #054872;
+}
+
+.contact_wrapper {
+    position: relative;
+    top: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 37vw;
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+}
+
+.nom_input, .prenom_input {
+    width: 24.75vw;
+}
+
+.nom_input, .prenom_input, .email_input, .object_input {
+    border-radius: .5vw;
+    border: none;
+    height: 3.5vw;
+    margin: 1vw 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(220, 220, 220, .7);
+}
+
+.email_input {
+    width: 50vw;
+}
+
+.first_line_wrapper {
+    position: relative;
+    top: 2vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+
+.first_line_wrapper div input {
+    margin: .25vw;
+}
+
+.second_line_wrapper {
+    position: relative;
+    top: 1.5vw;
+}
+
+.object_input {
+    width: 50vw;
+}
+
+.message_input {
+    width: 50vw;
+    height: 10vw;
+    border: none;
+}
+
+.send_message {
+    cursor: pointer;
+    position: relative;
+    top: 2vw;
+    text-align: center;
+    color: #fff;
+    background-color: #054872;
+    border-style: none;
+    font-family: "Poppins Bold";
+    font-size: 1.1vw;
+    margin: 0 ;
+    padding: 0 1vw;
+    box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+}
+
+.inscription_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.messageError{
+    text-align: center;
+    font-family: 'Poppins Bold';
+    font-size: 1.2vw;
+    color: #9c3131;
+    position: relative;
+    top: 1vw;
+
+}
+
+/*---------- 4 footer.php ----------*/
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 95vw;
+    height: 15vw;
+    background-color: #364D5C;
+}
+/*---------- @media queries ----------*/
+
+@media screen and (max-width:425px) {
+    .contact_title_wrap {
+        width: 80vw;
+    }
+    .contact_title {
+        font-size: 3vw;
+    }
+    .contact_wrapper {
+        height: 45vw;
+    }
+    .send_message {
+        font-size: 2.5vw;
+    }
+    .nos_sejours {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 17.8vw;
+        position: absolute;
+        top: 75vw;
+    }
+    footer {
+        flex-direction: column;
+        top: 170vw;
+        height: 240vw;
+    }
+}
+
+@media screen and (min-width:426px)and ( max-width:768px) {
+    .contact_title_wrap {
+        width: 80vw;
+    }
+    .contact_title {
+        font-size: 3.5vw;
+    }
+    .contact_wrapper {
+        height: 40vw;
+    }
+    .send_message {
+        font-size: 2.5vw;
+    }
+    footer {
+        flex-direction: column;
+        top: 125vw;
+        height: 170vw;
+    }
+    footer .foot_content_pair {
+        margin: 10vw 0;
+    }
+    footer .foot_content {
+        width: 50vw;
+        height: 55vw;
+    }
+    footer p {
+        font-size: 1.7vw;
+    }
+    .fb_img, .map_img, .mail_img, .phone_img {
+        height: 5vw;
+    }
+    .fb_container h3, .map_container h3, .mail_container h3, .postuler, .telephone, .cgv h3 {
+        font-size: 2.7vw;
+    }
+    .telephone {
+        margin: 1vw;
+    }
+    .fb_container .officiel, .gps, .num_1 p, .num_2 p, .foot_content .text_cgv, .foot_content .foot_address .address_para, .foot_content .cgv_lien p, .ou {
+        font-size: 1.8vw;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .contact_title_wrap {
+        width: 80vw;
+    }
+    .contact_title {
+        font-size: 3vw;
+    }
+    .contact_wrapper {
+        height: 37vw;
+    }
+    .send_message {
+        font-size: 1.9vw;
+    }
+    .nos_sejours {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 34%;
+        position: absolute;
+        top: 72vw;
+    }
+    footer {
+        top: 127vw;
+        height: 15vw;
+    }
+}
