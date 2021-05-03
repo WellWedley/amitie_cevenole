@@ -8,7 +8,7 @@
             </a>
         </div>
         <div>
-            <h3 class="postuler">Postuler</h3>
+            <a href="mailto:contact@amitiecevenole.com"> <h3 class="postuler">Postuler</h3> </a>
             <p class="recrutement">Nous recrutons pour nos séjours : </p>
             <p class="recrutement"> Animateurs/trices diplômés </p>
             <p class="recrutement"> Directeurs/trices diplômés</p>
@@ -61,10 +61,10 @@
             <a class="cgv_lien" href="./files/cgv/cgv_aepc.pdf" target="_blank">
                 <p>CGV</p>
             </a>
-           
+
         </div> <a  href="./mentions-legales.php" target="_blank">
-                <p class="mentions_lien">Mentions légales</p>
-            </a>
+            <p class="mentions_lien">Mentions légales</p>
+        </a>
     </div>
 
 </footer>
