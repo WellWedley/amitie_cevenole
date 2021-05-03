@@ -41,20 +41,19 @@
         <div class="news">
             <div class="clock jour_diz">
                 <h1 id="jours"></h1>
-                <p>Jours</p>
+                <p id="daySubt">Jours</p>
             </div>
             <div class="clock heures">
                 <h1 id="hours"></h1>
-                <p>Heures</p>
+                <p id="hourSubt">Heures</p>
             </div>
             <div class="clock minutes">
                 <h1 id="minutes"></h1>
-                <p>Minutes</p>
+                <p id="minuteSubt">Minutes</p>
             </div>
             <div class="clock secondes">
                 <h1 id="secondes"></h1>
-
-                <p>Secondes</p>
+                <p id="secondSubt">Secondes</p>
             </div>
         </div>
     </div>
