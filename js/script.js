@@ -1,8 +1,5 @@
 
 
-
-
-
 window.addEventListener('DOMContentLoaded', function manageIntro() {
     let first = document.getElementById('first_circle');
     let second = document.getElementById('second_circle');
