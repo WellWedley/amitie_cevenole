@@ -10,7 +10,7 @@ function MyTimer(name,countdownDate){
         this.actualDate = new Date();
         this.countdownDate = countdownDate;
         this.distance = this.countdownDate-this.actualDate ;
-        this.days = Math.floor(this.distance / (1000 * 60 * 60 * 24));;
+        this.days = Math.floor(this.distance / (1000 * 60 * 60 * 24));
         this.hours =Math.floor((this.distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         this.minutes =Math.floor((this.distance % (1000 * 60 * 60)) / (1000 * 60) );
         this.seconds = Math.floor((this.distance % (1000 * 60)) / 1000);
@@ -25,31 +25,31 @@ function MyTimer(name,countdownDate){
         this.minutesDisp = document.getElementById('minutes');
         this.secondsDisp = document.getElementById('secondes')
 
-            if (this.days >= 0 && this.hours >= 0 && this.minutes >= 0 &&this.seconds) {
-                this.daysDisp.innerHTML = this.days;
-                this.hoursDisp.innerHTML = this.hours;
-                this.minutesDisp.innerHTML = this.minutes;
-                this.secondsDisp.innerHTML = this.seconds;
+        if (this.days >= 0 && this.hours >= 0 && this.minutes >= 0 &&this.seconds) {
+            this.daysDisp.innerHTML = this.days;
+            this.hoursDisp.innerHTML = this.hours;
+            this.minutesDisp.innerHTML = this.minutes;
+            this.secondsDisp.innerHTML = this.seconds;
 
-                function callTimer() {
-                    setInterval(function () {
-                            timer1.displayTimer()
-                        }
-                        , 1000);
+            function callTimer() {
+                setInterval(function () {
+                        timer1.displayTimer()
+                    }
+                    , 1000);
 
-                }
-
-                callTimer();
             }
-            else if(this.days<1)
-            {
-                this.hoursDisp.innerHTML = this.hours;
-                this.minutesDisp.innerHTML = this.minutes;
-                this.secondsDisp.innerHTML = this.seconds;
-            }
+
+            callTimer();
+        }
+        else if(this.days<1)
+        {
+            this.hoursDisp.innerHTML = this.hours;
+            this.minutesDisp.innerHTML = this.minutes;
+            this.secondsDisp.innerHTML = this.seconds;
+        }
     }
 
-} ;
+}
 
 
 
@@ -62,18 +62,15 @@ let timer1 = new MyTimer(timerName,countdownDate ) ;
 let x = window.addEventListener('scroll',function (e)
 {
     let scrollPosition = window.scrollY;
-    if (scrollPosition==10)
+    if (scrollPosition>10)
     {
-    console.log(scrollPosition)
-    window.requestAnimationFrame(function ()
-    {
-        timer1.displayTimer(scrollPosition)
-    } ) ;
+        console.log(scrollPosition)
+        window.requestAnimationFrame(function ()
+        {
+            timer1.displayTimer(scrollPosition)
+        } ) ;
     }
-    else
-    {
 
-    }
 
 
 });
