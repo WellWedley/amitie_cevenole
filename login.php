@@ -17,7 +17,7 @@ include 'head.php';
 <body>
     <?php
     include 'header.php'; ?>
-    <form action="mailjet.php" method="POST" class="form_content">
+    <form action="contact-form-send.php" method="POST" class="form_content">
         <div class="login_wrapper">
             
             <div class="first_line_wrapper">
