@@ -441,6 +441,7 @@ footer p {
 }
 
 .postuler {
+  color: black;
   position: relative;
   top: -2vw;
   text-align: center;
