@@ -34,8 +34,8 @@ if (isset($_POST['send_message']) && isset($_POST['prenom_input'])  && isset($_P
     $headers[] = 'Content-type: text/html; charset=utf-8';
 
     // En-têtes additionnels
-    $headers[] = 'To:' . $to;
     $headers[] = 'From:' . htmlentities($adresseDest);
+    $headers[] = 'To:' . $to;
     $headers[] = 'Cc:' . htmlentities($subject);
 
     // Envoi
@@ -49,7 +49,7 @@ if (isset($_POST['send_message']) && isset($_POST['prenom_input'])  && isset($_P
 if (isset($_POST['send_message']) && isset($_POST[$prenom])  && isset($_POST[$nom]) && isset($_POST[$adresseDest]) && isset($_POST[$text]) && isset($_POST[$subject])) {
     $prenom = $_POST['prenom_input'];
     $nom = $_POST['nom_input'];
-    $adresseExp = $_POST['email_input'];
+    $adresseExp = 'formulairedecontact@webboxfactory.com';
     $text = $_POST['message_input'];
     $subject = $_POST['object_input'];
     $adresseDest = "sejour.aepc@gmail.com";
