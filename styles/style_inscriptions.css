@@ -1,0 +1,309 @@
+body {
+    background: url('../img/bg/img_fond_inscriptions.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+/* DÉBUT DE LA PAGE INSCRIPTIONS */
+
+.comment_faire {
+    position: relative;
+    top: 10vw;
+    left: 16vw;
+    width: 68vw;
+}
+
+.comment_faire h1 {
+    font-family: "Poppins Bold";
+    font-size: 2.5vw;
+    color: #054872;
+}
+
+.etapes_title {
+    position: relative;
+    top: 16vw;
+    left: 40%;
+    width: 30vw;
+}
+
+.etapes_title h1 {
+    font-family: "Poppins Bold";
+    font-size: 2.5vw;
+    color: #054872;
+}
+
+.steps_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 15vw;
+    height: 34vw;
+    width: 100%;
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+}
+
+.steps_wrapper>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.step_1, .step_2 {
+    position: relative;
+    width: 35vw;
+}
+
+.step_1 .rond_1, .step_2 .rond_2 {
+    position: relative;
+    left: 45%;
+    background: #fff;
+    border-radius: 50%;
+    font-family: "Poppins Bold";
+    font-size: 2vw;
+    width: 3vw;
+    height: 3vw;
+}
+
+.text_rond {
+    font-family: "Poppins Bold";
+    position: relative;
+}
+
+.steps_wrapper .paragraph {
+    font-family: "Poppins ExtL";
+    font-size: 1.2vw;
+    position: relative;
+}
+
+.content_align_0 {
+    position: relative;
+    top: -1vw;
+}
+
+.content_align {
+    position: relative;
+    top: -1vw;
+}
+
+.content_align2 {
+    position: relative;
+    top: -2.5vw;
+}
+
+.content_align3 {
+    position: relative;
+    top: -3.5vw;
+}
+
+.content_align4 {
+    position: relative;
+    top: -4.5vw;
+}
+
+.content_align5 {
+    position: relative;
+    top: -5.5vw;
+}
+
+.step1_title {
+    font-family: "Poppins Bold";
+    font-size: 2vw;
+}
+
+.step2_title {
+    font-family: "Poppins Bold";
+    position: relative;
+    font-size: 2vw;
+}
+
+.steps_wrapper .address_step p, .steps_wrapper .google_maps p {
+    color: #fff;
+    font-family: "Poppins Bold";
+}
+
+.google_maps .paragraph {
+    position: relative;
+}
+
+.tel_dossier {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: #054872;
+    border-style: none;
+    font-family: "Poppins Bold";
+    font-size: 1.9vw;
+    top: -2.5vw;
+    padding: 0 1vw;
+    box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+}
+
+.presente_sejours {
+    position: relative;
+    left: 35vw;
+    top: 34vw;
+}
+
+/*---------- 4 footer.php ----------*/
+
+footer {
+    top: 65vw;
+}
+
+/*---------- @media queries ----------*/
+
+@media screen and (max-width:425px) {
+    .comment_faire {
+        width: 73vw;
+    }
+    .comment_faire h1, .etapes_title h1 {
+        font-size: 3vw;
+    }
+    .etapes_title {
+        top: 10vw;
+        left: 38vw;
+    }
+    .steps_wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        top: 10vw;
+        height: 170vw;
+        width: 90%;
+        left: 5%;
+    }
+    .step_1 {
+        top: 2vw;
+    }
+    .step_1, .step_2 {
+        width: 60vw;
+    }
+    .step_1 .rond_1, .step_2 .rond_2 {
+        width: 6vw;
+        height: 6vw;
+    }
+    .text_rond {
+        font-size: 4vw;
+    }
+    .steps_wrapper .paragraph {
+        font-size: 2.8vw;
+    }
+    .step1_title, .step2_title {
+        font-size: 2.8vw;
+    }
+    .steps_wrapper>div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .tel_dossier {
+        position: relative;
+        text-align: center;
+        color: #fff;
+        background-color: #054872;
+        border-style: none;
+        font-family: "Poppins Bold";
+        font-size: 2.7vw;
+        top: -3.5vw;
+        padding: 0 1vw;
+        box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+    }
+    .presente_sejours {
+        position: relative;
+        left: 17.8vw;
+        top: 25vw;
+    }
+    footer {
+        flex-direction: column;
+        top: 40vw;
+        height: 240vw;
+    }
+}
+
+@media screen and (min-width:426px)and ( max-width:768px) {
+    .comment_faire {
+        width: 80vw;
+    }
+    .comment_faire h1, .etapes_title h1 {
+        font-size: 3vw;
+    }
+    .etapes_title {
+        top: 10vw;
+        left: 38vw;
+    }
+    
+    .steps_wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        top: 10vw;
+        height: 170vw;
+        width: 90%;
+        left: 5%;
+    }
+    .step_1 {
+        top: 2vw;
+    }
+    .step_1, .step_2 {
+        width: 60vw;
+    }
+    .step_1 .rond_1, .step_2 .rond_2 {
+        width: 6vw;
+        height: 6vw;
+    }
+    .text_rond {
+        font-size: 4vw;
+    }
+    .steps_wrapper .paragraph {
+        font-size: 2.8vw;
+    }
+    .step1_title, .step2_title {
+        font-size: 2.8vw;
+    }
+    .steps_wrapper>div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .tel_dossier {
+        position: relative;
+        text-align: center;
+        color: #fff;
+        background-color: #054872;
+        border-style: none;
+        font-family: "Poppins Bold";
+        font-size: 3vw;
+        top: -3.5vw;
+        padding: 0 1vw;
+        box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+    }
+    .presente_sejours {
+        left: 28vw;
+        top: 20vw;
+    }
+    footer {
+        flex-direction: column;
+        top: 32vw;
+        height: 170vw;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .presente_sejours {
+        position: relative;
+        top: 32vw;
+        height: 30vw;
+        width: 32vw;
+    }
+    footer {
+        top: 48vw;
+     
+    }
+}

@@ -1,0 +1,341 @@
+/* ------- Définition des fonts ------- */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins ExtL';
+    src: url('../fonts/poppins/Poppins-ExtraLight.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins Black';
+    src: url('../fonts/poppins/Poppins-Black.ttf') format('truetype');
+  }
+  
+  .nos_sejours a, footer a, .officiel {
+    text-decoration: none;
+    font-family: "Poppins Medium";
+    color: #fff;
+  }
+  
+  body {
+    background: url('../img/bg/img_fond_blank.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+  }
+  
+  /* Navbar */
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 5vw;
+    box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+    background-color: #364D5C;
+    font-size: 1.4vw;
+    font-family: 'Poppins';
+  }
+  
+  .nav_mobile {
+    display: none;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .logo_wrap_mobile {
+    display: none;
+  }
+  
+  .logo {
+    position: absolute;
+    z-index: 7;
+    width: 7vw;
+    top: 11%;
+    left: 4vw;
+  }
+  
+  nav>a img {
+    width: 8%;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  ul span {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  nav ul>li {
+    display: inline;
+    margin: 0 0.5em;
+    color: white;
+  }
+  
+  a:link, ul a:visited {
+    color: rgb(243, 240, 240);
+    text-decoration: none;
+    font-style: normal;
+  }
+.login_wrapper{
+    position: relative;
+    top: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 35vw;
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+
+}
+
+ .email_input, .passw_input {
+    width: 15vw;
+}
+
+ .email_input, .passw_input{
+    border-radius: .5vw;
+    border: none;
+    height: 2vw;
+    margin: 1vw 0;
+}
+
+.first_line_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+
+.first_line_wrapper div input {
+    margin: .5vw;
+}
+
+.second_line_wrapper {
+    margin-bottom: 1vw;
+}
+
+
+
+
+.connect {
+   position: relative;
+   top: 3vw;
+    text-align: center;
+    color: #fff;
+    background-color: #054872;
+    border-style: none;
+    font-family: "Poppins Bold";
+    font-size: 1.1vw;
+    margin: 0 3vw;
+    padding: 0 1vw;
+    box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+}
+
+
+
+
+
+
+
+
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 135vw;
+    height: 15vw;
+    background-color: #364D5C;
+  }
+  
+  footer .foot_content {
+    position: relative;
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: 30vw;
+    bottom: 10vw;
+  }
+  
+  .foot_content_pair {
+    margin: 0 2.8vw;
+  }
+  
+  footer h3 {
+    font-family: "Poppins Bold";
+    font-size: 1.5vw;
+  }
+  
+  footer a {
+    font-family: "Poppins Medium";
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer p {
+    font-family: "Poppins ExtL";
+    color: black;
+    font-size: 1.4vw;
+  }
+  
+  .fb_container h3, .map_container h3, .mail_container h3 {
+    position: relative;
+    text-align: center;
+  }
+  
+  .fb_container img {
+    position: relative;
+    top: -.8vw;
+    width: 100%;
+    height: 4vw;
+  }
+  
+  .fb_container .officiel {
+    position: relative;
+    top: -1vw;
+    font-size: 1.4vw;
+  }
+  
+  .postuler {
+    position: relative;
+    top: -2vw;
+    text-align: center;
+  }
+  
+  .recrutement {
+    position: relative;
+    top: -2vw;
+    margin-top: -1vw;
+    text-align: center;
+  }
+  
+  .map_img {
+    position: relative;
+    top: -.8vw;
+    width: 100%;
+    height: 4vw;
+  }
+  
+  .gps {
+    position: relative;
+    text-align: center;
+    top: -1.5vw;
+    color: #fff;
+    font-family: "Poppins Medium";
+    font-size: 1.4vw;
+  }
+  
+  .telephone {
+    position: relative;
+    top: -3.2vw;
+    text-align: center;
+  }
+  
+  .phone_img {
+    position: relative;
+    width: 100%;
+    height: 2vw;
+    top: -4.3vw;
+  }
+  
+  .num_1 {
+    position: relative;
+    top: -5.5vw;
+  }
+  
+  .num_1 p {
+    color: #fff;
+    font-family: "Poppins Medium";
+    font-size: 1.4vw;
+    text-align: center;
+  }
+  
+  .ou {
+    position: relative;
+    top: -6.8vw;
+    text-align: center;
+  }
+  
+  .num_2 {
+    position: relative;
+    top: -7.6vw;
+  }
+  
+  .num_2 p {
+    font-size: 1.4vw;
+    color: #fff;
+    font-family: "Poppins Medium";
+    text-align: center;
+  }
+  
+  .col_none {
+    height: 0;
+  }
+  
+  .mail_container img {
+    position: relative;
+    top: -.2vw;
+    width: 100%;
+    height: 3.5vw;
+  }
+  
+  .mail_container .foot_address p {
+    color: #fff;
+    font-family: "Poppins Medium";
+    position: relative;
+    font-size: 1.4vw;
+    text-align: center;
+  }
+  
+  .cgv_container h3 {
+    position: relative;
+    top: -1vw;
+    text-align: center;
+  }
+  
+  .cgv_container .text_cgv {
+    position: relative;
+    top: -1.1vw;
+  }
+  
+  .cgv_container .cgv_lien p {
+    text-align: center;
+    position: relative;
+    top: -1vw;
+    color: #fff;
+    font-family: "Poppins Medium";
+    font-size: 1.6vw;
+  }
