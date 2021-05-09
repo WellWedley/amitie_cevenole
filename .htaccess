@@ -1,0 +1,12 @@
+
+DirectoryIndex index.php
+#RewriteBase /
+RewriteEngine On
+ErrorDocument 404 /error404.php
+ErrorDocument 403 /error403.php
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+
+# Redirection du domaine
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]

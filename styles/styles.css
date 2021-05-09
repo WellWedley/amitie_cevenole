@@ -1,0 +1,1249 @@
+/* ------- Définition des fonts ------- */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url('../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins ExtL';
+  src: url('../fonts/poppins/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins Black';
+  src: url('../fonts/poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+  background: url('../img/bg/img_fond_blank.svg') no-repeat;
+  background-size: 100%;
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+  margin: 0%;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 5vw;
+  box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+  background-color: #364D5C;
+  font-size: 1.4vw;
+  font-family: 'Poppins';
+}
+
+.nav_mobile {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo_wrap_mobile {
+  display: none;
+}
+
+.logo {
+  position: absolute;
+  z-index: 7;
+  width: 7vw;
+  top: 11%;
+  left: 4vw;
+}
+
+nav>a img {
+  width: 8%;
+  position: relative;
+  z-index: 1000;
+}
+
+ul span {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+nav ul>li {
+  display: inline;
+  margin: 0 0.5em;
+  color: white;
+}
+
+a:link, a:visited {
+  color: rgb(243, 240, 240);
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* ----------   1 index.php    ---------- */
+
+.intro_content {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 12.4vw;
+  justify-content: center;
+  text-align: center;
+  width: 79%;
+  height: 18vw;
+  left: 10%;
+  align-items: center;
+}
+
+.intro_content div {
+  background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  margin: 0 5%;
+  color: #054872;
+}
+
+.first_circle {
+  margin-left: 5%;
+}
+
+#first_circle {
+  transition: opacity .5s;
+}
+
+#second_circle {
+  transition: opacity 7.5s;
+}
+
+#third_circle {
+  transition: opacity 9s;
+}
+
+.first_content, .content_align {
+  font-size: 1.8vw;
+}
+
+.content_align {
+  margin-top: -1.3em;
+}
+
+.proposition {
+  position: absolute;
+  top: 7vw;
+  left: 16%;
+  color: #054872;
+  font-family: "Poppins";
+  font-size: 1.2vw;
+}
+
+.decompte {
+  position: relative;
+  width: 60vw;
+  top: 40vw;
+  left: 25vw;
+}
+
+.prochain_depart {
+  position: relative;
+  color: #054872;
+  font-family: "Poppins";
+  font-size: 1.2vw;
+}
+
+.news {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.news .clock {
+  /* colors */
+  background-color: #364D5C;
+  /* sizing */
+  width: 8vw;
+  height: 8vw;
+  border-radius: 10px;
+  /* Justify */
+  text-align: center;
+  justify-content: center;
+  font-size: 2.3vw;
+}
+
+.news .jour_diz {
+  width: 16vw;
+}
+
+.news .heures, .news .minutes, .news .secondes {
+  width: 10vw;
+}
+
+.clock h1 {
+  font-family: "Poppins Medium";
+  position: relative;
+  top: -3.5vw;
+  color: #fff;
+}
+
+.clock p {
+  font-size: 1.4vw;
+  font-family: "Poppins Black";
+  position: relative;
+  top: -7.5vw;
+  color: #fff;
+}
+
+.clock:nth-child(even) {
+  margin: 0 1vw;
+}
+
+.clock:last-child {
+  margin-right: 0;
+}
+
+.nos_sejours {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 17vw;
+  top: 74vw;
+}
+
+.presente_sejours {
+  margin-right: 6vw;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins Medium";
+}
+
+.presente_sejours, .inscription_box {
+  background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+  height: 27vw;
+  width: 30vw;
+}
+
+.presente_sejours h3, .inscription_box h3 {
+  font-family: "Poppins Bold";
+  color: #054872;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.presente_sejours div {
+  position: relative;
+  text-align: left;
+  display: block;
+  font-size: 1.5vw;
+  top: -0.1vw;
+  margin-left: 3.2vw;
+}
+
+.presente_sejours div li {
+  margin-top: 1vw;
+  margin-left: 0;
+}
+
+.presente_sejours div li a {
+  color: black;
+}
+
+.presente_sejours li::marker {
+  align-items: center;
+  font-size: 1.5vw;
+  color: #fff;
+  padding: 1vw;
+}
+
+.detail_sejour {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background-color: #054872;
+  border-style: none;
+  font-family: "Poppins Bold";
+  font-size: 1.1vw;
+  margin: 0 5vw;
+  padding: 0 .5vw;
+  box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+  top: 3vw;
+}
+
+.inscription_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.instruction {
+  position: relative;
+  top: -1vw;
+  font-size: 1.2vw;
+  margin: 0 5vw;
+  text-align: center;
+  font-family: "Poppins ExtL";
+}
+
+.inscription_box .strong_doss {
+  font-family: "Poppins Bold";
+  color: black;
+}
+
+.top_mail {
+  position: relative;
+  font-size: 1.2vw;
+  margin: 0 7vw;
+  text-align: center;
+  font-family: "Poppins ExtL";
+}
+
+.tel_doss {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background-color: #054872;
+  border-style: none;
+  font-family: "Poppins Bold";
+  font-size: 1.1vw;
+  top: -1vw;
+  padding: 0 1vw;
+  box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+}
+
+.address {
+  position: relative;
+  font-size: 1.2vw;
+  margin: 0 7vw;
+  text-align: center;
+  font-family: "Poppins Medium";
+}
+
+.top_courrier {
+  position: relative;
+  top: .4vw;
+  font-size: 1.2vw;
+  margin: 0 7vw;
+  text-align: center;
+  font-family: "Poppins ExtL";
+}
+
+.courrier {
+  position: relative;
+  font-size: 1.2vw;
+  top: .7vw;
+  text-align: center;
+  font-family: "Poppins Medium";
+}
+
+.detail_inscription {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background-color: #054872;
+  border-style: none;
+  font-family: "Poppins Bold";
+  top: 2.4vw;
+  font-size: 1.1vw;
+  padding: 0 1vw;
+  box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+}
+
+/*---------- 4 footer.php ----------*/
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top: 135vw;
+  height: 15vw;
+  background-color: #364D5C;
+}
+
+footer .foot_content {
+  position: relative;
+  background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28vw;
+  height: 30vw;
+  bottom: 10vw;
+}
+
+.foot_content_pair {
+  margin: 0 2.8vw;
+}
+
+footer h3 {
+  font-family: "Poppins Bold";
+  font-size: 1.5vw;
+}
+
+footer a {
+  font-family: "Poppins Medium";
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  font-family: "Poppins ExtL";
+  color: black;
+  font-size: 1.4vw;
+}
+
+.fb_container h3, .map_container h3, .mail_container h3 {
+  position: relative;
+  text-align: center;
+}
+
+.fb_container img {
+  position: relative;
+  top: -.8vw;
+  width: 100%;
+  height: 4vw;
+}
+
+.fb_container .officiel {
+  position: relative;
+  top: -1vw;
+  font-size: 1.4vw;
+}
+
+.postuler {
+  color: black;
+  position: relative;
+  color: black;
+  top: -2vw;
+  text-align: center;
+}
+
+.recrutement {
+  position: relative;
+  top: -2vw;
+  margin-top: -1vw;
+  text-align: center;
+}
+
+.map_img {
+  position: relative;
+  top: -.8vw;
+  width: 100%;
+  height: 4vw;
+}
+
+.gps {
+  position: relative;
+  text-align: center;
+  top: -1.5vw;
+  color: #fff;
+  font-family: "Poppins Medium";
+  font-size: 1.4vw;
+}
+
+.telephone {
+  position: relative;
+  top: -3.2vw;
+  text-align: center;
+}
+
+.phone_img {
+  position: relative;
+  width: 100%;
+  height: 2vw;
+  top: -4.3vw;
+}
+
+.num_1 {
+  position: relative;
+  top: -5.5vw;
+}
+
+.num_1 p {
+  color: #fff;
+  font-family: "Poppins Medium";
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+.ou {
+  position: relative;
+  top: -6.8vw;
+  text-align: center;
+}
+
+.num_2 {
+  position: relative;
+  top: -7.6vw;
+}
+
+.num_2 p {
+  font-size: 1.4vw;
+  color: #fff;
+  font-family: "Poppins Medium";
+  text-align: center;
+}
+
+.col_none {
+  height: 0;
+}
+
+.mail_container img {
+  position: relative;
+  top: -.2vw;
+  width: 100%;
+  height: 3.5vw;
+}
+
+.mail_container .foot_address p {
+  color: #fff;
+  font-family: "Poppins Medium";
+  position: relative;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+.cgv_container h3 {
+  position: relative;
+  top: -1vw;
+  text-align: center;
+}
+
+.cgv_container .text_cgv {
+  position: relative;
+  top: -1.1vw;
+}
+
+.cgv_container .cgv_lien p {
+  text-align: center;
+  position: relative;
+  top: -1vw;
+  color: #fff;
+  font-family: "Poppins Medium";
+  font-size: 1.6vw;
+}
+
+.mentions_lien {
+  color: #fff;
+  font-family: "Poppins Medium";
+  font-size: 1.6vw;
+  position: relative;
+  top: -2vw;
+}
+
+/* PAGE MENTIONS LÉGALES */
+
+/*---------- @media queries ----------*/
+
+/* Responsive sur les écrans mobiles */
+
+@media screen and (max-width:1024px) {
+  @keyframes slideRight {
+    from {
+      left: -32vw;
+    }
+    to {
+      left: 0%;
+    }
+  }
+  @-webkit-keyframes slideRight {
+    from {
+      left: -32vw;
+    }
+    to {
+      left: 0%;
+    }
+  }
+  @keyframes slideLeft {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -32vw;
+    }
+  }
+  @-webkit-keyframes slideLeft {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -32vw;
+    }
+  }
+}
+
+@media screen and (max-width:425px) {
+  li p {
+    display: none;
+  }
+  .nav_pc {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo_wrap_mobile {
+    position: absolute;
+    display: inline;
+    z-index: 8;
+    left: 1vw;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  nav {
+    overflow-y: auto;
+    height: calc(100vh - 30vh);
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  nav ul {
+    position: relative;
+    padding: 0;
+    font-size: 2.5vw;
+    width: 100%;
+    height: 30vh;
+    left: 1.5vw;
+  }
+  nav ul li {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  /* Menu burger */
+  #menu-burger {
+    position: absolute;
+    top: 2.8vw;
+    right: 4.8vw;
+    display: inline-block;
+    cursor: pointer;
+  }
+  #menu-burger .bar1, #menu-burger .bar2, #menu-burger .bar3 {
+    width: 4vw;
+    height: .8vw;
+    background-color: #fff;
+    transition: 0.4s;
+  }
+  #menu-burger .bar2 {
+    margin: .5vw 0;
+  }
+  #menu-burger.clicked .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-1.25vw, .5vw);
+    background-color: #fff;
+  }
+  #menu-burger.clicked .bar2 {
+    opacity: 0;
+  }
+  #menu-burger.clicked .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-1.4vw, -1.4vw);
+  }
+  /* Main menu (slide) */
+  #menu {
+    position: fixed;
+    right: -25%;
+    top: 0;
+    background: #364D5C;
+    width: 26vw;
+    min-height: 100%;
+  }
+  #menu ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+    justify-content: start;
+    top: 15vw;
+    width: 23vw;
+  }
+  #menu ul li {
+    margin-bottom: 3vw;
+    list-style: none;
+    width: 22.5vw;
+  }
+  #menu ul li a {
+    transition: .5s;
+    text-align: left;
+  }
+  #menu.visible {
+    animation: 1s slideRight ease-in forwards;
+    transition-delay: 0;
+  }
+  #menu.invisible {
+    animation: 1.7s slideLeft ease-out forwards;
+    transition-delay: 0;
+  }
+  .logo_mobile img {
+    position: fixed;
+    width: 12.5vw;
+    left: 2vw;
+  }
+  .horizontal_mobile_bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0vw;
+    height: 9vw;
+    width: 100%;
+    background-color: #364D5C;
+    box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+    z-index: 7;
+  }
+  .decompte {
+    top: 40vw;
+    left: 26vw;
+  }
+  .nos_sejours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 17.8vw;
+    position: absolute;
+    top: 55vw;
+  }
+  .list_sejours {
+    left: 4.5vw;
+  }
+  .presente_sejours div {
+    font-size: 2.8vw;
+  }
+  .presente_sejours li::marker {
+    font-size: 2.8vw;
+  }
+  .presente_sejours h3, .inscription_box h3 {
+    font-size: 3.7vw;
+  }
+  .presente_sejours {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins Medium";
+    margin-bottom: 10vw;
+    margin-right: 0;
+  }
+  .presente_sejours, .inscription_box {
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    height: 60vw;
+    width: 64.3vw;
+  }
+  .detail_sejour {
+    font-size: 2.7vw;
+    box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+    top: 9vw;
+    padding: 0vw;
+  }
+  .instruction {
+    font-family: "Poppins Regular";
+    top: -2.5vw;
+    font-size: 2.5vw;
+  }
+  .tel_doss {
+    font-size: 2.5vw;
+    top: -5vw;
+    margin: 0;
+  }
+  .top_mail {
+    top: -4vw;
+    font-size: 2.5vw;
+  }
+  .address {
+    top: -3vw;
+    font-size: 2.5vw;
+  }
+  .top_courrier {
+    top: -2vw;
+    font-size: 2.5vw;
+  }
+  .courrier {
+    font-size: 2.5vw;
+    top: -3vw;
+  }
+  .detail_inscription {
+    top: -2vw;
+    font-size: 2.7vw;
+    padding: 0 1vw;
+  }
+  footer {
+    flex-direction: column;
+    top: 200vw;
+    height: 240vw;
+  }
+  footer .foot_content_pair {
+    margin: 10vw 0;
+  }
+  footer .foot_content {
+    width: 70vw;
+    height: 75vw;
+  }
+  footer p {
+    font-size: 2.7vw;
+  }
+  .foot_content .fb_container .fb_img {
+    height: 9vw;
+  }
+  .map_img, .foot_content .mail_container .mail_img, .phone_img {
+    height: 7vw;
+  }
+  .fb_container h3, .map_container h3, .mail_container h3, .postuler, .telephone, .cgv h3 {
+    font-size: 3.5vw;
+  }
+  .telephone {
+    top: -6vw;
+    margin: 1vw;
+  }
+  .fb_container .officiel, .gps, .num_1 p, .num_2 p, .foot_content .text_cgv, .foot_content .foot_address .address_para, .foot_content .cgv_lien p, .ou {
+    font-size: 2.8vw;
+    text-align: center;
+  }
+  .gps {
+    top: -5vw;
+  }
+}
+
+@media screen and (min-width:426px)and ( max-width:768px) {
+  li p {
+    display: none;
+  }
+  .nav_pc {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo_wrap_mobile {
+    position: absolute;
+    display: inline;
+    z-index: 8;
+    left: 1vw;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  nav {
+    overflow-y: auto;
+    height: calc(100vh - 30vh);
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  nav ul {
+    position: relative;
+    padding: 0;
+    font-size: 2.5vw;
+    width: 100%;
+    height: 30vh;
+    left: 1.5vw;
+  }
+  nav ul li {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  /* Menu burger */
+  #menu-burger {
+    position: absolute;
+    top: 2.8vw;
+    right: 4.8vw;
+    display: inline-block;
+    cursor: pointer;
+  }
+  #menu-burger .bar1, #menu-burger .bar2, #menu-burger .bar3 {
+    width: 4vw;
+    height: .8vw;
+    background-color: #fff;
+    transition: 0.4s;
+  }
+  #menu-burger .bar2 {
+    margin: .5vw 0;
+  }
+  #menu-burger.clicked .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-1.25vw, .5vw);
+    background-color: #fff;
+  }
+  #menu-burger.clicked .bar2 {
+    opacity: 0;
+  }
+  #menu-burger.clicked .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-1.4vw, -1.4vw);
+  }
+  /* Main menu (slide) */
+  #menu {
+    position: fixed;
+    right: -25%;
+    top: 0;
+    background: #364D5C;
+    width: 26vw;
+    min-height: 100%;
+  }
+  #menu ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+    justify-content: start;
+    top: 15vw;
+    width: 23vw;
+  }
+  #menu ul li {
+    margin-bottom: 3vw;
+    list-style: none;
+    width: 22.5vw;
+  }
+  #menu ul li a {
+    transition: .5s;
+    text-align: left;
+  }
+  #menu.visible {
+    animation: 1s slideRight ease-in forwards;
+    transition-delay: 0;
+  }
+  #menu.invisible {
+    animation: 1.7s slideLeft ease-out forwards;
+    transition-delay: 0;
+  }
+  .logo_mobile img {
+    position: fixed;
+    width: 12.5vw;
+    left: 2vw;
+  }
+  .horizontal_mobile_bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0vw;
+    height: 9vw;
+    width: 100%;
+    background-color: #364D5C;
+    box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+    z-index: 7;
+  }
+  .nos_sejours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 28vw;
+    position: absolute;
+    top: 68vw;
+  }
+  .inscription_box {
+    height: 40vw;
+    width: 44.3vw;
+  }
+  .presente_sejours div {
+    font-size: 2vw;
+  }
+  .presente_sejours li::marker {
+    font-size: 2vw;
+  }
+  .presente_sejours, .inscription_box {
+    height: 40vw;
+    width: 44.3vw;
+  }
+  .presente_sejours h3, .inscription_box h3 {
+    font-size: 2.7vw;
+  }
+  .presente_sejours {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins Medium";
+    margin-bottom: 10vw;
+    margin-right: 0;
+  }
+  .inscription_box, .presente_sejours {
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    height: 40vw;
+    width: 44.3vw;
+  }
+  .detail_sejour {
+    font-size: 1.7vw;
+    padding: 0 .3vw;
+    box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+    top: 3.5vw;
+  }
+  .instruction {
+    font-family: "Poppins Regular";
+    top: -1.3vw;
+    font-size: 1.7vw;
+  }
+  .tel_doss {
+    font-size: 1.7vw;
+    top: -1.8vw;
+  }
+  .top_mail {
+    top: -.8vw;
+    font-size: 1.7vw;
+  }
+  .address {
+    top: -.8vw;
+    font-size: 1.7vw;
+  }
+  .top_courrier {
+    top: -.7vw;
+    font-size: 1.7vw;
+  }
+  .courrier {
+    font-size: 1.7vw;
+    top: -.5vw;
+  }
+  .detail_inscription {
+    top: 1.4vw;
+    font-size: 1.7vw;
+    padding: 0 1vw;
+  }
+  footer {
+    flex-direction: column;
+    top: 171vw;
+    height: 170vw;
+  }
+  footer .foot_content_pair {
+    margin: 10vw 0;
+  }
+  footer .foot_content {
+    width: 50vw;
+    height: 55vw;
+  }
+  footer p {
+    font-size: 1.7vw;
+  }
+  .fb_img, .map_img, .mail_img, .phone_img {
+    height: 5vw;
+  }
+  .fb_container h3, .map_container h3, .mail_container h3, .postuler, .telephone, .cgv h3 {
+    font-size: 2.7vw;
+  }
+  .telephone {
+    margin: 1vw;
+  }
+  .fb_container .officiel, .gps, .num_1 p, .num_2 p, .foot_content .text_cgv, .foot_content .foot_address .address_para, .foot_content .cgv_lien p, .ou {
+    font-size: 1.8vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  li p {
+    display: none;
+  }
+  .nav_pc {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo_wrap_mobile {
+    position: absolute;
+    display: inline;
+    z-index: 8;
+    left: 1vw;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  nav {
+    overflow-y: auto;
+    height: calc(100vh - 30vh);
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  nav ul {
+    position: relative;
+    padding: 0;
+    font-size: 2.5vw;
+    width: 100%;
+    height: 30vh;
+    left: 1.5vw;
+  }
+  nav ul li {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  /* Menu burger */
+  #menu-burger {
+    position: absolute;
+    top: 2.8vw;
+    right: 4.8vw;
+    display: inline-block;
+    cursor: pointer;
+  }
+  #menu-burger .bar1, #menu-burger .bar2, #menu-burger .bar3 {
+    width: 4vw;
+    height: .8vw;
+    background-color: #fff;
+    transition: 0.4s;
+  }
+  #menu-burger .bar2 {
+    margin: .5vw 0;
+  }
+  #menu-burger.clicked .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-1.25vw, .5vw);
+    background-color: #fff;
+  }
+  #menu-burger.clicked .bar2 {
+    opacity: 0;
+  }
+  #menu-burger.clicked .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-1.4vw, -1.4vw);
+  }
+  /* Main menu (slide) */
+  #menu {
+    position: fixed;
+    right: -25%;
+    top: 0;
+    background: #364D5C;
+    width: 26vw;
+    min-height: 100%;
+  }
+  #menu ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+    justify-content: start;
+    top: 15vw;
+    width: 23vw;
+  }
+  #menu ul li {
+    margin-bottom: 3vw;
+    list-style: none;
+    width: 22.5vw;
+  }
+  #menu ul li a {
+    transition: .5s;
+    text-align: left;
+  }
+  #menu.visible {
+    animation: 1s slideRight ease-in forwards;
+    transition-delay: 0;
+  }
+  #menu.invisible {
+    animation: 1.7s slideLeft ease-out forwards;
+    transition-delay: 0;
+  }
+  .logo_mobile img {
+    position: fixed;
+    width: 12.5vw;
+    left: 2vw;
+  }
+  .horizontal_mobile_bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0vw;
+    height: 9vw;
+    width: 100%;
+    background-color: #364D5C;
+    box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
+    z-index: 7;
+  }
+  .decompte {
+    top: 40vw;
+    left: 26vw;
+  }
+  .nos_sejours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 34%;
+    position: absolute;
+    top: 76.5vw;
+  }
+  .list_sejours {
+    position: relative;
+    left: -1vw;
+  }
+  .presente_sejours li::marker {
+    font-size: 1.7vw;
+  }
+  .presente_sejours h3, .inscription_box h3 {
+    font-size: 2vw;
+  }
+  .presente_sejours div {
+    font-size: 1.7vw;
+  }
+  .presente_sejours {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins Medium";
+    margin-bottom: 15vw;
+    margin-right: 0;
+  }
+  .presente_sejours, .inscription_box {
+    height: 30vw;
+    width: 32vw;
+  }
+  .detail_sejour {
+    font-size: 1.7vw;
+    padding: 0 .3vw;
+    box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+  }
+  .instruction {
+    top: -1.3vw;
+    font-size: 1.4vw;
+  }
+  .tel_doss {
+    font-size: 1.7vw;
+    top: -1.8vw;
+  }
+  .top_mail {
+    top: -.8vw;
+    font-size: 1.4vw;
+  }
+  .address {
+    top: -.8vw;
+    font-size: 1.4vw;
+  }
+  .top_courrier {
+    top: -.7vw;
+    font-size: 1.4vw;
+  }
+  .courrier {
+    font-size: 1.4vw;
+    top: -.5vw;
+  }
+  .detail_inscription {
+    top: 1.4vw;
+    font-size: 1.7vw;
+    padding: 0 1vw;
+  }
+  footer {
+    top: 170vw;
+    height: 15vw;
+  }
+}
