@@ -2,6 +2,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html" />
+<meta name="description" content="Site de l'Association d'Éducation Populaire Amitié cévenole ( AEPC ) , une association  faisaint partir les enfants de 8 à 17 ans en colonies de vacances en bord de mer, abords de rivière, à la ferme... Association basée à Montpellier. ">
 <!-- <meta http-equiv="expires" content="0">
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache, must-revalidate">
