@@ -15,6 +15,10 @@ include 'head.php';
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <?php
     include 'header.php'; ?>
     <form action="contact-form-send.php" method="POST" class="form_content">

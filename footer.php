@@ -29,6 +29,18 @@
       </div>
 =======
 <footer>
+<script>
+window.axeptioSettings = {
+  clientId: "609abca213e84069f2a7aea2",
+  cookiesVersion: "amitiecevenole-base",
+};
+ 
+(function(d, s) {
+  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+  e.async = true; e.src = "//static.axept.io/sdk.js";
+  t.parentNode.insertBefore(e, t);
+})(document, "script");
+</script>
     <div class="foot_content">
         <div class="fb_container">
             <h3 class="aventures">Suivre nos aventures</h3>
