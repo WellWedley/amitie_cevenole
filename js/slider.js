@@ -77,7 +77,7 @@ var autoslide = setInterval(function autoslide() {
         play.style.display = "none";
 >>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
         position -= nb_img / 3;
-        console.log(position);
+   //     console.log(position);
         slide.style.transform = "translateX(" + position + "%)";
         slide.style.mstransform = "translate(" + position + "%)";
 <<<<<<< HEAD
