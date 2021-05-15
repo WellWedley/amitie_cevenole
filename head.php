@@ -33,6 +33,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <?php
+ // FUNCTION TO ADD TITLE TO PAGES, LOAD STYLES ETC ACCORDING TO PAGE NAME
 $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1);
 $nomPublic = '';
 if ($curPageName == 'index.php') {
