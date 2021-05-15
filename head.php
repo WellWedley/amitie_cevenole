@@ -34,27 +34,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <?php
+ // FUNCTION TO ADD TITLE TO PAGES, LOAD STYLES ETC ACCORDING TO PAGE NAME
 $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1);
 $nomPublic = '';
 if ($curPageName == 'index.php') {
     echo '<link rel="stylesheet"  href="./styles/styles.css"/>';
     $nomPublic = "Accueil ";
-} else if ($curPageName == 'notre_asso.php') {
+} else if ($curPageName == 'notre_asso.php') 
+{
     echo '<link rel="stylesheet"  href="./styles/style_notre_asso.css"/>';
     $nomPublic = "Notre asso ";
-} else if ($curPageName == 'nos_sejours.php') {
+} else if ($curPageName == 'nos_sejours.php') 
+{
     echo '<link rel="stylesheet"  href="./styles/style_nos_sejours.css"/>';
     $nomPublic = "Nos séjours ";
-} else if ($curPageName == 'inscriptions.php') {
+} else if ($curPageName == 'inscriptions.php') 
+{
     echo '<link rel="stylesheet"  href="./styles/style_inscriptions.css"/>';
     $nomPublic = "S'inscrire à un séjour ";
-} else if ($curPageName == 'notre_actualite.php') {
+} else if ($curPageName == 'notre_actualite.php') 
+{
     echo '<link rel="stylesheet"  href="./styles/style_notre_actualite.css"/>';
     $nomPublic = "Notre actualité ";
-} else if ($curPageName == 'contact.php') {
+} else if ($curPageName == 'contact.php') 
+{
     echo '<link rel="stylesheet"  href="./styles/style_contact.css"/>';
     $nomPublic = "Contact ";
-} else if ($curPageName == 'mentions-legales.php') {
+} else if ($curPageName == 'login.php') 
+{
+    echo '<link rel="stylesheet"  href="./styles/login.css"/>';
+    $nomPublic = "Connexion ";
+} else if ($curPageName == 'main_backoffice.php') 
+{
+    echo '<link rel="stylesheet"  href="./styles/main_back.css"/>';
+    $nomPublic = "Mon BackOffice ";
+} 
+    
+else if ($curPageName == 'mentions-legales.php') 
+{
     echo '<link rel="stylesheet"  href="./styles/style_contact.css"/>';
     echo '<link rel="stylesheet"  href="./styles/mentions.css"/>';
     $nomPublic = "Mention légales ";
