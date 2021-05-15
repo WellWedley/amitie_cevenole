@@ -26,7 +26,7 @@ if (isset($_POST['SubmitButton'])) {
                         $_SESSION['sess_username'] = $row['prenom_dir'];
                         $_SESSION['sess_name'] = $row['nom_dir'];
                    
-                        header('location:../main_backoffice.php');
+                        header('location:../../main_backoffice.php');
                     }else {
                         $msg = "Mot de passe ou identifiants non reconnus. ";
                     }
