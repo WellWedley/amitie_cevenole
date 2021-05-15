@@ -49,7 +49,7 @@ next.addEventListener("click", function nextSlider() {
 var autoslide = setInterval(function () {
     if (position >= nb_img / -.33) {
         position -= nb_img / 3;
-        console.log(position);
+   //     console.log(position);
         slide.style.transform = "translateX(" + position + "%)";
         slide.style.mstransform = "translate(" + position + "%)";
     }
