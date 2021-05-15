@@ -89,7 +89,11 @@ body {
 
 .content_align {
     position: relative;
+<<<<<<< HEAD
     top: -1vw;
+=======
+    top: -1.5vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 }
 
 .content_align2 {
@@ -147,7 +151,11 @@ body {
 
 .presente_sejours {
     position: relative;
+<<<<<<< HEAD
     left: 35vw;
+=======
+    left: 30vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     top: 34vw;
 }
 
@@ -168,7 +176,11 @@ footer {
     }
     .etapes_title {
         top: 10vw;
+<<<<<<< HEAD
         left: 38vw;
+=======
+        left: 45vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     }
     .steps_wrapper {
         flex-direction: column;
@@ -236,9 +248,14 @@ footer {
     }
     .etapes_title {
         top: 10vw;
+<<<<<<< HEAD
         left: 38vw;
     }
     
+=======
+        left: 45vw;
+    }
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     .steps_wrapper {
         flex-direction: column;
         justify-content: space-around;
@@ -285,12 +302,20 @@ footer {
         box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
     }
     .presente_sejours {
+<<<<<<< HEAD
         left: 28vw;
         top: 20vw;
     }
     footer {
         flex-direction: column;
         top: 32vw;
+=======
+        top: 25vw;
+    }
+    footer {
+        flex-direction: column;
+        top: 39vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
         height: 170vw;
     }
 }

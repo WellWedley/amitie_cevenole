@@ -6,6 +6,7 @@
     include_once 'head.php';
     ?>
 </head>
+<<<<<<< HEAD
 
 
 <body>
@@ -13,6 +14,13 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+=======
+<script src="./js/countdown_timer.js"></script>
+<script src="./js/script.js"></script>
+
+<body>
+
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 
     <?php
     include_once './header.php';
@@ -44,6 +52,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="news">
             <div class="clock jour_diz">
                 <h1 id="jours"></h1>
+<<<<<<< HEAD
                 <p id="daySubt">Jours</p>
             </div>
             <div class="clock heures">
@@ -57,6 +66,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="clock secondes">
                 <h1 id="secondes"></h1>
                 <p id="secondSubt">Secondes</p>
+=======
+                <p>Jours</p>
+            </div>
+            <div class="clock heures">
+                <h1 id="hours"></h1>
+                <p>Heures</p>
+            </div>
+            <div class="clock minutes">
+                <h1 id="minutes"></h1>
+                <p>Minutes</p>
+            </div>
+            <div class="clock secondes">
+                <h1 id="secondes"></h1>
+           
+                <p>Secondes</p>
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
             </div>
         </div>
     </div>
@@ -74,14 +99,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </li>
                 <li>
 
+<<<<<<< HEAD
                     <a href="./files/catalogues/graines_explorateur.pdf" target="_blank">Graines d'explorateur 8-11 ans</a>
+=======
+                    <a href="./files/catalogues/graines_explorateur.pdf" target="_blank">Graines  d'explorateur 8-11 ans</a>
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
                 </li>
                 <li>
 
                     <a href="./files/catalogues/graines_fermier.pdf" target="_blank">Graines de Fermier 8-11 ans</a>
                 </li>
             </div>
+<<<<<<< HEAD
             <a class="detail_sejour" href="./nos_sejours.php">Voir le détail des séjours</a>
+=======
+            <a class="detail_sejour" href="./nos_sejours.php" >Voir le détail des séjours</a>
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 
         </div>
 
@@ -105,8 +138,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 
+<<<<<<< HEAD
     <script src="./js/countdown_timer.js"></script>
     <script src="./js/script.js"></script>
+=======
+
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     <?php include_once 'footer.php' ?>
 
 </body>

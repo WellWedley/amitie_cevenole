@@ -70,6 +70,7 @@ body {
 footer{
     top: 35vw;
 }
+<<<<<<< HEAD
 .mentions_lien {
     color: #fff;
     font-family: "Poppins Medium";
@@ -77,3 +78,5 @@ footer{
     position: relative;
     top: -2vw;
   }
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e

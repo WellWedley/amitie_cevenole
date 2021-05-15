@@ -8,10 +8,13 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     <?php
     include_once './header.php'
     ?>
@@ -64,6 +67,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     <div class="presente_sejours">
+<<<<<<< HEAD
             <h3>Nos séjours 2021</h3>
             <div class="list_sejours">
                 <li>
@@ -91,6 +95,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+=======
+        <h3>Nos séjours 2021</h3>
+        <div class="list_sejours">
+            <li>
+                <a href="./files/catalogues/cevennes_explor.pdf" target="_blank"> Cévennes Explor' 12-16 ans</a>
+            </li>
+            <li>
+
+                <a href="./files/catalogues/explor_ados.pdf" target="_blank">Explor' Ados 12-16 ans</a>
+            </li>
+            <li>
+
+                <a href="./files/catalogues/graines_explorateur.pdf" target="_blank">Graines d'explorateur 8-11 ans</a>
+            </li>
+            <li>
+
+                <a href="./files/catalogues/graines_fermier.pdf" target="_blank">Graines de Fermier 8-11 ans</a>
+            </li>
+        </div>
+        <a class="detail_sejour" href="./nos_sejours.php">Voir le détail des séjours</a>
+
+    </div>
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     <?php include 'footer.php' ?>
 </body>
 

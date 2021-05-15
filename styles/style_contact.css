@@ -14,28 +14,44 @@ body {
     /* Chrome/Opera/Safari */
     color: #054872;
     font-family: "Poppins ExtL";
+<<<<<<< HEAD
     font-size: 2vw;
+=======
+    font-size: 2.2vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 }
 
 ::-moz-placeholder {
     /* Firefox 19+ */
     color: #054872;
     font-family: "Poppins ExtL";
+<<<<<<< HEAD
     font-size: 2vw;
+=======
+    font-size: 2.2vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 }
 
 :-ms-input-placeholder {
     /* IE 10+ */
     color: #054872;
     font-family: "Poppins ExtL";
+<<<<<<< HEAD
     font-size: 2vw;
+=======
+    font-size: 2.2vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 }
 
 :-moz-placeholder {
     /* Firefox 18- */
     color: #054872;
     font-family: "Poppins ExtL";
+<<<<<<< HEAD
     font-size: 2vw;
+=======
+    font-size: 2.2vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 }
 
 .contact_title_wrap {
@@ -61,7 +77,11 @@ body {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+<<<<<<< HEAD
     height: 37vw;
+=======
+    height: 35vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
 }
 
@@ -72,7 +92,11 @@ body {
 .nom_input, .prenom_input, .email_input, .object_input {
     border-radius: .5vw;
     border: none;
+<<<<<<< HEAD
     height: 3.5vw;
+=======
+    height: 5vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     margin: 1vw 0;
     box-sizing: border-box;
     border: 1px solid rgb(220, 220, 220, .7);
@@ -110,16 +134,25 @@ body {
 }
 
 .send_message {
+<<<<<<< HEAD
     cursor: pointer;
     position: relative;
     top: 2vw;
+=======
+    position: relative;
+    top: 1vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     text-align: center;
     color: #fff;
     background-color: #054872;
     border-style: none;
     font-family: "Poppins Bold";
     font-size: 1.1vw;
+<<<<<<< HEAD
     margin: 0 ;
+=======
+    margin: 0 3vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     padding: 0 1vw;
     box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
 }
@@ -131,6 +164,7 @@ body {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .messageError{
     text-align: center;
     font-family: 'Poppins Bold';
@@ -141,6 +175,8 @@ body {
 
 }
 
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 /*---------- 4 footer.php ----------*/
 
 footer {

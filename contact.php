@@ -5,6 +5,7 @@
     <?php
     include_once './head.php'
     ?>
+<<<<<<< HEAD
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
 </head>
@@ -27,6 +28,24 @@ include_once './header.php'
         <div class="first_line_wrapper">
             <div>
                 <input placeholder="Nom" type="text"  class="nom_input" name="nom_input" required>
+=======
+</head>
+
+<body>
+    <?php
+    include_once './header.php'
+    ?>
+
+</body>
+<div class="contact_title_wrap">
+    <h1 class="contact_title"> N'HÉSITEZ PAS À NOUS CONTACTER ! </h1>
+</div>
+<form action="./contact.php" method="POST" class="form_content">
+    <div class="contact_wrapper">
+        <div class="first_line_wrapper">
+            <div>
+                <input placeholder="Nom" type="text" class="nom_input" name="nom_input" required>
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
             </div>
             <div>
                 <input placeholder="Prénom" type="text" class="prenom_input" name="prenom_input" required>
@@ -42,13 +61,20 @@ include_once './header.php'
         <div class="fourth_line_wrapper">
             <textarea placeholder="Message" class="message_input" name="message_input" required></textarea>
         </div>
+<<<<<<< HEAD
         <div class="messageError"> </div>
         <!-- <div class="last_wrapper"> -->
         <input onclick="checkForm()" type="submit" value="Envoyer le message" class="send_message g-recaptcha" name="send_message" id="demande_contact" data-sitekey="6LfxK6caAAAAABf4w-_Yzb002TxwKtTaUXEk69rO" data-callback='onSubmit' data-action='submit'>
+=======
+
+        <!-- <div class="last_wrapper"> -->
+        <input type="submit" value="Envoyer le message" class="send_message" name="send_message">
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
         <!-- </div> -->
     </div>
 </form>
 <div class="nos_sejours">
+<<<<<<< HEAD
     <div class="presente_sejours">
         <h3>Nos séjours 2021</h3>
         <div class="list_sejours">
@@ -71,6 +97,30 @@ include_once './header.php'
         <a class="detail_sejour" href="./nos_sejours.php">Voir le détail des séjours</a>
 
     </div>
+=======
+<div class="presente_sejours">
+            <h3>Nos séjours 2021</h3>
+            <div class="list_sejours">
+                <li>
+                    <a href="./files/catalogues/cevennes_explor.pdf" target="_blank"> Cévennes Explor' 12-16 ans</a>
+                </li>
+                <li>
+
+                    <a href="./files/catalogues/explor_ados.pdf" target="_blank">Explor' Ados 12-16 ans</a>
+                </li>
+                <li>
+
+                    <a href="./files/catalogues/graines_explorateur.pdf" target="_blank">Graines  d'explorateur 8-11 ans</a>
+                </li>
+                <li>
+
+                    <a href="./files/catalogues/graines_fermier.pdf" target="_blank">Graines de Fermier 8-11 ans</a>
+                </li>
+            </div>
+            <a class="detail_sejour" href="./nos_sejours.php" >Voir le détail des séjours</a>
+
+        </div>
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     <div class="inscription_box">
         <div>
             <h3>S'inscrire à un séjour</h3>
@@ -90,10 +140,15 @@ include_once './header.php'
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 <script src="js/checkForm.js">
 </script>
 
 <?php include_once 'footer.php' ?>
 </body>
+=======
+<script src="./js/script.js"></script>
+<?php include_once 'footer.php' ?>
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 
 </html>

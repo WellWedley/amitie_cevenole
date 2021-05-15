@@ -31,7 +31,12 @@
 }
 
 body {
+<<<<<<< HEAD
   background: url('../img/bg/img_fond_blank.svg') no-repeat;
+=======
+  background: url('../img/bg/img_fond_blank.svg');
+  background-repeat: no-repeat;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
   background-size: 100%;
   position: relative;
   min-height: 100%;
@@ -99,13 +104,18 @@ nav ul>li {
 }
 
 a:link, a:visited {
+<<<<<<< HEAD
   color: rgb(243, 240, 240);
+=======
+  color: #fff;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
   text-decoration: none;
   font-style: normal;
 }
 
 /* ----------   1 index.php    ---------- */
 
+<<<<<<< HEAD
 .intro_content {
   display: flex;
   flex-direction: row;
@@ -230,6 +240,8 @@ a:link, a:visited {
   margin-right: 0;
 }
 
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 .nos_sejours {
   display: flex;
   flex-direction: row;
@@ -410,7 +422,11 @@ footer h3 {
   font-size: 1.5vw;
 }
 
+<<<<<<< HEAD
 footer a {
+=======
+footer a, footer a>p {
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
   font-family: "Poppins Medium";
   color: white;
   text-decoration: none;
@@ -441,9 +457,13 @@ footer p {
 }
 
 .postuler {
+<<<<<<< HEAD
   color: black;
   position: relative;
   color: black;
+=======
+  position: relative;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
   top: -2vw;
   text-align: center;
 }
@@ -565,7 +585,11 @@ footer p {
 
 /*---------- @media queries ----------*/
 
+<<<<<<< HEAD
 /* Responsive sur les écrans mobiles */
+=======
+/* Responsive pour l'affichage de la barre de  navigation sur mobile */
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 
 @media screen and (max-width:1024px) {
   @keyframes slideRight {

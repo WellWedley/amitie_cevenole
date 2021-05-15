@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ------- Définition des fonts ------- */
 
 @font-face {
@@ -32,6 +33,10 @@
 
 body {
     background: url('../img/bg/img_fond_blank.svg');
+=======
+body {
+    background: url('../img/bg/img_fond_nos_sejours.svg');
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -40,6 +45,7 @@ body {
     margin: 0%;
 }
 
+<<<<<<< HEAD
 /* Navbar */
 
 nav {
@@ -105,6 +111,8 @@ a:link, ul a:visited {
     font-style: normal;
 }
 
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 /* DÉBUT DE LA PAGE NOS SÉJOURS */
 
 .nos_sejours_wrapper {
@@ -127,7 +135,10 @@ div>.first_para {
     list-style-type: none;
     font-family: "Poppins ExtL";
     font-size: 1.2vw;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     text-align: center;
 }
 
@@ -176,7 +187,10 @@ div>.first_para {
     z-index: 4;
     align-items: center;
     justify-content: space-around;
+<<<<<<< HEAD
  
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 }
 
 .dates {
@@ -219,14 +233,18 @@ div>.first_para {
 }
 
 .inscription_box {
+<<<<<<< HEAD
     background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
     height: 27vw;
     width: 30vw;
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     position: relative;
     top: 12vw;
     left: 35vw;
 }
 
+<<<<<<< HEAD
 .inscription_box .strong_doss:visited, .inscription_box .strong_doss {
     font-family: "Poppins Bold";
     color: black;
@@ -665,12 +683,25 @@ footer p {
         box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
         z-index: 7;
     }
+=======
+footer {
+    top: 40vw;
+    height: 15vw;
+}
+
+/*---------- @media queries ----------*/
+
+@media screen and (max-width:425px) {
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     .nos_sejours_wrapper {
         position: relative;
         top: 9vw;
         flex-direction: column;
         margin: 0;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     }
     .first_wrapper>div, .second_wrapper>div {
         margin: 1.5vw 0;
@@ -711,6 +742,7 @@ footer p {
     .catalogue_btn {
         font-size: 3.5vw;
     }
+<<<<<<< HEAD
     .inscription_box h3 {
         font-size: 3.7vw;
     }
@@ -907,6 +939,19 @@ footer p {
         box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
         z-index: 7;
       }
+=======
+    .inscription_box {
+        top: 25vw;
+        left: 18vw;
+    }
+    footer {
+        top: 50vw;
+        height: 240vw;
+    }
+}
+
+@media screen and (min-width:426px)and ( max-width:768px) {
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     .nos_sejours_wrapper {
         top: 9vw;
         flex-direction: column;
@@ -957,6 +1002,7 @@ footer p {
         height: 40vw;
         width: 44.3vw;
     }
+<<<<<<< HEAD
     .inscription_box h3 {
         font-size: 2.7vw;
     }
@@ -1003,11 +1049,14 @@ footer p {
         margin: 0 2vw;
         padding: 0 1vw;
     }
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     footer {
         flex-direction: column;
         top: 48vw;
         height: 170vw;
     }
+<<<<<<< HEAD
     footer .foot_content_pair {
         margin: 10vw 0;
     }
@@ -1153,6 +1202,11 @@ footer p {
         box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
         z-index: 7;
       }
+=======
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     .nos_sejours_wrapper {
         top: 9vw;
     }
@@ -1165,6 +1219,7 @@ footer p {
         left: 34vw;
         top: 10vw;
     }
+<<<<<<< HEAD
     .instruction {
         top: -1.3vw;
         font-size: 1.4vw;
@@ -1195,6 +1250,8 @@ footer p {
         margin: 0 2vw;
         padding: 0 1vw;
     }
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     footer {
         top: 35vw;
         height: 15vw;

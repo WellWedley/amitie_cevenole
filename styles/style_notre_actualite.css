@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ------- Définition des fonts ------- */
 
 @font-face {
@@ -105,6 +106,8 @@ a:link, ul a:visited {
     font-style: normal;
 }
 
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 /* Début page NOTRE ACTUALITÉ*/
 
 .actu_sejours {
@@ -175,6 +178,10 @@ a:link, ul a:visited {
 .arrow:hover {
     height: 4.5vw;
     transition: height .5s;
+<<<<<<< HEAD
+=======
+    cursor: pointer;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 }
 
 .previous_wrapper {
@@ -203,16 +210,31 @@ a:link, ul a:visited {
 #play_pause {
     position: relative;
     display: flex;
+<<<<<<< HEAD
 
     top: 31vw;
     left: 47.5vw;
+=======
+    top: 31vw;
+    left: 50vw;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     width: 2.5vw;
 }
 
 .play, .pause {
+<<<<<<< HEAD
     width: 2.5vw;
     height: 100%;
     
+=======
+    width: 3vw;
+    height: 100%;
+}
+.pause:hover,.play:hover {
+    cursor: pointer;
+    width: 3.5vw;
+    transition: width .5s;
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 }
 
 /* ACTUALITÉS FACEBOOK & SÉJOURS*/
@@ -417,6 +439,7 @@ footer {
     background-color: #364D5C;
 }
 
+<<<<<<< HEAD
 footer .foot_content {
     position: relative;
     background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
@@ -584,10 +607,13 @@ footer p {
     position: relative;
     top: -2vw;
   }
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 /*---------- @media queries ----------*/
 
 /* Responsive sur les écrans mobiles */
 
+<<<<<<< HEAD
 @media screen and (max-width:1024px) {
     @keyframes slideRight {
         from {
@@ -742,6 +768,9 @@ footer p {
         box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
         z-index: 7;
     }
+=======
+@media screen and (max-width:425px) {
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     #slider .img_gallery {
         width: 40vw;
         height: 100%;
@@ -881,6 +910,7 @@ footer p {
         top: 63vw;
         height: 240vw;
     }
+<<<<<<< HEAD
     footer .foot_content_pair {
         margin: 10vw 0;
     }
@@ -1032,6 +1062,11 @@ footer p {
         box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
         z-index: 7;
     }
+=======
+}
+
+@media screen and (min-width:426px)and ( max-width:768px) {
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     .actu_wrapper {
         flex-direction: column-reverse;
         align-items: center;
@@ -1039,7 +1074,13 @@ footer p {
     .feed_fb {
         display: none;
     }
+<<<<<<< HEAD
     /* .feed_fb {
+=======
+    /* 
+   RÉGLABLE POUR AVOIR FB SUR MOBILE ? 
+    .feed_fb {
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
         text-align: center;
         position: relative;
         width: 90%;
@@ -1094,6 +1135,7 @@ footer p {
         top: 100vw;
         height: 170vw;
     }
+<<<<<<< HEAD
     footer .foot_content_pair {
         margin: 10vw 0;
     }
@@ -1238,6 +1280,11 @@ footer p {
         box-shadow: 0px 4px 7px 0px rgba(54, 77, 92, 0.7);
         z-index: 7;
     }
+=======
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
     .close {
         color: #054872;
         float: right;

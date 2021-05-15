@@ -8,10 +8,13 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 
     <?php
     include_once './header.php'
@@ -27,11 +30,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
     </div>
+<<<<<<< HEAD
     <!-- <div id="play_pause">
 
         <img class="play" src="./img/logo/play.png" alt="Jouer le diaporama">
         <img class="pause" src="./img/logo/pause.png" alt="Arrêter le diaporama">
     </div> -->
+=======
+    <div id="play_pause">
+
+        <img class="play" id="play" src="./img/logo/play.png" alt="Jouer le diaporama">
+        <img class="pause" id="pause" src="./img/logo/pause.png" alt="Arrêter le diaporama">
+    </div>
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
         <div class="next_wrapper" id="next_wrapper">
             <img class="arrow next_arrow" src="img/logo/next.png" alt="Diapositive suivante">
         </div>

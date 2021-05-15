@@ -15,6 +15,7 @@ include 'head.php';
 </head>
 
 <body>
+<<<<<<< HEAD
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -22,6 +23,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <?php
     include 'header.php'; ?>
     <form action="contact-form-send.php" method="POST" class="form_content">
+=======
+    <?php
+    include 'header.php'; ?>
+    <form action="mailjet.php" method="POST" class="form_content">
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
         <div class="login_wrapper">
             
             <div class="first_line_wrapper">

@@ -8,10 +8,13 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+=======
+>>>>>>> 21e096124f2baeb3d435e15e314745c051075d8e
 
     <?php
     include_once 'header.php';

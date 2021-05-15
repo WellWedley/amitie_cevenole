@@ -1,0 +1,1 @@
+<p style="text-align:center;"><em>Support : <a href="mailto:contact@tebayo.com">contact@tebayo.com</a></em></p>

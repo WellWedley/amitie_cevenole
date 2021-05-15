@@ -1,0 +1,24 @@
+SetEnv PHP_VER 5
+Options +FollowSymLinks +Indexes -MultiViews
+DirectoryIndex index.php
+RewriteBase /
+RewriteEngine On
+ErrorDocument 404 /
+ErrorDocument 403 /
+
+
+# Redirection du domaine
+RewriteCond %{HTTP_HOST} !^([a-z]{3,})\.amitiecevenole\.com [NC]
+RewriteRule (.*) http://www.amitiecevenole.com/$1 [QSA,R=301,L]
+
+
+
+RewriteRule ^([0-9]+).php$ $1.html [QSA,L]
+
+RewriteRule ^contact.html$ /contact.php [QSA,L]
+RewriteRule ^inscriptions.html$ /inscriptions.php [QSA,L]
+RewriteRule ^login.html$ /login.php [QSA,L]
+RewriteRule ^contact-form-send.html$ /contact-form-send.php [QSA,L]
+RewriteRule ^nos_sejours.html$ /nos_sejours.php [QSA,L]
+RewriteRule ^notre_actualite.html$ /notre_actualites.php [QSA,L]
+RewriteRule ^notre_asso.html$ /notre_asso.php [QSA,L]
