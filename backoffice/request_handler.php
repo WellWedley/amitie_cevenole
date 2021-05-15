@@ -4,12 +4,9 @@ session_start();
 
 $msg = "";
 if (isset($_POST['SubmitButton'])) {
-    $mail_input = $_POST['email_input'];
-    $pseudo_input = $_POST['email_input'];
-    $options = [
-        'cost' => 10
-    ];
-    $pwd_input = $_POST['password_input'];
+    $mail_input =strip_tags( $_POST['email_input']);
+    $pseudo_input = strip_tags($_POST['pseudo_input']);
+    $pwd_input = strip_tags( $_POST['password_input']);
 
     if ($mail_input != "" && $pwd_input != "") {
 
