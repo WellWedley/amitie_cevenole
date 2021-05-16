@@ -162,7 +162,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="explorateurs_img_right">
 
-                    <img class="img_sejour" src="./img/couverture_séjours/graine_fermier.jpeg" alt="Photo de présentation du séjour Graines de fermier">
+                    <img class="img_sejour" src="./img/couverture_sejours/graine_fermier.jpeg" alt="Photo de présentation du séjour Graines de fermier">
                     <div class="prix_wrapper">
                         <div class="prix">
                             <p>
