@@ -44,7 +44,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a class="first_link first_link1" href="./files/catalogues/explor_ados.pdf" target="_blank">Explor'Ados</a>
                 </div>
                 <div class="explor_img_right">
-                    <img class="img_sejour" src="./img/couverture_séjours/explor_ados.jpg" alt="Photo de présentation du séjour Explor'Ados">
+                    <img class="img_sejour" src="./img/couverture_sejours/explor_ados.jpg" alt="Photo de présentation du séjour Explor'Ados">
                     <div class="prix_wrapper">
                         <div class="prix">
                             <p>
@@ -85,7 +85,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="graine_img_right">
 
-                    <img class="img_sejour" src="./img/couverture_séjours/graine_explo.jpg" alt="Photo de présentation du séjour Explor'Ados">
+                    <img class="img_sejour" src="./img/couverture_sejours/graine_explo.jpg" alt="Photo de présentation du séjour Explor'Ados">
                     <div class="prix_wrapper">
                         <div class="prix">
                             <p>
@@ -126,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a class="first_link first_link3" href="./files/catalogues/cevennes_explor.pdf" target="_blank">Cévennes Explor'</a>
                 </div>
                 <div class="cevennes_img_right">
-                    <img class="img_sejour" src="./img/couverture_séjours/cevennes.jpeg" alt="Photo de présentation du séjour cévennes Explor'">
+                    <img class="img_sejour" src="./img/couverture_sejours/cevennes.jpeg" alt="Photo de présentation du séjour cévennes Explor'">
                     <div class="prix_wrapper">
                         <div class="prix">
                             <p>
@@ -165,7 +165,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="explorateurs_img_right">
 
-                    <img class="img_sejour" src="./img/couverture_séjours/graine_fermier.jpeg" alt="Photo de présentation du séjour Graines de fermier">
+                    <img class="img_sejour" src="./img/couverture_sejours/graine_fermier.jpeg" alt="Photo de présentation du séjour Graines de fermier">
                     <div class="prix_wrapper">
                         <div class="prix">
                             <p>

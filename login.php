@@ -40,7 +40,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
 
                 <div class="first_line_input">
-                    <input placeholder="Email ou mot de passe" type="text" class="email_input" name="email_input" required>
+                    <input placeholder="Email ou pseudo" type="text" class="email_input" name="email_input" >
                 </div>
 
             </div>
@@ -52,17 +52,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
 
                 <div>
-                    <input type="text" class="passw_input" name="password_input" required>
+                    <input type="password" class="passw_input" name="password_input" >
                 </div>
 
             </div>
-
+            <div class="messageError"> </div>
             <div class="last_wrapper">
-                <input type="submit" value="Me connecter" class="connect" name="SubmitButton">
+                <input onclick="checkLogin()" type="submit" value="Me connecter" class="connect" name="submit_btn">
             </div>
 
         </div>
     </form>
+    <script src="js/checkData.js">
+</script>
     <?php
     include_once 'footer.php'; ?>
 </body>

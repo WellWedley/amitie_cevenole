@@ -141,7 +141,11 @@ include_once './header.php'
     </div>
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <script src="js/checkForm.js">
+=======
+<script src="js/checkData.js">
+>>>>>>> features
 </script>
 
 <?php include_once 'footer.php' ?>
