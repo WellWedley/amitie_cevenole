@@ -90,7 +90,7 @@ include_once './header.php'
         </div>
     </div>
 </div>
-<script src="js/checkForm.js">
+<script src="js/checkData.js">
 </script>
 
 <?php include_once 'footer.php' ?>
