@@ -171,11 +171,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         <div class="dates">
                             <p>
-
                                 17/07 au 24/07 2021
-
                             </p>
-
                         </div>
                     </div>
                 </div>

@@ -1,16 +1,20 @@
 <footer>
-<script>
-window.axeptioSettings = {
-  clientId: "609abca213e84069f2a7aea2",
-  cookiesVersion: "amitiecevenole-base",
-};
- 
-(function(d, s) {
-  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-  e.async = true; e.src = "//static.axept.io/sdk.js";
-  t.parentNode.insertBefore(e, t);
-})(document, "script");
-</script>
+
+    <script>
+        window.axeptioSettings = {
+            clientId: "609abca213e84069f2a7aea2",
+            cookiesVersion: "amitiecevenole-base",
+        };
+
+        (function(d, s) {
+            var t = d.getElementsByTagName(s)[0],
+                e = d.createElement(s);
+            e.async = true;
+            e.src = "//static.axept.io/sdk.js";
+            t.parentNode.insertBefore(e, t);
+        })(document, "script");
+    </script>
+
     <div class="foot_content">
         <div class="fb_container">
             <h3 class="aventures">Suivre nos aventures</h3>
@@ -20,7 +24,9 @@ window.axeptioSettings = {
             </a>
         </div>
         <div>
-            <a href="mailto:contact@amitiecevenole.com"> <h3 class="postuler">Postuler</h3> </a>
+            <a href="mailto:contact@amitiecevenole.com">
+                <h3 class="postuler">Postuler</h3>
+            </a>
             <p class="recrutement">Nous recrutons pour nos séjours : </p>
             <p class="recrutement"> Animateurs/trices diplômés </p>
             <p class="recrutement"> Directeurs/trices diplômés</p>
@@ -74,9 +80,8 @@ window.axeptioSettings = {
                 <p>CGV</p>
             </a>
 
-        </div> <a  href="./mentions-legales.php" target="_blank">
+        </div> <a href="./mentions-legales.php" target="_blank">
             <p class="mentions_lien">Mentions légales</p>
         </a>
     </div>
-
 </footer>
