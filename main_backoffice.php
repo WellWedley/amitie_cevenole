@@ -1,4 +1,6 @@
 <?php
+require_once 'backoffice/db/db.php';
+require_once './backoffice/request_handler.php' ; 
 session_start();
 
 ?>
@@ -20,7 +22,7 @@ session_start();
     echo '<h4><a href="logout.php">Logout</a></h4>';
     
   } else {
-    header('location:index.php');
+    header('location:./index.php');
     
   }
   ?>

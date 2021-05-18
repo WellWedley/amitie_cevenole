@@ -1,5 +1,5 @@
 <?php
-require'db/db.php';
+require_once'db/db.php';
 session_start();
 
 $msg = "";
@@ -21,12 +21,11 @@ if (isset($_POST['SubmitButton'])) {
                 if ($mail_input == $row['mail_dir'] || $pseudo_input == $row['pseudo_dir']) {
                     if (password_verify($pwd_input, $row['mdp_dir'])) {
 
-                      
                         $_SESSION['sess_id']   = $row['id_dir'];
                         $_SESSION['sess_username'] = $row['prenom_dir'];
                         $_SESSION['sess_name'] = $row['nom_dir'];
                    
-                        header('location:../../main_backoffice.php');
+                        header('location:../main_backoffice.php');
                     }else {
                         $msg = "Mot de passe ou identifiants non reconnus. ";
                     }
@@ -38,4 +37,5 @@ if (isset($_POST['SubmitButton'])) {
             echo "Error : " . $e->getMessage();
         }
     }
+
 }

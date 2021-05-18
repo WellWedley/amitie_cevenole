@@ -32,7 +32,7 @@
             <div class="second_line_wrapper">
 
                 <div class="first_line_input">
-                    <label for="email_input">Mot de passe </label>
+                    <label for="password_input">Mot de passe </label>
                 </div>
 
                 <div>
