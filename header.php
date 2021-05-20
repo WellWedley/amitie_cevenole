@@ -1,4 +1,3 @@
-
 <div class="logo_wrap_mobile">
     <a class="logo_mobile" href="./index.php">
         <img src="./img/logo/logo.svg" alt="Logo de l'association Amitie Cevenole">
@@ -14,7 +13,7 @@
 </div>
 <nav class="nav_pc" id="menu">
     <!-- Logo de l'association -->
-    <?php 
+    <?php
     if ($curPageName == 'main_backoffice.php') {
         echo '
         <ul>
@@ -25,15 +24,17 @@
         <p>●</p>
     </li>
         <li>
-            <a href="./main_backoffice.php">MON BACKOFFICE</a>
+            <a href="./main_backoffice.php"> ESPACE DIRECTEUR </a>
         </li>
         <li>
             <p>●</p>
         </li>
+        <li>
+        <h4><a href="logout.php">Déconnexion</a></h4>
+        </li>
     
-    </ul>' ; 
-    }
-    else{
+    </ul>';
+    } else {
         echo '
         <ul>
         <a class="logo" href="./index.php">
@@ -75,8 +76,8 @@
                 CONTACT
             </a>
         </li>
-    </ul>'  ;
-    }?>
-   
+    </ul>';
+    } ?>
+
 </nav>
 <script src="./js/menuBurger.js"></script>
