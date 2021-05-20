@@ -1,14 +1,6 @@
 <?php
 require_once 'backoffice/db/db.php';
-<<<<<<< HEAD
-require_once './backoffice/request_handler.php' ; 
-session_start();
-=======
 require_once './backoffice/request_handler.php';
-
->>>>>>> security
-
-
 ?>
 
 <!DOCTYPE html>
@@ -78,18 +70,8 @@ require_once './backoffice/request_handler.php';
 
 
 
-<<<<<<< HEAD
-  if (isset($_SESSION['sess_id']) && $_SESSION['sess_id'] != "") {
-    echo '<h1>Welcome ' . $_SESSION['sess_name'] . '</h1>';
-  
-    
-  } else {
-    header('location:login.php');
-    
-=======
   } else {
     header('location:./index.php');
->>>>>>> security
   }
   ?>
   <?php include('./footer.php') ?>

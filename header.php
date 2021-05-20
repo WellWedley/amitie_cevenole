@@ -24,25 +24,15 @@
         <p>●</p>
     </li>
         <li>
-<<<<<<< HEAD
-            <a href="./main_backoffice.php"> ESPACE DIRECTEUR</a>
-=======
             <a href="./main_backoffice.php"> ESPACE DIRECTEUR </a>
->>>>>>> security
         </li>
         <li>
             <p>●</p>
         </li>
         <li>
-<<<<<<< HEAD
-          <h4><a href="logout.php">Déconnexion </a></h4>
-            </li>
-          
-=======
         <h4><a href="logout.php">Déconnexion</a></h4>
         </li>
     
->>>>>>> security
     </ul>';
     } else {
         echo '
