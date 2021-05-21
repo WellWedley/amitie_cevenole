@@ -58,7 +58,6 @@ src="https://www.facebook.com/tr?id=488025752252239&ev=PageView&noscript=1"
 $curPageName = substr($_SERVER["SCRIPT_NAME"], strrpos($_SERVER["SCRIPT_NAME"], "/") + 1);
 $nomPublic = '';
 if ($curPageName == 'index.php') {
-    echo '<link rel="stylesheet"  href="./styles/styles.css"/>';
     $nomPublic = "Accueil ";
 } else if ($curPageName == 'notre_asso.php') 
 {
@@ -86,7 +85,9 @@ if ($curPageName == 'index.php') {
     $nomPublic = "Connexion ";
 } else if ($curPageName == 'main_backoffice.php') 
 {
-    echo '<link rel="stylesheet"  href="./styles/main_back.css"/>';
+    echo '<link rel="stylesheet"  href="./styles/styles.css"/>';
+
+    echo '<link rel="stylesheet"  href="./styles/main_backoffice.css"/>';
     $nomPublic = "Mon BackOffice ";
 } 
     

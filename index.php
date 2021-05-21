@@ -139,6 +139,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     </div>
+    <div class="footer_perm">
+        <h4>Permanences du siège : </h4>
+        <div class="perm_list">
+            <div>
+                <p>Mardi, jeudi : 9h30 à 13h30</p>
+            </div>
+            <div>
+                <p>Mercredi : 10h00 à 13h00 - 14h à 16h30</p>
+                
+            </div>
+        </div>
+    </div>
 
 <<<<<<< HEAD
     <script src="./js/countdown_timer.js"></script>
