@@ -23,12 +23,17 @@ require_once './backoffice/request_handler.php';
       <div class="add_box">
         <div class="add_cpt" id="add_cpt">
           <form>
-            <label for="next_departure" id="year_dep_label"></label>
+            <label for="year_select" id="year_dep_label"></label>
             <select name="year_select" id="year_dep_sel">
 
             </select>
-            <label for="next_departure" id="month_dep_label"></label>
+            <label for="month_select" id="month_dep_label"></label>
             <select name="month_selec" id="month_dep_sel">
+
+            </select> 
+            
+            <label for="day_select" id="day_dep_label"></label>
+            <input type="date" name="day_select" id="day_dep_sel">
 
             </select>
           </form>

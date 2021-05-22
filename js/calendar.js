@@ -8,6 +8,7 @@ let calendar = {
     displaydates: function (years, months, days) {
         years = this.years;
         months = this.months;
+        days = this.days;
         let yearSelect = document.getElementById('year_dep_sel');
         let yearLabelName = document.getElementById('year_dep_label');
         yearLabelName.innerHTML = 'Année : ';
@@ -15,6 +16,10 @@ let calendar = {
         let monthSelect = document.getElementById('month_dep_sel');
         let monthLabelName = document.getElementById('month_dep_label');
         monthLabelName.innerHTML = 'Mois : ';
+
+        let daySelect = document.getElementById('day_dep_sel');
+        let dayLabelName = document.getElementById('day_dep_label');
+        dayLabelName.innerHTML = 'Jour : ';
 
 
         for (let i = 0; i < this.years.length; i++) {
@@ -27,10 +32,20 @@ let calendar = {
 
         for (let i = 0; i < this.months.length; i++) {
 
-            // Creates a new option elem for each year
+            // Creates a new option elem for each month
             let Moption = document.createElement('option');
             Moption.innerHTML = months[i];
             monthSelect.appendChild(Moption);
+        }
+            //  Determine if it's a bissextile year or not
+
+            // Determine how many days in chosen month
+        for (let i = 0; i < this.days.length; i++) {
+
+            // Creates a new option elem for each day
+            let Doption = document.createElement('option');
+            Doption.innerHTML = days[i];
+            daySelect.appendChild(Doption);
         }
 
 
