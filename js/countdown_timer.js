@@ -136,3 +136,5 @@ let x = setInterval(function () {
         document.getElementById("demo").innerHTML = "Les séjours on déjà commencé ! ";
     }
 }, 1000);
+
+debugger
