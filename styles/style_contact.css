@@ -40,10 +40,12 @@ body {
 
 .contact_title_wrap {
     position: relative;
-    top: 17.7vw;
+    top: 3.7vw;
     left: 15vw;
     width: 80vw;
 }
+
+
 
 .contact_title {
     position: relative;
@@ -53,9 +55,18 @@ body {
     color: #054872;
 }
 
+.footer_perm{
+    position: relative;
+    top: 12vw;
+      color: #054872;
+      font-family: "Poppins Medium";
+      font-size: 1.6vw;
+      text-align: center;
+    }
+
 .contact_wrapper {
     position: relative;
-    top: 16vw;
+    top: 12vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -149,17 +160,19 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    top: 95vw;
+    top: 75vw;
     height: 15vw;
     background-color: #364D5C;
 }
 /*---------- @media queries ----------*/
 
 @media screen and (max-width:425px) {
+    
     .contact_title_wrap {
         width: 80vw;
     }
     .contact_title {
+        top: 4vw;
         font-size: 3vw;
     }
     .contact_wrapper {
@@ -174,7 +187,7 @@ footer {
         align-items: center;
         left: 17.8vw;
         position: absolute;
-        top: 75vw;
+        top: 90vw;
     }
     footer {
         flex-direction: column;
@@ -185,6 +198,7 @@ footer {
 
 @media screen and (min-width:426px)and ( max-width:768px) {
     .contact_title_wrap {
+        top: 7.7vw;
         width: 80vw;
     }
     .contact_title {
@@ -195,6 +209,11 @@ footer {
     }
     .send_message {
         font-size: 2.5vw;
+    }
+
+    .nos_sejours {
+
+        top: 82.25vw;
     }
     footer {
         flex-direction: column;
@@ -227,9 +246,16 @@ footer {
 }
 
 @media screen and (min-width:769px) and (max-width:1024px) {
+    
     .contact_title_wrap {
+        top: 8.7vw;
         width: 80vw;
     }
+    
+    .footer_perm{
+        top: 11.5vw;
+       
+        }
     .contact_title {
         font-size: 3vw;
     }
@@ -245,7 +271,7 @@ footer {
         align-items: center;
         left: 34%;
         position: absolute;
-        top: 72vw;
+        top: 74vw;
     }
     footer {
         top: 127vw;

@@ -22,6 +22,20 @@ include_once './header.php'
 <div class="contact_title_wrap">
     <h1 class="contact_title"> N'HÉSITEZ PAS À NOUS CONTACTER ! </h1>
 </div>
+
+<div class="footer_perm">
+        <h4>Permanences du siège : </h4>
+        <div class="perm_list">
+            <div>
+                <p>Mardi, jeudi : 9h30 à 13h30</p>
+            </div>
+            <div>
+                <p>Mercredi : 10h00 à 13h00 - 14h à 16h30</p>
+                
+            </div>
+        </div>
+    </div>
+    
 <form action="./contact-form-send.php" method="POST" class="form_content">
     <div class="contact_wrapper">
         <div class="first_line_wrapper">
