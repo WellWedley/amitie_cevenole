@@ -3,6 +3,7 @@ require_once'db/db.php';
 session_start();
 
 $msg = "";
+// dealing with submit form in contact.php
 if (isset($_POST['SubmitButton'])) {
     $mail_input =strip_tags( $_POST['email_input']);
     $pseudo_input = strip_tags($_POST['pseudo_input']);
@@ -36,3 +37,7 @@ if (isset($_POST['SubmitButton'])) {
     }
 
 }
+
+
+
+//dealing with adding images into a sejour
