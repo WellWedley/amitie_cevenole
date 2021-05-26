@@ -79,31 +79,30 @@ require_once './backoffice/request_handler.php';
             move_uploaded_file($img['tmp_name'], "./files/" . $img['name']);
             array_push($photos_sejours, "./files/" . $img['name']);
 
-            if (isset($_POST['submit'])) {
-              $file_path = strip_tags($_FILES['img_input']);
+            if (isset($_FILES['img_input']['tmp_name'])) {
+              $file_path = $_FILES['img_input'];
 
-              try {
-                $stmt = $db->prepare("SELECT *  FROM `sejours` VALUES (?) ");
-                $stmt->execute(array(':picture'.$i => $file_path));
-                $row = $stmt->fetch(PDO::FETCH_ASSOC);
-                if ($stmt->rowCount() > 0) {
-                  if ($mail_input == $row['mail_dir'] || $pseudo_input == $row['pseudo_dir']) {
-                    if (password_verify($pwd_input, $row['mdp_dir'])) {
+              for ($i = 1; $i < 12; $i++) {
+                try {
 
-                      $_SESSION['sess_id']   = $row['id_dir'];
-                      $_SESSION['sess_username'] = $row['prenom_dir'];
-                      $_SESSION['sess_name'] = $row['nom_dir'];
-
-                      header('location:../main_backoffice.php');
+                  $stmt = $db->prepare("SELECT *  FROM `sejours` WHERE `picture$i` =:picture" . $i . "");
+                  # code...
+                  $stmt->execute(array(':picture' . $i => "picture" . $i));
+                  $row = $stmt->fetch();
+        
+                  echo '<img src="' . $row['picture$i'].'">';
+                    
+                  if ($stmt->rowCount() > 0) {
+                    if ("picture" . $i == $row['picture' . $i]) {
+                      echo '<img src="' . $file_path . '">';
                     } else {
-                      $msg = "Mot de passe ou identifiants non reconnus. ";
+                      $stmt = $pdo->prepare("INSERT INTO sejours (email, vorname, nachname) VALUES (?)");
+                      $stmt->execute(array('info@php-einfach.de', 'Klaus', 'Neumann'));
                     }
                   }
-                } else {
-                  $msg = "Mot de passe ou identifiants non reconnus. ";
+                } catch (PDOException $e) {
+                  echo "Error : " . $e->getMessage();
                 }
-              } catch (PDOException $e) {
-                echo "Error : " . $e->getMessage();
               }
             }
             echo '<p>La photo a bien été envoyée.</p>';
