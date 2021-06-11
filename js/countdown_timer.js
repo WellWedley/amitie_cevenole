@@ -101,17 +101,17 @@ let hoursSubt = document.getElementById('hourSubt');
 let minuteSubt = document.getElementById('minuteSubt');
 let secondSubt = document.getElementById('secondSubt');
 
-let opacity  = 0 ;
+let opacity = 0;
 
 
 // Update the count down every 1 second
-let x = setInterval(function () {
+let x = setInterval(function() {
 
-     opacity = 1 ;
+    opacity = 1;
 
     daysSubt.style.opacity = opacity;
     hoursSubt.style.opacity = opacity;
-    minuteSubt.style.opacity =opacity;
+    minuteSubt.style.opacity = opacity;
     secondSubt.style.opacity = opacity;
 
     let now = new Date().getTime();
@@ -136,5 +136,3 @@ let x = setInterval(function () {
         document.getElementById("demo").innerHTML = "Les séjours on déjà commencé ! ";
     }
 }, 1000);
-
-debugger
