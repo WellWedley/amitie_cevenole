@@ -1,6 +1,7 @@
 <?php
 require_once 'backoffice/db/db.php';
 require_once './backoffice/request_handler.php';
+$sess_id = $_SESSION['sess_id'];
 ?>
 
 <!DOCTYPE html>
@@ -58,6 +59,22 @@ require_once './backoffice/request_handler.php';
       <h1>
         Ajouter des photos à un séjour
       </h1>
+      <form action="./backoffice/files/add_sejour.php">
+      <?php
+
+        $sejours = ['graine_de_fermier','explor_ados','vacances_a_la_mer','cevennes_explor']; 
+          $sql = "SELECT * FROM sejours WHERE id_sejour=? " ; 
+          $req = $db->prepare($sql) ; 
+            
+          $result = $req->execute(array()) ; 
+
+
+        ?>
+
+        <select name="" id=""></select>
+      </form>
+
+
 
       <div class="add_picture_box">
         <form action="" id="add_picture_form" method="POST" enctype="multipart/form-data">
@@ -65,67 +82,9 @@ require_once './backoffice/request_handler.php';
           <button type="submit">Envoyer</button>
         </form>
         <p id="message"></p>
-        <?php
-        if (isset($_FILES['img_input']['tmp_name'])) {
-          $type = mime_content_type($_FILES['img_input']['tmp_name']);
-          $img = $_FILES['img_input'];
-          $photos_sejours = [];
-
-          if (substr($type, 0, 5) == "image") {
-            if (!is_dir('./files/uploads')) {
-              mkdir('./files/uploads');
-            }
-
-            move_uploaded_file($img['tmp_name'], "./files/" . $img['name']);
-            array_push($photos_sejours, "./files/" . $img['name']);
-
-            if (isset($_FILES['img_input']['tmp_name'])) {
-              $file_path = $_FILES['img_input'];
-
-              for ($i = 1; $i < 12; $i++) {
-                try {
-
-                  $stmt = $db->prepare("SELECT *  FROM `sejours` WHERE `picture$i` =:picture" . $i . "");
-                  # code...
-                  $stmt->execute(array(':picture' . $i => "picture" . $i));
-                  $row = $stmt->fetch();
         
-                  echo '<img src="' . $row['picture$i'].'">';
-                    
-                  if ($stmt->rowCount() > 0) {
-                    if ("picture" . $i == $row['picture' . $i]) {
-                      echo '<img src="' . $file_path . '">';
-                    } else {
-                      $stmt = $pdo->prepare("INSERT INTO sejours (email, vorname, nachname) VALUES (?)");
-                      $stmt->execute(array('info@php-einfach.de', 'Klaus', 'Neumann'));
-                    }
-                  }
-                } catch (PDOException $e) {
-                  echo "Error : " . $e->getMessage();
-                }
-              }
-            }
-            echo '<p>La photo a bien été envoyée.</p>';
-
-
-            for ($index = 0; $index < count($photos_sejours); $index++) {
-              echo '<img style="width:50%" src="' . $photos_sejours[$index] . '">';
-              echo $photos_sejours[$index];
-            }
-          } elseif (substr($type, 0, 5) != "image") {
-            echo "Le format de fichier n'est pas pris en charge. (.jpg, .jpeg, .png, )";
-          }
-        } ?>
-
-
-      </div>
-
-    </div>
-
-  </div>
-
   <!-- <?php
-        $sess_id = $_SESSION['sess_id'];
+
         // DISPLAYS user'S SESSION 
         // if (isset($sess_id) && $sess_id != "" &&  $sess_id == 1) {
         // Mettre le code ici, une fois terminé 
@@ -135,11 +94,11 @@ require_once './backoffice/request_handler.php';
         // }
         // 
         ?>-->
+
+
   <?php include('./footer.php') ?>
 
   <!-- Scripts part  -->
-
-
   <script src="./js/calendar.js"></script>
 </body>
 

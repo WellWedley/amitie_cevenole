@@ -15,6 +15,7 @@ if (isset($_POST['SubmitButton'])) {
             $stmt = $db->prepare("SELECT * FROM `directeurs` WHERE `mail_dir`=:mail_input OR `pseudo_dir`=:pseudo_input");
             $stmt->execute(array(':mail_input' => $mail_input, 'pseudo_input' => $pseudo_input));
             $row = $stmt->fetch(PDO::FETCH_ASSOC);
+            
             if ($stmt->rowCount() > 0) {
                 if ($mail_input == $row['mail_dir'] || $pseudo_input == $row['pseudo_dir']) {
                     if (password_verify($pwd_input, $row['mdp_dir'])) {

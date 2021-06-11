@@ -7,7 +7,7 @@
     ?>
 </head>
 
-<body>
+<body id="body">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -54,40 +54,71 @@
             <h1 class="en_cours_1_title">VOIR LES SÉJOURS EN COURS </h1>
             <div class="en_cours_1">
                 <div class="wrap_button1">
-                    <button class="modal_1_button" id="modal_opener">Explor'Ados</button>
+                    <a href="#modal_1" class="modal_1_button" id="modal_opener1">Explor'Ados</a>
                 </div>
 
                 <div class="en_cours_wrap_img1">
                     <img class="en_cours_img" src="./img/couverture_sejours/explor_ados.jpg" alt="Photo de couverture du séjour Explor'Ados">
                 </div>
-                <div id="myModal" class="modal">
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <h1> Cette fonctionnalité sera disponible durant les séjours cet été !</h1>
-                    </div>
-                </div>
+
+             
             </div>
             <div class="en_cours_2">
                 <div class="wrap_button2">
-                    <button class="modal_2_button" id="modal_opener">Cévennes Explor'</button>
+                    <a href="#modal_2" class="modal_2_button" id="modal_opener1">Cévennes Explor'</a>
                 </div>
 
-                <div class="en_cours_wrap_img3">
+                <div class="en_cours_wrap_img2">
                     <img class="en_cours_img" src="./img/couverture_sejours/cevennes.jpeg" alt="Photo de couverture du séjour Cévennes Explor'">
                 </div>
+
+                
             </div>
             <div class="en_cours_3">
                 <div class="wrap_button3">
-                    <button class="modal_3_button">Graines de fermiers</button>
+                    <a href="#modal_3" class="modal_3_button" id="modal_opener2">Graines de fermiers</a>
                 </div>
 
                 <div class="en_cours_wrap_img3">
                     <img class="en_cours_img" src="./img/couverture_sejours/graine_fermier.jpeg" alt="Photo de couverture du séjour Graines de fermier">
                 </div>
+              
             </div>
         </div>
     </div>
+
+    <!-- MODAL WINDOWS -->
+    <div id="modal_1" class="overlay_flight_traveldil">
+	<div class="popup_flight_travlDil">
+		<h2>Fare Rules</h2>
+		<a class="close_flight_travelDl" id="close_flight_travelDl"  href="#">&times;</a>
+		<div class="content_flightht_travel_dil">
+			1st POPUP
+		</div>
+	</div>
+</div>
+
+
+<div id="modal_2" class="overlay_flight_traveldil">
+	<div class="popup_flight_travlDil">
+		<h2>Fare Rules</h2>
+		<a class="close_flight_travelDl" id="close_flight_travelDl" href="#">&times;</a>
+		<div class="content_flightht_travel_dil">
+			2nd POPUP
+		</div>
+	</div>
+</div>
+
+
+<div id="modal_3" class="overlay_flight_traveldil">
+	<div class="popup_flight_travlDil">
+		<h2>Fare Rules</h2>
+		<a class="close_flight_travelDl" id="close_flight_travelDl" href="#">&times;</a>
+		<div class="content_flightht_travel_dil">
+			3rd POPUP
+		</div>
+	</div>
+</div>
 
     <script src="js/slider.js"></script>
     <script src="js/modalTrigger.js"></script>
