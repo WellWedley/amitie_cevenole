@@ -24,39 +24,31 @@ previous.addEventListener("click", function previousSlider() {
         slide.style.mstransform = "translate(" + position + "%)";
 
         next.style.display = "block";
-    }
-    else {
-    }
-    console.log(position);
+    } else {}
 }, false);
 
 
 next.addEventListener("click", function nextSlider() {
-    if (position <= 0 && position >= nb_img / - .33) {
+    if (position <= 0 && position >= nb_img / -.33) {
         clearInterval;
         position -= nb_img / 3;
         slide.style.transform = "translateX(" + position + "%)";
         slide.style.mstransform = "translate(" + position + "%)";
-    }
-    else {
+    } else {
         next.style.display = "none";
     }
 
-    console.log(position);
+
 }, false);
 
 // Fonction qui lance automatiquement les diapositive toutes les 6 secondes
-var autoslide = setInterval(function () {
+var autoslide = setInterval(function() {
     if (position >= nb_img / -.33) {
         position -= nb_img / 3;
-   //     console.log(position);
+        //     
         slide.style.transform = "translateX(" + position + "%)";
         slide.style.mstransform = "translate(" + position + "%)";
-    }
-    else {
+    } else {
         clearInterval
     }
 }, 6000);
-
-
-
