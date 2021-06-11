@@ -50,7 +50,7 @@
                 </a>
             </div>
         </div>
-        <div class="sejours_en_cours">
+        <div class="sejours_en_cours" id="sejour_en_cours">
             <h1 class="en_cours_1_title">VOIR LES SÉJOURS EN COURS </h1>
             <div class="en_cours_1">
                 <div class="wrap_button1">
@@ -65,7 +65,7 @@
             </div>
             <div class="en_cours_2">
                 <div class="wrap_button2">
-                    <a href="#modal_2" class="modal_2_button" id="modal_opener1">Cévennes Explor'</a>
+                    <a href="#modal_2" class="modal_2_button" id="modal_opener2">Cévennes Explor'</a>
                 </div>
 
                 <div class="en_cours_wrap_img2">
@@ -76,7 +76,7 @@
             </div>
             <div class="en_cours_3">
                 <div class="wrap_button3">
-                    <a href="#modal_3" class="modal_3_button" id="modal_opener2">Graines de fermiers</a>
+                    <a href="#modal_3" class="modal_3_button" id="modal_opener3">Graines de fermiers</a>
                 </div>
 
                 <div class="en_cours_wrap_img3">
@@ -91,7 +91,7 @@
     <div id="modal_1" class="overlay_flight_traveldil">
 	<div class="popup_flight_travlDil">
 		<h2>Fare Rules</h2>
-		<a class="close_flight_travelDl" id="close_flight_travelDl"  href="#">&times;</a>
+		<a class="close_flight_travelDl" id="close_flight_travelDl"  href="#sejour_en_cours">&times;</a>
 		<div class="content_flightht_travel_dil">
 			1st POPUP
 		</div>
@@ -102,7 +102,7 @@
 <div id="modal_2" class="overlay_flight_traveldil">
 	<div class="popup_flight_travlDil">
 		<h2>Fare Rules</h2>
-		<a class="close_flight_travelDl" id="close_flight_travelDl" href="#">&times;</a>
+		<a class="close_flight_travelDl" id="close_flight_travelDl2" href="#sejour_en_cours">&times;</a>
 		<div class="content_flightht_travel_dil">
 			2nd POPUP
 		</div>
@@ -113,7 +113,7 @@
 <div id="modal_3" class="overlay_flight_traveldil">
 	<div class="popup_flight_travlDil">
 		<h2>Fare Rules</h2>
-		<a class="close_flight_travelDl" id="close_flight_travelDl" href="#">&times;</a>
+		<a class="close_flight_travelDl" id="close_flight_travelDl3" href="#sejour_en_cours">&times;</a>
 		<div class="content_flightht_travel_dil">
 			3rd POPUP
 		</div>
