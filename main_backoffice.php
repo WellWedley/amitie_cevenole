@@ -1,6 +1,7 @@
 <?php
 require_once 'backoffice/db/db.php';
 require_once './backoffice/request_handler.php';
+$sess_id = $_SESSION['sess_id'];
 ?>
 
 <!DOCTYPE html>
@@ -30,8 +31,8 @@ require_once './backoffice/request_handler.php';
             <label for="month_select" id="month_dep_label"></label>
             <select name="month_selec" id="month_dep_sel">
 
-            </select> 
-            
+            </select>
+
             <label for="day_select" id="day_dep_label"></label>
             <input type="date" name="day_select" id="day_dep_sel">
 
@@ -46,6 +47,7 @@ require_once './backoffice/request_handler.php';
         <div class="rem_cpt">
 
           <form>
+
           </form>
 
         </div>
@@ -57,29 +59,46 @@ require_once './backoffice/request_handler.php';
       <h1>
         Ajouter des photos à un séjour
       </h1>
+      <form action="./backoffice/files/add_sejour.php">
+      <?php
+
+        $sejours = ['graine_de_fermier','explor_ados','vacances_a_la_mer','cevennes_explor']; 
+          $sql = "SELECT * FROM sejours WHERE id_sejour=? " ; 
+          $req = $db->prepare($sql) ; 
+            
+          $result = $req->execute(array()) ; 
+
+
+        ?>
+
+        <select name="" id=""></select>
+      </form>
+
+
 
       <div class="add_picture_box">
+        <form action="" id="add_picture_form" method="POST" enctype="multipart/form-data">
+          <input type="file" name="img_input" id="input_file" multiple />
+          <button type="submit">Envoyer</button>
+        </form>
+        <p id="message"></p>
+        
+  <!-- <?php
+
+        // DISPLAYS user'S SESSION 
+        // if (isset($sess_id) && $sess_id != "" &&  $sess_id == 1) {
+        // Mettre le code ici, une fois terminé 
+
+        // } else {
+        //   header('location:./index.php');
+        // }
+        // 
+        ?>-->
 
 
-      </div>
-
-    </div>
-
-  </div>
-  <?php
-
-  $sess_id = $_SESSION['sess_id'];
-  // DISPLAYS DIRECTOR'S SESSION 
-  if (isset($sess_id) && $sess_id != "" &&  $sess_id == 1) {
-    // Mettre le code ici, une fois terminé 
-
-
-
-  } else {
-    header('location:./index.php');
-  }
-  ?>
   <?php include('./footer.php') ?>
+
+  <!-- Scripts part  -->
   <script src="./js/calendar.js"></script>
 </body>
 

@@ -1,33 +1,51 @@
+// Buttons that allow opening modal windows
+let modal1 = document.getElementById("modal_opener1");
+let modal2 = document.getElementById("modal_opener2");
+let modal3 = document.getElementById("modal_opener3");
+
+// Crosses supposed to close modal windo
+let close = document.getElementById("close_flight_travelDl");
+let close2 = document.getElementById("close_flight_travelDl2");
+let close3 = document.getElementById("close_flight_travelDl3");
+
+let body = document.getElementById("body");
 
 
-// Get the modal
-var modal = document.getElementById("myModal");
+// Waits for a click on the modal, opener, then changes body style
+modal1.addEventListener("click", function() {
+    body.style.overflowY = "hidden";
 
-// Get the button that opens the modal
-var btn = document.getElementById("modal_opener");
+}, false);
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+modal2.addEventListener("click", function() {
+    body.style.overflowY = "hidden";
 
-// When the user clicks on the button, open the modal
+}, false);
 
-  btn.addEventListener("click", function () {
-    modal.style.display = "block";
-  }, false);
+modal3.addEventListener("click", function() {
+    body.style.overflowY = "hidden";
 
-
-
+}, false);
 
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-  modal.style.display = "none";
-}
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
 
-}
+
+
+// Waits for a click on the modal, opener, then reapply original overflow to body
+close.addEventListener("click", function() {
+    // Get body
+    body.style.overflowY = "auto";
+
+}, false);
+close2.addEventListener("click", function() {
+    // Get body
+    body.style.overflowY = "auto";
+
+}, false);
+
+close3.addEventListener("click", function() {
+    // Get body
+    body.style.overflowY = "auto";
+
+}, false);
