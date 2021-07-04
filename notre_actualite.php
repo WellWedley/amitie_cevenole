@@ -61,7 +61,7 @@
                     <img class="en_cours_img" src="./img/couverture_sejours/explor_ados.jpg" alt="Photo de couverture du séjour Explor'Ados">
                 </div>
 
-             
+
             </div>
             <div class="en_cours_2">
                 <div class="wrap_button2">
@@ -72,53 +72,212 @@
                     <img class="en_cours_img" src="./img/couverture_sejours/cevennes.jpeg" alt="Photo de couverture du séjour Cévennes Explor'">
                 </div>
 
-                
+
             </div>
             <div class="en_cours_3">
                 <div class="wrap_button3">
-                    <a href="#modal_3" class="modal_3_button" id="modal_opener3">Graines de fermiers</a>
+                    <a href="#modal_3" class="modal_3_button" id="modal_opener3">Graines d'explorateurs</a>
                 </div>
 
                 <div class="en_cours_wrap_img3">
                     <img class="en_cours_img" src="./img/couverture_sejours/graine_fermier.jpeg" alt="Photo de couverture du séjour Graines de fermier">
                 </div>
-              
+
             </div>
         </div>
     </div>
 
     <!-- MODAL WINDOWS -->
     <div id="modal_1" class="overlay_flight_traveldil">
-	<div class="popup_flight_travlDil">
-		<h2>Fare Rules</h2>
-		<a class="close_flight_travelDl" id="close_flight_travelDl"  href="#sejour_en_cours">&times;</a>
-		<div class="content_flightht_travel_dil">
-			1st POPUP
-		</div>
-	</div>
-</div>
+        <div class="popup_flight_travlDil">
+            <h2>Explor'Ados : Du 10 au 17 Juillet 2021 </h2>
+            <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">&times;</a>
+
+            <div class="sejours_sliders_wrap">
+                <div class="explor_ados_photos_sejours_wrap">
+                    <div class="slider_wrap">
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                        </div>
+                        <div class="section__item bg-1">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                        </div>
+                        <div class="section__item bg-2">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-3">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Explor'Ados : Du 17 au 24 Juillet 2021 </h2>
+                        <div class="slider_wrap">
+                            <div class="section__item bg-5">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                            </div>
+                            <div class="section__item bg-5">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                            </div>
+                            <div class="section__item bg-5">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                            </div>
+                            <div class="section__item bg-1">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                            </div>
+                            <div class="section__item bg-2">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            </div>
+                            <div class="section__item bg-3">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            </div>
+                            <div class="section__item bg-4">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2>Explor'Ados : Du 24 au 31 Juillet 2021 </h2>
+
+                        <div class="slider_wrap">
+                            <div class="section__item bg-5">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                            </div>
+                            <div class="section__item bg-5">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                            </div>
+                            <div class="section__item bg-5">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                            </div>
+                            <div class="section__item bg-1">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                            </div>
+                            <div class="section__item bg-2">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            </div>
+                            <div class="section__item bg-3">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            </div>
+                            <div class="section__item bg-4">
+                                <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<div id="modal_2" class="overlay_flight_traveldil">
-	<div class="popup_flight_travlDil">
-		<h2>Fare Rules</h2>
-		<a class="close_flight_travelDl" id="close_flight_travelDl2" href="#sejour_en_cours">&times;</a>
-		<div class="content_flightht_travel_dil">
-			2nd POPUP
-		</div>
-	</div>
-</div>
+    <div id="modal_2" class="overlay_flight_traveldil">
+        <div class="popup_flight_travlDil">
+            <h2>Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
+            <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">&times;</a>
+            <div class="sejours_sliders_wrap">
+                <div class="explor_ados_photos_sejours_wrap">
+                    <div class="slider_wrap">
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                        </div>
+                        <div class="section__item bg-1">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                        </div>
+                        <div class="section__item bg-2">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-3">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+
+                        </div>
+                    </div>
+                    <!-- <h2>Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
+
+                    <div class="slider_wrap">
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                        </div>
+                        <div class="section__item bg-1">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                        </div>
+                        <div class="section__item bg-2">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-3">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<div id="modal_3" class="overlay_flight_traveldil">
-	<div class="popup_flight_travlDil">
-		<h2>Fare Rules</h2>
-		<a class="close_flight_travelDl" id="close_flight_travelDl3" href="#sejour_en_cours">&times;</a>
-		<div class="content_flightht_travel_dil">
-			3rd POPUP
-		</div>
-	</div>
-</div>
+    <div id="modal_3" class="overlay_flight_traveldil">
+        <div class="popup_flight_travlDil">
+            <h2>Graines d'explorateurs: Du 10 au 17 Juillet 2021 </h2>
+            <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">&times;</a>
+            <div class="sejours_sliders_wrap">
+                <div class="explor_ados_photos_sejours_wrap">
+                    <div class="slider_wrap">
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                        </div>
+                        <div class="section__item bg-1">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                        </div>
+                        <div class="section__item bg-2">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-3">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/slider.js"></script>
     <script src="js/modalTrigger.js"></script>

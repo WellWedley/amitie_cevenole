@@ -8,7 +8,6 @@ var nb_img = 27;
 var play = document.getElementsByClassName("play");
 var pause = document.getElementsByClassName("pause");
 window.addEventListener("DOMContentLoaded", function createImg() {
-
     let array_img = { src: [] };
     for (let index_img = 1; index_img < nb_img; index_img++) {
         array_img.src[index_img] = index_img;
