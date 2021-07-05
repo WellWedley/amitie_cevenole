@@ -410,13 +410,21 @@ ul a:visited {
     -webkit-overflow-scrolling: touch;
     scroll-padding: 1rem;
     text-align: center;
-    color: #364D5C;
+    color: #054872;
 }
 
-.popup_flight_travlDil .close_flight_travelDl {
+.close_flight_travelDl .close_text {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    right: 2vw;
+    top: 0;
+    color: #054872;
+    font-size: 1.2vw;
+}
+
+.close_flight_travelDl .close_logo {
+    position: absolute;
+    top: -1.5vw;
+    right: 3vw;
     transition: all 200ms;
     font-size: 3vw;
     font-weight: bold;
@@ -427,25 +435,13 @@ ul a:visited {
 
 /* Closing Cross */
 
-.close_flight_travelDl:hover,
-.close_flight_travelDl:focus {
+.close_flight_travelDl .close_logo:hover,
+.close_flight_travelDl .close_logo:focus .close_flight_travelDl .close_text:hover,
+.close_flight_travelDl .close_text:focus {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
-
-.close {
-    color: #054872;
-    float: right;
-    font-size: 5vw;
-    font-weight: bold;
-}
-
-
-/* .popup_flight_travlDil .content_flightht_travel_dil {
-    max-height: 30%;
-    overflow: auto;
-} */
 
 
 /* SLIDER DU SÉJOURS EXPLOR'ADOS  */
@@ -978,7 +974,7 @@ footer p {
         top: -4vw;
         color: #054872;
         float: right;
-        font-size: 8vw;
+        font-size: 10vw;
         font-weight: bold;
     }
     .close:hover,
