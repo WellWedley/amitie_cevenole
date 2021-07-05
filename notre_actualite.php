@@ -93,10 +93,22 @@
     <div id="modal_1" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
             <h2>Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
-            <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
-                <p class="close_text">Fermer </p>
-                <p class="close_logo">&times;</p>
-            </a>
+            <div class="close_flight_travelDl">
+
+                <a id="close_flight_travelDl" href="#sejour_en_cours">
+                    <div class="close_text">
+                        <p>Fermer </p>
+                    </div>
+                    <div>
+                        <p>&times;</p>
+                    </div>
+                </a>
+
+
+            </div>
+
+
+
             <div class="sejours_sliders_wrap">
                 <div class="explor_ados_photos_sejours_wrap">
                     <div class="slider_wrap">
@@ -123,7 +135,7 @@
 
                         </div>
                     </div>
-                    <!-- <h2>Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
+                    <h2>Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
@@ -148,7 +160,7 @@
                             <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
 
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -225,34 +237,34 @@
                 <p class="close_text">Fermer </p>
                 <p class="close_logo">&times;</p>
             </a>
-                <div class="explor_ados_photos_sejours_wrap">
-                    <div class="slider_wrap">
-                        <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
-                        </div>
-                        <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
-                        </div>
-                        <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
-                        </div>
-                        <div class="section__item bg-1">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
-                        </div>
-                        <div class="section__item bg-2">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
-                        </div>
-                        <div class="section__item bg-3">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
-                        </div>
-                        <div class="section__item bg-4">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+            <div class="explor_ados_photos_sejours_wrap">
+                <div class="slider_wrap">
+                    <div class="section__item bg-5">
+                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                    </div>
+                    <div class="section__item bg-5">
+                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                    </div>
+                    <div class="section__item bg-5">
+                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                    </div>
+                    <div class="section__item bg-1">
+                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-3">
+                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-4">
+                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 

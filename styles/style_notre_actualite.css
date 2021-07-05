@@ -413,8 +413,35 @@ ul a:visited {
     color: #054872;
 }
 
-.close_flight_travelDl .close_text {
+.close_flight_travelDl {
     position: absolute;
+    right: 2vw;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.close_flight_travelDl .close_text {
+    font-size: ;
+}
+
+.close_flight_travelDl .close_logo {
+    font-size: 8vw;
+}
+
+.close_flight_travelDl .close_text,
+.close_flight_travelDl p {
+    color: #054872;
+}
+
+.close_flight_travelDl .close_text:hover,
+.close_flight_travelDl p:hover {
+    color: #fff;
+}
+
+
+/* .close_flight_travelDl .close_text {
+    position: sticky;
     right: 2vw;
     top: 0;
     color: #054872;
@@ -422,7 +449,7 @@ ul a:visited {
 }
 
 .close_flight_travelDl .close_logo {
-    position: absolute;
+    position: sticky;
     top: -1.5vw;
     right: 3vw;
     transition: all 200ms;
@@ -430,18 +457,20 @@ ul a:visited {
     font-weight: bold;
     text-decoration: none;
     color: #054872;
-}
+} */
 
 
 /* Closing Cross */
 
-.close_flight_travelDl .close_logo:hover,
-.close_flight_travelDl .close_logo:focus .close_flight_travelDl .close_text:hover,
+
+/* .close_flight_travelDl .close_logo:hover,
+.close_flight_travelDl .close_logo:focus,
+.close_flight_travelDl p:hover,
 .close_flight_travelDl .close_text:focus {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
-}
+} */
 
 
 /* SLIDER DU SÉJOURS EXPLOR'ADOS  */
