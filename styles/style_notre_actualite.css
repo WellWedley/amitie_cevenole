@@ -1019,6 +1019,11 @@ footer p {
         text-decoration: none;
         cursor: pointer;
     }
+    /* TITRES  */
+    .explor_ados_photos_sejours_wrap .slider_title_h2 {
+        position: relative;
+        top: 5vw;
+    }
     /* TAILLE DES IMAGES DU SLIDER POUR CHAQUE SÉJOUR */
     .slider_wrap {
         gap: .5vw;

@@ -136,7 +136,7 @@
 
                         </div>
                     </div>
-                    <h2>Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
+                    <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
@@ -168,7 +168,7 @@
     </div>
     <div id="modal_2" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
-            <h2>Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
+            <h2 class="slider_title_h2">Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
             <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
                 <p class="close_text">Fermer </p>
                 <p class="close_logo">&times;</p>
@@ -199,7 +199,7 @@
 
                         </div>
                     </div>
-                    <!-- <h2>Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
+                    <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
@@ -224,7 +224,7 @@
                             <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
 
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -233,7 +233,7 @@
 
     <div id="modal_3" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
-            <h2>Graines d'explorateurs: Du 10 au 17 Juillet 2021 </h2>
+            <h2 class="slider_title_h2">Graines d'explorateurs: Du 10 au 17 Juillet 2021 </h2>
             <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
                 <p class="close_text">Fermer </p>
                 <p class="close_logo">&times;</p>
