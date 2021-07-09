@@ -1013,6 +1013,14 @@ footer p {
         font-size: 10vw;
         font-weight: bold;
     }
+    .close_flight_travelDl .close_logo {
+        font-size: 7vw;
+        top: -7vw;
+    }
+    .close_flight_travelDl .close_text {
+        font-size: 5vw;
+        top: 5vw;
+    }
     .close:hover,
     .close:focus {
         color: black;

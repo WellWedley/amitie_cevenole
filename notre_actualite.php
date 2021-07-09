@@ -92,9 +92,8 @@
 
     <div id="modal_1" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
-            <h2>Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
+            <h2> Explor' Ados : Du 10 au 17 Juillet 2021 </h2>
             <div class="close_flight_travelDl">
-
                 <a id="close_flight_travelDl" href="#sejour_en_cours">
                     <div class="close_logo">
                         <p>&times;</p>
@@ -104,8 +103,6 @@
                     </div>
 
                 </a>
-
-
             </div>
 
 
@@ -136,7 +133,7 @@
 
                         </div>
                     </div>
-                    <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
+                    <!-- <h2> Explor' Ados : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
@@ -162,6 +159,32 @@
 
                         </div>
                     </div>
+                    <h2> Explor' Ados : Du 24 au 31 Juillet 2021 </h2>
+
+                    <div class="slider_wrap">
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                        </div>
+                        <div class="section__item bg-1">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                        </div>
+                        <div class="section__item bg-2">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-3">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -199,7 +222,7 @@
 
                         </div>
                     </div>
-                    <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
+                    <!-- <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
@@ -224,7 +247,7 @@
                             <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
