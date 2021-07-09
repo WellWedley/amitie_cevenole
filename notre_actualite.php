@@ -96,12 +96,13 @@
             <div class="close_flight_travelDl">
 
                 <a id="close_flight_travelDl" href="#sejour_en_cours">
+                    <div class="close_logo">
+                        <p>&times;</p>
+                    </div>
                     <div class="close_text">
                         <p>Fermer </p>
                     </div>
-                    <div>
-                        <p>&times;</p>
-                    </div>
+
                 </a>
 
 

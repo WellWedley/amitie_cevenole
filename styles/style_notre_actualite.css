@@ -419,14 +419,21 @@ ul a:visited {
     top: 0;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .close_flight_travelDl .close_text {
-    font-size: ;
+    /* position: absolute;
+    top: 1vw;
+    right: .2vw; */
+    font-size: 1.5vw;
 }
 
 .close_flight_travelDl .close_logo {
-    font-size: 8vw;
+    font-size: 2vw;
+    position: absolute;
+    top: -2vw;
+    right: 2vw;
 }
 
 .close_flight_travelDl .close_text,
