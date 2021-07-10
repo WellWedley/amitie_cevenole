@@ -111,77 +111,100 @@
                 <div class="explor_ados_photos_sejours_wrap">
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                            <div class="section_img_content first">
+                                <h3>Le petit mot du jour : </h3>
+                                <p>Nous sommes bien arrivés à Mons. La première baignade s'est bien déroulée. On en a bien profité. Ce soir nous faisons une capture de drapeaux, et ça court de partout sur le camp ! </p>
+                                <p>À bientôt !</p>
+                            </div>
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_154544-min.jpg" alt="ZFZEF">
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_154554-min.jpg" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_160756-min.jpg" alt="ZEFZF">
                         </div>
                         <div class="section__item bg-1">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_160802-min.jpg" alt="DAZD">
                         </div>
                         <div class="section__item bg-2">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_160811-min.jpg" alt="AZD">
                         </div>
                         <div class="section__item bg-3">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_161801-min.jpg" alt="AZD">
                         </div>
                         <div class="section__item bg-4">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
-
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_163142-min.jpg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_182633-min.jpg" alt="">
                         </div>
                     </div>
                     <!-- <h2> Explor' Ados : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
-                        <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                         <div class="section__item bg-5">
+                            <div class="section_img_content first">
+                                <h3>Le petit mot du jour : </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, nemo perspiciatis. Corporis eius libero voluptas placeat illum aspernatur repellat, aperiam labore. Illo modi animi ea, maiores eius obcaecati iste impedit?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quas numquam vitae necessitatibus, quidem delectus eligendi! Consectetur error eius nostrum quas possimus neque quidem consequatur porro dolorem omnis. Provident, nam.</p>
+                            </div>
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZFZEF">
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZEFZF">
                         </div>
                         <div class="section__item bg-1">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="DAZD">
                         </div>
                         <div class="section__item bg-2">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
                         </div>
                         <div class="section__item bg-3">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
                         </div>
                         <div class="section__item bg-4">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="">
 
                         </div>
                     </div>
                     <h2> Explor' Ados : Du 24 au 31 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
-                        <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                         <div class="section__item bg-5">
+                            <div class="section_img_content first">
+                                <h3>Le petit mot du jour : </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, nemo perspiciatis. Corporis eius libero voluptas placeat illum aspernatur repellat, aperiam labore. Illo modi animi ea, maiores eius obcaecati iste impedit?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quas numquam vitae necessitatibus, quidem delectus eligendi! Consectetur error eius nostrum quas possimus neque quidem consequatur porro dolorem omnis. Provident, nam.</p>
+                            </div>
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZFZEF">
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZEFZF">
                         </div>
                         <div class="section__item bg-1">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="DAZD">
                         </div>
                         <div class="section__item bg-2">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
                         </div>
                         <div class="section__item bg-3">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
                         </div>
                         <div class="section__item bg-4">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="">
 
                         </div>
                     </div> -->
@@ -200,51 +223,65 @@
                 <div class="explor_ados_photos_sejours_wrap">
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                            <div class="section_img_content first">
+                                <h3>Le petit mot du jour : </h3>
+                                <p>
+                                    Ce séjour n'a pas encore commencé ! </p>
+                            </div>
+                        </div>
+                        <!-- <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZFZEF">
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="FZEZF">
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZEFZF">
                         </div>
                         <div class="section__item bg-1">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="DAZD">
                         </div>
                         <div class="section__item bg-2">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
                         </div>
                         <div class="section__item bg-3">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
                         </div>
                         <div class="section__item bg-4">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="">
 
-                        </div>
+                        </div> -->
                     </div>
                     <!-- <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
-                        <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                         <div class="section__item bg-5">
+                            <div class="section_img_content first">
+                                <h3>Le petit mot du jour : </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, nemo perspiciatis. Corporis eius libero voluptas placeat illum aspernatur repellat, aperiam labore. Illo modi animi ea, maiores eius obcaecati iste impedit?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quas numquam vitae necessitatibus, quidem delectus eligendi! Consectetur error eius nostrum quas possimus neque quidem consequatur porro dolorem omnis. Provident, nam.</p>
+                            </div>
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZFZEF">
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="FZEZF">
+                        </div>
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZEFZF">
                         </div>
                         <div class="section__item bg-1">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="DAZD">
                         </div>
                         <div class="section__item bg-2">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
                         </div>
                         <div class="section__item bg-3">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
                         </div>
                         <div class="section__item bg-4">
-                            <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="">
 
                         </div>
                     </div> -->
@@ -256,35 +293,40 @@
 
     <div id="modal_3" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
-            <h2 class="slider_title_h2">Graines d'explorateurs: Du 10 au 17 Juillet 2021 </h2>
+            <h2 class="slider_title_h2">Graines d'explorateurs : Du 17 au 24 Juillet 2021 </h2>
             <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
                 <p class="close_text">Fermer </p>
                 <p class="close_logo">&times;</p>
             </a>
             <div class="explor_ados_photos_sejours_wrap">
-            <!-- Slider contenant les photos et les textes des enfants.  -->
+                <!-- Slider contenant les photos et les textes des enfants.  -->
                 <div class="slider_wrap">
                     <div class="section__item bg-5">
-                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
+                        <div class="section_img_content first">
+                            <h3>Le petit mot du jour : </h3>
+                            <p>
+                                Nous sommes bien arrivés à Mons La Trivalle. La première baignade s'est bien déroulée. On en a bien profité. Ce soir nous faisons une balle américaine, et ça court de partout sur le camp ! </p>
+                            <p>À demain !</p>
+                        </div>
                     </div>
                     <div class="section__item bg-5">
-                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="FZEZF">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_144354-min.jpg" alt="ZFZEF">
                     </div>
                     <div class="section__item bg-5">
-                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZEFZF">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_144402-min.jpg" alt="FZEZF">
                     </div>
+
                     <div class="section__item bg-1">
-                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="DAZD">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_150829-min.jpg" alt="DAZD">
                     </div>
                     <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_150834-min.jpg" alt="AZD">
                     </div>
-                    <div class="section__item bg-3">
-                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="AZD">
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_182651-min.jpg" alt="AZD">
                     </div>
-                    <div class="section__item bg-4">
-                        <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="">
-
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_182706-min.jpg" alt="AZD">
                     </div>
                 </div>
             </div>
