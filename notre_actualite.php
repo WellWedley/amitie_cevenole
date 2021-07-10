@@ -226,31 +226,41 @@
                             <div class="section_img_content first">
                                 <h3>Le petit mot du jour : </h3>
                                 <p>
-                                    Ce séjour n'a pas encore commencé ! </p>
+                                    Hello tout le monde ! Tout va bien, nous avons passé une super journée. Le camping est génial. On prend nos marques sur le camp avec plein d'activités. </p>
+                                    <p>À demain pour plein de belles aventures ! ☺️</p>
                             </div>
                         </div>
-                        <!-- <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZFZEF">
+                        <div class="section__item bg-5">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/1.jpeg" alt="ZFZEF">
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="FZEZF">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/2.jpeg" alt="FZEZF">
                         </div>
                         <div class="section__item bg-5">
-                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="ZEFZF">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/3.jpeg" alt="ZEFZF">
                         </div>
                         <div class="section__item bg-1">
-                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="DAZD">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/4.jpeg" alt="DAZD">
                         </div>
                         <div class="section__item bg-2">
-                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/5.jpeg" alt="AZD">
                         </div>
                         <div class="section__item bg-3">
-                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="AZD">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/6.jpeg" alt="AZD">
                         </div>
                         <div class="section__item bg-4">
-                            <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/" alt="">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/7.jpeg" alt="">
 
-                        </div> -->
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/8.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/9.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/10.jpeg" alt="">
+                        </div>
                     </div>
                     <!-- <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
 
@@ -313,7 +323,7 @@
                         <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_144354-min.jpg" alt="ZFZEF">
                     </div>
                     <div class="section__item bg-5">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_144402-min.jpg" alt="FZEZF">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/" alt="FZEZF">
                     </div>
 
                     <div class="section__item bg-1">
