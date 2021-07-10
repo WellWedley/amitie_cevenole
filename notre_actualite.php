@@ -319,24 +319,43 @@
                             <p>À demain !</p>
                         </div>
                     </div>
-                    <div class="section__item bg-5">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_144354-min.jpg" alt="ZFZEF">
-                    </div>
-                    <div class="section__item bg-5">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/" alt="FZEZF">
-                    </div>
+                 
 
                     <div class="section__item bg-1">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_150829-min.jpg" alt="DAZD">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/1.jpeg" alt="DAZD">
                     </div>
                     <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_150834-min.jpg" alt="AZD">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/2.jpeg" alt="AZD">
                     </div>
                     <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_182651-min.jpg" alt="AZD">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/3.jpeg" alt="AZD">
                     </div>
                     <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/IMG_20210710_182706-min.jpg" alt="AZD">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/4.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/5.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/6.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/7.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/8.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/9.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/10.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/11.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/12.jpeg" alt="AZD">
                     </div>
                 </div>
             </div>
