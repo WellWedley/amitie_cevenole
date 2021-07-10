@@ -262,6 +262,7 @@
                 <p class="close_logo">&times;</p>
             </a>
             <div class="explor_ados_photos_sejours_wrap">
+            <!-- Slider contenant les photos et les textes des enfants.  -->
                 <div class="slider_wrap">
                     <div class="section__item bg-5">
                         <img class="section_img_content" src="./img/photos_sejours/10.jpeg" alt="ZFZEF">
