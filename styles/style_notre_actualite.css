@@ -504,6 +504,14 @@ ul a:visited {
     scroll-padding: 1rem;
 }
 
+.slider_wrap .first {
+    padding: 2.5vw;
+    overflow: hidden;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
 .section__item {
     --stop: normal;
     display: flex;
