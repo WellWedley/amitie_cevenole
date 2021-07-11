@@ -415,8 +415,8 @@
                         <div class="section_img_content first">
                             <h3>Le petit mot du jour (Dimanche) : </h3>
                             <p>
-                                Nous sommes bien arrivés à Mons La Trivalle. La première baignade s'est bien déroulée. On en a bien profité. Ce soir nous faisons une balle américaine, et ça court de partout sur le camp ! </p>
-                            <p>À demain !</p>
+                               Bonjour à tous ! Aujourd'hui nous nous sommes bien dépensés entre le morpion, le relais et la baignade ! Mais ce n'est pas fini, maintenant nous allons faire travailler les méninges avec un Cluedo !  </p>
+                            <p>À Plus ! 🤪</p>
                         </div>
                     </div>
                     <div class="section__item bg-2">
