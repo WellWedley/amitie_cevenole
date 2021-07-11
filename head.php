@@ -72,6 +72,7 @@ if ($curPageName == 'index.php') {
     $nomPublic = "S'inscrire à un séjour ";
 } else if ($curPageName == 'notre_actualite.php') 
 {
+     header("Cache-Control: no-cache, must-revalidate"); 
     echo '<link rel="stylesheet"  href="./styles/style_notre_actualite.css"/>';
     $nomPublic = "Notre actualité ";
 } else if ($curPageName == 'contact.php') 
