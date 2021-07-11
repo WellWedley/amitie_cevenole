@@ -113,8 +113,8 @@
                         <div class="section__item bg-5">
                             <div class="section_img_content first">
                                 <h3>Le petit mot du jour (Dimanche) : </h3>
-                                <p>Nous sommes bien arrivés à Mons. La première baignade s'est bien déroulée. On en a bien profité. Ce soir nous faisons une capture de drapeaux, et ça court de partout sur le camp ! </p>
-                                <p>À bientôt !</p>
+                                <p>Coucou ! On ne vous manque pas encore ? Ça devrait être le cas ! Nous avons déjà bien lancé le séjour, on s'entend tous bien et on a fait un Loup-Garou avant le repas. L'après-midi on est allés faire un Water-polo revisité façon Amitié Cévenole. La participation était au rendez-vous tant au niveau des filles que des garçons ! </p>
+                                <p>À bientôt ! 😉</p>
                             </div>
                         </div>
 
