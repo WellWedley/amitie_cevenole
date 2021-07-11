@@ -112,10 +112,56 @@
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
                             <div class="section_img_content first">
-                                <h3>Le petit mot du jour : </h3>
+                                <h3>Le petit mot du jour (Dimanche) : </h3>
                                 <p>Nous sommes bien arrivés à Mons. La première baignade s'est bien déroulée. On en a bien profité. Ce soir nous faisons une capture de drapeaux, et ça court de partout sur le camp ! </p>
                                 <p>À bientôt !</p>
                             </div>
+                        </div>
+
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.07.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.08(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.08(2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.08.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.09(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.09(2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.09(3).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.09.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.10(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.10(2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.10(3).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.10.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.11(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.11.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/02_Dimanche/16.32.06.jpeg" alt="">
                         </div>
                         <div class="section__item bg-5">
                             <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_154544-min.jpg" alt="ZFZEF">
@@ -141,13 +187,15 @@
                         <div class="section__item bg-4">
                             <img class="section_img_content" src="./img/sliders/Explor_Ados/01_Samedi/IMG_20210710_182633-min.jpg" alt="">
                         </div>
+                        
+                      
                     </div>
                     <!-- <h2> Explor' Ados : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
                          <div class="section__item bg-5">
                             <div class="section_img_content first">
-                                <h3>Le petit mot du jour : </h3>
+                                <h3>Le petit mot du jour (Dimanche) : </h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, nemo perspiciatis. Corporis eius libero voluptas placeat illum aspernatur repellat, aperiam labore. Illo modi animi ea, maiores eius obcaecati iste impedit?</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quas numquam vitae necessitatibus, quidem delectus eligendi! Consectetur error eius nostrum quas possimus neque quidem consequatur porro dolorem omnis. Provident, nam.</p>
                             </div>
@@ -180,7 +228,7 @@
                     <div class="slider_wrap">
                          <div class="section__item bg-5">
                             <div class="section_img_content first">
-                                <h3>Le petit mot du jour : </h3>
+                                <h3>Le petit mot du jour (Dimanche) : </h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, nemo perspiciatis. Corporis eius libero voluptas placeat illum aspernatur repellat, aperiam labore. Illo modi animi ea, maiores eius obcaecati iste impedit?</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quas numquam vitae necessitatibus, quidem delectus eligendi! Consectetur error eius nostrum quas possimus neque quidem consequatur porro dolorem omnis. Provident, nam.</p>
                             </div>
@@ -224,11 +272,62 @@
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
                             <div class="section_img_content first">
-                                <h3>Le petit mot du jour : </h3>
+                                <h3>Le petit mot du jour (Dimanche) : </h3>
                                 <p>
                                     Hello tout le monde ! Tout va bien, nous avons passé une super journée. Le camping est génial. On prend nos marques sur le camp avec plein d'activités. </p>
-                                    <p>À demain pour plein de belles aventures ! ☺️</p>
+                                <p>À demain pour plein de belles aventures ! ☺️</p>
                             </div>
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.15.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.19.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.23.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.26.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.28(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.28.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.29(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.29.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.30(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.30.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.31(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.31.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.32(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.32.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.33(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.33(2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.33.jpeg" alt="">
                         </div>
                         <div class="section__item bg-5">
                             <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/1.jpeg" alt="ZFZEF">
@@ -261,13 +360,14 @@
                         <div class="section__item bg-4">
                             <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/01_Samedi/10.jpeg" alt="">
                         </div>
+                       
                     </div>
                     <!-- <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
 
                     <div class="slider_wrap">
                          <div class="section__item bg-5">
                             <div class="section_img_content first">
-                                <h3>Le petit mot du jour : </h3>
+                                <h3>Le petit mot du jour (Dimanche) : </h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, nemo perspiciatis. Corporis eius libero voluptas placeat illum aspernatur repellat, aperiam labore. Illo modi animi ea, maiores eius obcaecati iste impedit?</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quas numquam vitae necessitatibus, quidem delectus eligendi! Consectetur error eius nostrum quas possimus neque quidem consequatur porro dolorem omnis. Provident, nam.</p>
                             </div>
@@ -313,13 +413,48 @@
                 <div class="slider_wrap">
                     <div class="section__item bg-5">
                         <div class="section_img_content first">
-                            <h3>Le petit mot du jour : </h3>
+                            <h3>Le petit mot du jour (Dimanche) : </h3>
                             <p>
                                 Nous sommes bien arrivés à Mons La Trivalle. La première baignade s'est bien déroulée. On en a bien profité. Ce soir nous faisons une balle américaine, et ça court de partout sur le camp ! </p>
                             <p>À demain !</p>
                         </div>
                     </div>
-                 
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17(1).jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17(2).jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17(3).jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18(1).jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18(2).jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18(3).jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.19(1).jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.19(2).jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.19.jpeg" alt="AZD">
+                    </div>
+                    <div class="section__item bg-2">
+                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.16.jpeg" alt="AZD">
+                    </div>
 
                     <div class="section__item bg-1">
                         <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/1.jpeg" alt="DAZD">
@@ -357,6 +492,7 @@
                     <div class="section__item bg-2">
                         <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/12.jpeg" alt="AZD">
                     </div>
+
                 </div>
             </div>
         </div>
