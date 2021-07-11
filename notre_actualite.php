@@ -274,7 +274,7 @@
                             <div class="section_img_content first">
                                 <h3>Le petit mot du jour (Dimanche) : </h3>
                                 <p>
-                                    Hello tout le monde ! Tout va bien, nous avons passé une super journée. Le camping est génial. On prend nos marques sur le camp avec plein d'activités. </p>
+                                    Hello tout le monde ! pour aujourd'hui, nous avons eu un grand soleil à Camprieu ( Oui, c'est possible, et on était même en T-shirt ), ce qui nous a permis d'aller sur le stade tâter le ballon. Notre objectif ?  Ramener la coupe à la maison pour 2022 ! ⚽️ </p>
                                 <p>À demain pour plein de belles aventures ! ☺️</p>
                             </div>
                         </div>
