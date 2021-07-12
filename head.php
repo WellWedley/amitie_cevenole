@@ -11,7 +11,13 @@
 
 
 <meta name="facebook-domain-verification" content="1dxzu1wa4zd7i78gefxa2yo5x3zy6z" />
+<!-- Open Graph data -->
 
+<meta property="og:title" content="Amitié Cévenole " />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.amitiecevenole.com" />
+<meta property="og:image" content="./logo/logo.svg" />
+<meta property="og:description" content="Mais que fait-on cette semaine ? Cliquez-ici, on vous dit tout !" />
 <!-- Google Tag Manager -->
 <script>
     (function(w, d, s, l, i) {
@@ -65,13 +71,6 @@ if ($curPageName == 'index.php') {
     header("Cache-Control: no-cache, must-revalidate");
     echo '<link rel="stylesheet"  href="./styles/style_notre_actualite.css"/>';
     $nomPublic = "Notre actualité ";
-    echo ' <!-- Open Graph data -->
-
-    <meta property="og:title" content="Amitié Cévenole | Notre actualité "/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.amitiecevenole.com"/>
-    <meta property="og:image" content="./logo/logo.svg"/>
-    <meta property="og:description" content="Mais que fait-on cette semaine ? Cliquez-ici, on vous dit tout !"/>';
 } else if ($curPageName == 'contact.php') {
     echo '<link rel="stylesheet"  href="./styles/style_contact.css"/>';
     $nomPublic = "Contact ";
