@@ -16,7 +16,7 @@
 <meta property="og:title" content="Amitié Cévenole " />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.amitiecevenole.com" />
-<meta property="og:image" content="./logo/logo.svg" />
+<meta property="og:image" content="https://ibb.co/JnNT5my" />
 <meta property="og:description" content="Mais que fait-on cette semaine ? Cliquez-ici, on vous dit tout !" />
 <!-- Google Tag Manager -->
 <script>
