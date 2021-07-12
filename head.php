@@ -65,7 +65,7 @@ if ($curPageName == 'index.php') {
     header("Cache-Control: no-cache, must-revalidate");
     echo '<link rel="stylesheet"  href="./styles/style_notre_actualite.css"/>';
     $nomPublic = "Notre actualité ";
-    echo ' <!-- Open Graph data -->; 
+    echo ' <!-- Open Graph data -->
 
     <meta property="og:title" content="Amitié Cévenole | Notre actualité "/>
     <meta property="og:type" content="website"/>
