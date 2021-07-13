@@ -1,101 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+
+
 <head>
-    <?php
-    include_once './head.php'
-    ?>
+  <?php
+  include_once './head.php';
+  ?>
 </head>
 
+
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5785GBW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-    <?php
-    include_once './header.php'
-    ?>
-    <div class="actu_sejours">
-        <h1 class="titre_slider"> NOS DERNIERS SÉJOURS EN IMAGES :</h1>
-    </div>
+  <?php
+  include_once './header.php';
 
-
-    <div class="previous_wrapper" id="previous_wrapper">
-        <img class="arrow previous_arrow" src="img/logo/previous.png" alt="Diapositive précédente">
-    </div>
-
-
-    <div id="slider">
-        <div class="gallery_wrapper" id="gallery_wrapper">
-        </div>
-
-    </div>
-
-    <div class="next_wrapper" id="next_wrapper">
-        <img class="arrow next_arrow" src="img/logo/next.png" alt="Diapositive suivante">
-    </div>
-
-    <div class="actu_wrapper">
-        <div class="feed_fb">
-            <h1 class="feed_title"> À VOIR SUR FACEBOOK </h1>
-            <div class="feed_fb_content">
-                <iframe id="facebook_iframe" class="facebook_iframe"></iframe>
-            </div>
-            <div class="fb_actu_link_container">
-                <a class="fb_actu_link" href="https://www.facebook.com/amitiecevenole" target="_blank">
-                    <img class="fb_actu_img" src="img/logo/fb.svg" alt="Lien facebook de l'association Amitié Cévenole">
-                    <div>
-                        <p class="text_fb">Amitié Cévenole - Officiel</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-
-        <div class="sejours_en_cours" id="sejour_en_cours">
-
-            <h1 class="en_cours_1_title">VOIR LES SÉJOURS EN COURS </h1>
-
-            <div class="en_cours_1">
-                <div class="wrap_button1">
-                    <a href="./explor_ados.php#modal_1" class="modal_1_button" id="modal_opener1">Explor'Ados</a>
-                </div>
-                <div class="en_cours_wrap_img1">
-                    <img class="en_cours_img" src="./img/couverture_sejours/explor_ados.jpg" alt="Photo de couverture du séjour Explor'Ados">
-                </div>
-            </div>
-
-
-            <div class="en_cours_2">
-                <div class="wrap_button2">
-                    <a href="#modal_2" class="modal_2_button" id="modal_opener2">Cévennes Explor'</a>
-                </div>
-                <div class="en_cours_wrap_img2">
-                    <img class="en_cours_img" src="./img/couverture_sejours/cevennes.jpeg" alt="Photo de couverture du séjour Cévennes Explor'">
-                </div>
-            </div>
-
-
-            <div class="en_cours_3">
-                <div class="wrap_button3">
-                    <a href="./graines_explorateurs.php#modal_3" class="modal_3_button" id="modal_opener3">Graines d'explorateurs</a>
-                </div>
-
-                <div class="en_cours_wrap_img3">
-                    <img class="en_cours_img" src="./img/couverture_sejours/graine_fermier.jpeg" alt="Photo de couverture du séjour Graines de fermier">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- MODAL WINDOWS -->
-    <div id="modal_2" class="overlay_flight_traveldil">
+  ?>
+ 
+  <!-- MODAL WINDOWS -->
+  <div id="modal_2" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
-            <h2 class="slider_title_h2">Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
+            <!-- <h2 class="slider_title_h2">Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
             <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
                 <p class="close_text">Fermer </p>
                 <p class="close_logo">&times;</p>
-            </a>
+            </a> -->
             <div class="sejours_sliders_wrap">
                 <div class="explor_ados_photos_sejours_wrap">
                     <div class="slider_wrap">
@@ -229,110 +161,31 @@
         </div>
     </div>
 
+    <h1 class="link_head">Nos autres séjours de vacances</h1>
 
-    <div id="modal_3" class="overlay_flight_traveldil">
-        <div class="popup_flight_travlDil">
-            <h2 class="slider_title_h2">Graines d'explorateurs : Du 10 au 17 Juillet 2021 </h2>
-            <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
-                <p class="close_text">Fermer </p>
-                <p class="close_logo">&times;</p>
-            </a>
-            <div class="explor_ados_photos_sejours_wrap">
-                <!-- Slider contenant les photos et les textes des enfants.  -->
-                <div class="slider_wrap">
-                    <div class="section__item bg-5">
-                        <div class="section_img_content first">
-                            <h3>Le petit mot du jour (Dimanche) : </h3>
-                            <p>
-                               Bonjour à tous ! Aujourd'hui nous nous sommes bien dépensés entre le morpion, le relais et la baignade ! Mais ce n'est pas fini, maintenant nous allons faire travailler les méninges avec un Cluedo !  </p>
-                            <p>À Plus ! 🤪</p>
-                        </div>
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17(1).jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17(2).jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17(3).jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18(1).jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18(2).jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18(3).jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.19(1).jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.19(2).jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.19.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.16.jpeg" alt="AZD">
-                    </div>
+<div class="button-center">
+    <div class="picture_link">
+        <a href="./graines_explorateurs.php">
+            <img class="graines_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.18(2).jpeg" alt="">
 
-                    <div class="section__item bg-1">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/1.jpeg" alt="DAZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/2.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/3.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/4.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/5.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/6.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/7.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/8.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/9.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/10.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/11.jpeg" alt="AZD">
-                    </div>
-                    <div class="section__item bg-2">
-                        <img class="section_img_content" src="./img/sliders/Graines_explorateurs/01_Samedi/12.jpeg" alt="AZD">
-                    </div>
+        </a>
 
-                </div>
-            </div>
-        </div>
-    </div>
+        <a href="./graines_explorateurs.php" class="button_cevennes">Voir les photos du séjour Graines d'explorateurs'</a>
     </div>
 
+    <div class="picture_link">
+        <a href="./explor_ados.php">
+        <img class="ados_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
 
-    <script src="js/slider.js"></script>
-    <script src="js/modalTrigger.js"></script>
-    <script defer src="js/facebookResizer.js" defer></script>
-    <?php include 'footer.php' ?>
+        </a>
+        <a href="./explor_ados.php" class="button_graines">Voir les photos du séjour Explor'Ados</a>
+    </div>
+</div>
+
+
+  <script src="./js/countdown_timer.js"></script>
+  <script src="./js/script.js"></script>
+  <?php include_once 'footer.php' ?>
 
 </body>
 

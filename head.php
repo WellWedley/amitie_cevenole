@@ -88,6 +88,21 @@ if ($curPageName == 'index.php') {
     echo '<link rel="stylesheet"  href="./styles/style_contact.css"/>';
     echo '<link rel="stylesheet"  href="./styles/mentions.css"/>';
     $nomPublic = "Mention légales ";
+} else if ($curPageName == 'explor_ados.php') {
+    echo '<link rel="stylesheet"  href="./styles/style_modales.css"/>
+        <script src="./js/modalTrigger.js"></script>
+  ';
+
+    $nomPublic = "Actu : Explor'Ados ";
+} else if ($curPageName == 'cevennes_explor.php') {
+    echo '<link rel="stylesheet"  href="./styles/style_modales.css"/>';
+
+    $nomPublic = "Actu : Cévennes Explor ";
+} else if ($curPageName == 'graines_explorateurs.php') {
+    echo '<link rel="stylesheet"  href="./styles/style_modales.css"/>
+  ';
+
+    $nomPublic = "Actu : Graines d'explorateurs ";
 }
 ?>
 <title>

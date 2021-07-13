@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+
+/* POPUP DE SLIDER */
+
+.popup_flight_travlDil {
+    margin: 1vw auto;
+    padding: 20px;
+    background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
+    border-radius: 5px;
+    width: 80%;
+    height: 60%;
+    position: relative;
+    top: 8vw;
+    transition: all 2s ease-in-out;
+    text-align: center;
+    color: #054872;
+}
+
+.close_flight_travelDl {
+    position: absolute;
+    right: 2vw;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.close_flight_travelDl .close_text {
+    /* position: absolute;
+    top: 1vw;
+    right: .2vw; */
+    font-size: 1.5vw;
+}
+
+.close_flight_travelDl .close_logo {
+    font-size: 2vw;
+    position: absolute;
+    top: -2vw;
+    right: 2vw;
+}
+
+.close_flight_travelDl .close_text,
+.close_flight_travelDl p {
+    color: #054872;
+}
+
+.close_flight_travelDl .close_text:hover,
+.close_flight_travelDl p:hover {
+    color: #fff;
+}
+
+
+/* .close_flight_travelDl .close_text {
+    position: sticky;
+    right: 2vw;
+    top: 0;
+    color: #054872;
+    font-size: 1.2vw;
+}
+
+.close_flight_travelDl .close_logo {
+    position: sticky;
+    top: -1.5vw;
+    right: 3vw;
+    transition: all 200ms;
+    font-size: 3vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #054872;
+} */
+
+
+/* Closing Cross */
+
+
+/* .close_flight_travelDl .close_logo:hover,
+.close_flight_travelDl .close_logo:focus,
+.close_flight_travelDl p:hover,
+.close_flight_travelDl .close_text:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+
+/* SLIDER DU SÉJOURS EXPLOR'ADOS  */
+
+.sejours_sliders_wrap {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: auto;
+}
+
+
+/* SLIDER*/
+
+.slider_wrap {
+    display: flex;
+    gap: 1.5vw;
+    max-width: 78vw;
+    height: 20vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding: 1rem;
+}
+
+.slider_wrap .first {
+    padding: 2.5vw;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.section__item {
+    --stop: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 200px;
+    width: 30vw;
+    height: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: var(--stop);
+}
+
+.section_img_content {
+    max-height: 100%;
+    width: 50vw;
+}
+
+.explor_ados_photos_sejours_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    overflow-y: scroll;
+}
+
+
+/* Autres séjours */
+
+.link_head {
+    position: relative;
+    top: 13.5vw;
+    color: #054872;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Poppins Medium';
+}
+
+.button-center {
+    position: relative;
+    top: 13vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.picture_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ados_picture,
+.cevennes_picture,
+.graines_picture {
+    max-height: 100%;
+    width: 25vw;
+}
+
+.button_explor,
+.button_cevennes,
+.button_graines {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: #054872;
+    border-style: none;
+    font-family: "Poppins Bold";
+    /* top: 2.4vw; */
+    font-size: 1.1vw;
+    padding: 0 1vw;
+    box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
+    margin: 1vw;
+}
+
+footer {
+    top: 50vw;
+}
