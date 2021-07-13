@@ -127,7 +127,7 @@
 
                 </a>
 
-                <a href="./cevennes_explor.php" class="button_cevennes">Voir les photos du séjour Cévennes Explor'</a>
+                <a href="./cevennes_explor.php" class="button_cevennes">Séjour : Cévennes Explor'</a>
             </div>
 
             <div class="picture_link">
@@ -135,7 +135,7 @@
                     <img class="ados_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
 
                 </a>
-                <a href="./graines_explorateurs.php" class="button_graines">Voir les photos du séjour Explor'Ados</a>
+                <a href="./graines_explorateurs.php" class="button_graines">Séjour : Graines d'explorateurs</a>
             </div>
         </div>
 

@@ -227,13 +227,10 @@ footer {
     .ados_picture {
         width: 38vw;
     }
-    .button-center a {
-        font-size: 1.8vw;
-    }
     .button_cevennes,
     .button_explor,
-    .button_explor {
-        font-size: 7vw;
+    .button_graines {
+        font-size: 2.5vw;
     }
 }
 
