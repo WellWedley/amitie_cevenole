@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'Poppins Medium';
-    src: url('../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+    src: url('/fonts/poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('/fonts/poppins/Poppins-Bold.ttf') format('truetype');
 }
 
 
@@ -18,6 +23,7 @@
     transition: all 2s ease-in-out;
     text-align: center;
     color: #054872;
+    font-family: "Poppins Medium";
 }
 
 .close_flight_travelDl {
@@ -36,17 +42,19 @@
     font-size: 1.5vw;
 }
 
-.close_flight_travelDl .close_logo {
+
+/* .close_flight_travelDl .close_logo {
     font-size: 2vw;
     position: absolute;
     top: -2vw;
     right: 2vw;
-}
+} */
 
-.close_flight_travelDl .close_text,
+
+/* .close_flight_travelDl .close_text,
 .close_flight_travelDl p {
     color: #054872;
-}
+} */
 
 .close_flight_travelDl .close_text:hover,
 .close_flight_travelDl p:hover {
@@ -152,7 +160,7 @@
     color: #054872;
     text-align: center;
     font-size: 3vw;
-    font-family: 'Poppins Medium';
+    font-family: "Poppins Medium";
 }
 
 .button-center {
