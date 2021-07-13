@@ -23,8 +23,8 @@
   <!-- MODAL WINDOWS -->
   <div id="modal_2" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
-            <!-- <h2 class="slider_title_h2">Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
-            <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
+          <h2 class="slider_title_h2">Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
+            <!--   <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
                 <p class="close_text">Fermer </p>
                 <p class="close_logo">&times;</p>
             </a> -->
@@ -161,7 +161,7 @@
         </div>
     </div>
 
-    <h1 class="link_head">Nos autres séjours de vacances</h1>
+    <h1 class="link_head">Photos des autres séjours de vacances</h1>
 
 <div class="button-center">
     <div class="picture_link">
@@ -170,7 +170,7 @@
 
         </a>
 
-        <a href="./graines_explorateurs.php" class="button_cevennes">Voir les photos du séjour Graines d'explorateurs'</a>
+        <a href="./graines_explorateurs.php" class="button_cevennes">Séjour : Graines d'explorateurs</a>
     </div>
 
     <div class="picture_link">
@@ -178,7 +178,7 @@
         <img class="ados_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
 
         </a>
-        <a href="./explor_ados.php" class="button_graines">Voir les photos du séjour Explor'Ados</a>
+        <a href="./explor_ados.php" class="button_graines">Séjour : Explor'Ados</a>
     </div>
 </div>
 

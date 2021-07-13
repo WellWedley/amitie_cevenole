@@ -161,13 +161,13 @@
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .picture_link {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
 }
 
@@ -218,6 +218,18 @@ footer {
         max-height: 100%;
         width: 72vw;
     }
+    .link_head {
+        font-size: 7vw;
+    }
+    /* images liens */
+    .cevennes_picture,
+    .graines_picture,
+    .ados_picture {
+        width: 38vw;
+    }
+    .button-center a {
+        font-size: 1.8vw;
+    }
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
@@ -242,5 +254,17 @@ footer {
         height: 30vw;
         /*Même hauteur que wrap_button_1 etc...*/
         width: 40vw;
+    }
+    .link_head {
+        font-size: 7vw;
+    }
+    /* images liens */
+    .cevennes_picture,
+    .graines_picture,
+    .ados_picture {
+        width: 38vw;
+    }
+    .button-center a {
+        font-size: 1.5vw;
     }
 }

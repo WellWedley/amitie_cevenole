@@ -123,38 +123,38 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <h1 class="link_head">Nos autres séjours de vacances</h1>
 
-  <div class="button-center">
-    <div class="picture_link">
-      <a href="./cevennes_explor.php">
-      <img class="cevennes_picture" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.26.jpeg" alt="">
-    
-    </a>
+    <h1 class="link_head">Photos des autres séjours de vacances</h1>
 
-      <a href="./cevennes_explor.php" class="button_cevennes">Voir les photos du séjour Cévennes Explor'</a>
+    <div class="button-center">
+      <div class="picture_link">
+        <a href="./cevennes_explor.php">
+          <img class="cevennes_picture" src="./img/sliders/Cevennes_Explor/Du_10_au_17_Juillet_2021/02_Dimanche/18.17.26.jpeg" alt="">
+
+        </a>
+
+        <a href="./cevennes_explor.php" class="button_cevennes">Voir les photos du séjour Cévennes Explor'</a>
+      </div>
+
+      <div class="picture_link">
+        <a href="./graines_explorateurs.php">
+          <img class="graines_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
+
+        </a>
+        <a href="./graines_explorateurs.php" class="button_graines">Voir les photos du séjour Graines d'explorateurs</a>
+      </div>
     </div>
 
-    <div class="picture_link">
-    <a href="./graines_explorateurs.php">
-      <img class="cevennes_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
-    
-    </a>
-      <a href="./graines_explorateurs.php" class="button_graines">Voir les photos du séjour Graines d'explorateurs</a>
-    </div>
-  </div>
 
 
 
 
 
 
-
-  <script src="./js/countdown_timer.js"></script>
-  <script src="./js/script.js"></script>
-  <?php include_once 'footer.php' ?>
+    <script src="./js/countdown_timer.js"></script>
+    <script src="./js/script.js"></script>
+    <?php include_once 'footer.php' ?>
 
 </body>
 
