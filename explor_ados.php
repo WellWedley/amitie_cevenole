@@ -142,7 +142,7 @@
           <img class="graines_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
 
         </a>
-        <a href="./graines_explorateurs.php" class="button_graines">Séjour : Graines d'explorateurs</a>
+        <a href="./graines_explorateurs.php" class="button_graines">Séjour : <br> Graines d'explorateurs</a>
       </div>
     </div>
 
