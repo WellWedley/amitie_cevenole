@@ -197,3 +197,50 @@
 footer {
     top: 50vw;
 }
+
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width:425px) {
+    /* fenêtre modale */
+    .popup_flight_travlDil {
+        top: 13vw;
+    }
+    .slider_wrap {
+        gap: .5vw;
+        max-width: 100%;
+        height: 100%;
+    }
+    .section__item {
+        width: 90vw;
+    }
+    .section_img_content {
+        max-height: 100%;
+        width: 72vw;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    /* fenêtre modale */
+    .popup_flight_travlDil {
+        top: 13vw;
+    }
+    .slider_wrap {
+        gap: .5vw;
+        max-width: 100%;
+        height: 100%;
+    }
+    .section__item {
+        width: 70vw;
+    }
+    .section_img_content {
+        max-height: 100%;
+        width: 60vw;
+    }
+    .en_cours_img {
+        position: relative;
+        height: 30vw;
+        /*Même hauteur que wrap_button_1 etc...*/
+        width: 40vw;
+    }
+}

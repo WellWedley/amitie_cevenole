@@ -1013,14 +1013,14 @@ footer p {
         font-size: 3.5vw;
     }
     /* The Close Button */
-    .close {
+    /* .close {
         position: relative;
         top: -4vw;
         color: #054872;
         float: right;
         font-size: 10vw;
         font-weight: bold;
-    }
+    } */
     .close_flight_travelDl .close_logo {
         font-size: 7vw;
         top: -7vw;
@@ -1029,12 +1029,12 @@ footer p {
         font-size: 5vw;
         top: 5vw;
     }
-    .close:hover,
+    /* .close:hover,
     .close:focus {
         color: black;
         text-decoration: none;
         cursor: pointer;
-    }
+    } */
     /* TITRES  */
     .explor_ados_photos_sejours_wrap .slider_title_h2 {
         position: relative;
