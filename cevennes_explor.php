@@ -23,7 +23,7 @@
   <!-- MODAL WINDOWS -->
   <div id="modal_2" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
-          <h2 class="slider_title_h2">Cévennes Explor' : Du 10 au 17 Juillet 2021 </h2>
+          <h2 class="slider_title_h2">Cévennes Explor'  Du 10 au 17 Juillet 2021 </h2>
             <!--   <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
                 <p class="close_text">Fermer </p>
                 <p class="close_logo">&times;</p>
@@ -33,7 +33,7 @@
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
                             <div class="section_img_content first">
-                                <h3>Le petit mot du jour (Dimanche) : </h3>
+                                <h3>Le petit mot du jour (Dimanche)  </h3>
                                 <p>
                                     Hello tout le monde ! pour aujourd'hui, nous avons eu un grand soleil à Camprieu ( Oui, c'est possible, et on était même en T-shirt ), ce qui nous a permis d'aller sur le stade tâter le ballon. Notre objectif ?  Ramener la coupe à la maison pour 2022 ! ⚽️ </p>
                                 <p>À demain pour plein de belles aventures ! ☺️</p>

@@ -22,7 +22,7 @@
 
     <div id="modal_3" class="overlay_flight_traveldil">
         <div class="popup_flight_travlDil">
-            <h2 class="slider_title_h2">Graines d'explorateurs : Du 10 au 17 Juillet 2021 </h2>
+            <h2 class="slider_title_h2">Graines d'explorateurs  Du 10 au 17 Juillet 2021 </h2>
             <!--    <a class="close_flight_travelDl" id="close_flight_travelDl" href="#sejour_en_cours">
                 <p class="close_text">Fermer </p>
                 <p class="close_logo">&times;</p>
@@ -33,7 +33,7 @@
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
                             <div class="section_img_content first">
-                                <h3>Le petit mot du jour (Dimanche) : </h3>
+                                <h3>Le petit mot du jour (Dimanche)  </h3>
                                 <p>
                                     Bonjour à tous ! Aujourd'hui nous nous sommes bien dépensés entre le morpion, le relais et la baignade ! Mais ce n'est pas fini, maintenant nous allons faire travailler les méninges avec un Cluedo ! </p>
                                 <p>À Plus ! 🤪</p>

@@ -21,7 +21,7 @@
   ?>
   <div id="modal_1" class="overlay_flight_traveldil">
     <div class="popup_flight_travlDil">
-      <h2> Explor' Ados : Du 10 au 17 Juillet 2021 </h2>
+      <h2> Explor' Ados  Du 10 au 17 Juillet 2021 </h2>
       <!-- <div class="close_flight_travelDl">
                 <a id="close_flight_travelDl" href="#sejour_en_cours">
                     <div class="close_logo">
@@ -41,7 +41,7 @@
           <div class="slider_wrap">
             <div class="section__item bg-5">
               <div class="section_img_content first">
-                <h3>Le petit mot du jour (Dimanche) : </h3>
+                <h3>Le petit mot du jour (Dimanche)  </h3>
                 <p>Coucou ! On ne vous manque pas encore ? Ça devrait être le cas ! Nous avons déjà bien lancé le séjour, on s'entend tous bien et on a fait un Loup-Garou avant le repas. L'après-midi on est allés faire un Water-polo revisité façon Amitié Cévenole. La participation était au rendez-vous tant au niveau des filles que des garçons ! </p>
                 <p>À bientôt ! 😉</p>
               </div>
