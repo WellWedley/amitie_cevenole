@@ -138,7 +138,7 @@
       </div>
 
       <div class="picture_link">
-        <a href="./graines_explorateurs.php">
+        <a href="./graines_explorateurs.php" >
           <img class="graines_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
 
         </a>

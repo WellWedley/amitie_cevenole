@@ -230,6 +230,11 @@ footer {
     .button-center a {
         font-size: 1.8vw;
     }
+    .button_cevennes,
+    .button_explor,
+    .button_explor {
+        font-size: 7vw;
+    }
 }
 
 @media screen and (min-width:426px) and (max-width:768px) {
@@ -262,9 +267,6 @@ footer {
     .cevennes_picture,
     .graines_picture,
     .ados_picture {
-        width: 38vw;
-    }
-    .button-center a {
-        font-size: 1.5vw;
+        width: 42.5vw;
     }
 }
