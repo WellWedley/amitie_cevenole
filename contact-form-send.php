@@ -31,7 +31,7 @@ if (isset($userName) && isset($userFirstname) && isset($message) && isset($objec
         echo 'Erreur : Champs vide(s).';
     } else {
         // Contenu du mail
-        $html_part = '<html><body>
+        $html_part = '<html><meta charset ="UTF-8"><body>
     <h1 style="color:#054872">Nouveau message à partir du site Internet : </h1>
     <div><p>Nom : ' . $userName . '</p> </div><br>
     <div><p>Prénom : ' . $userFirstname . '</p> </div><br>
