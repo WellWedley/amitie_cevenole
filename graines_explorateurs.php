@@ -175,7 +175,7 @@
                     <img class="ados_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
 
                 </a>
-                <a href="./graines_explorateurs.php" class="button_graines"> Graines d'explorateurs</a>
+                <a href="./explor_ados.php" class="button_graines"> Explor'Ados</a>
             </div>
         </div>
 
