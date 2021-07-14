@@ -1,4 +1,8 @@
 <?php
+
+
+
+
 $dsn = 'mysql:host=localhost; dbname=amitie_cevenole';
 $user = 'root';
 $pwd = 'root';
