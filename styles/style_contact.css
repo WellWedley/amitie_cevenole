@@ -8,6 +8,7 @@ body {
     margin: 0%;
 }
 
+
 /* DÉBUT DE LA PAGE CONTACT */
 
 ::-webkit-input-placeholder {
@@ -45,8 +46,6 @@ body {
     width: 80vw;
 }
 
-
-
 .contact_title {
     position: relative;
     left: 5vw;
@@ -55,14 +54,14 @@ body {
     color: #054872;
 }
 
-.footer_perm{
+.footer_perm {
     position: relative;
     top: 12vw;
-      color: #054872;
-      font-family: "Poppins Medium";
-      font-size: 1.6vw;
-      text-align: center;
-    }
+    color: #054872;
+    font-family: "Poppins Medium";
+    font-size: 1.6vw;
+    text-align: center;
+}
 
 .contact_wrapper {
     position: relative;
@@ -76,11 +75,15 @@ body {
     background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
 }
 
-.nom_input, .prenom_input {
+.nom_input,
+.prenom_input {
     width: 24.75vw;
 }
 
-.nom_input, .prenom_input, .email_input, .object_input {
+.nom_input,
+.prenom_input,
+.email_input,
+.object_input {
     border-radius: .5vw;
     border: none;
     height: 3.5vw;
@@ -115,6 +118,8 @@ body {
 }
 
 .message_input {
+    position: relative;
+    top: 1.5vw;
     width: 50vw;
     height: 10vw;
     border: none;
@@ -123,14 +128,14 @@ body {
 .send_message {
     cursor: pointer;
     position: relative;
-    top: 2vw;
+    top: 2.5vw;
     text-align: center;
     color: #fff;
     background-color: #054872;
     border-style: none;
     font-family: "Poppins Bold";
     font-size: 1.1vw;
-    margin: 0 ;
+    margin: 0;
     padding: 0 1vw;
     box-shadow: 0px 4px 3px 0px rgba(54, 77, 92, 0.19);
 }
@@ -142,15 +147,15 @@ body {
     text-align: center;
 }
 
-.messageError{
+.messageError {
     text-align: center;
     font-family: 'Poppins Bold';
     font-size: 1.2vw;
     color: #9c3131;
     position: relative;
     top: 1vw;
-
 }
+
 
 /*---------- 4 footer.php ----------*/
 
@@ -164,10 +169,11 @@ footer {
     height: 15vw;
     background-color: #364D5C;
 }
+
+
 /*---------- @media queries ----------*/
 
 @media screen and (max-width:425px) {
-    
     .contact_title_wrap {
         width: 80vw;
     }
@@ -210,9 +216,7 @@ footer {
     .send_message {
         font-size: 2.5vw;
     }
-
     .nos_sejours {
-
         top: 82.25vw;
     }
     footer {
@@ -230,32 +234,44 @@ footer {
     footer p {
         font-size: 1.7vw;
     }
-    .fb_img, .map_img, .mail_img, .phone_img {
+    .fb_img,
+    .map_img,
+    .mail_img,
+    .phone_img {
         height: 5vw;
     }
-    .fb_container h3, .map_container h3, .mail_container h3, .postuler, .telephone, .cgv h3 {
+    .fb_container h3,
+    .map_container h3,
+    .mail_container h3,
+    .postuler,
+    .telephone,
+    .cgv h3 {
         font-size: 2.7vw;
     }
     .telephone {
         margin: 1vw;
     }
-    .fb_container .officiel, .gps, .num_1 p, .num_2 p, .foot_content .text_cgv, .foot_content .foot_address .address_para, .foot_content .cgv_lien p, .ou {
+    .fb_container .officiel,
+    .gps,
+    .num_1 p,
+    .num_2 p,
+    .foot_content .text_cgv,
+    .foot_content .foot_address .address_para,
+    .foot_content .cgv_lien p,
+    .ou {
         font-size: 1.8vw;
         text-align: center;
     }
 }
 
 @media screen and (min-width:769px) and (max-width:1024px) {
-    
     .contact_title_wrap {
         top: 8.7vw;
         width: 80vw;
     }
-    
-    .footer_perm{
+    .footer_perm {
         top: 11.5vw;
-       
-        }
+    }
     .contact_title {
         font-size: 3vw;
     }

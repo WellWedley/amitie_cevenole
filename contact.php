@@ -49,10 +49,10 @@ include_once './header.php'
         <div class="second_line_wrapper">
             <input placeholder="Email" type="text" class="email_input" name="email_input" required>
         </div>
-        <div class="third_line_wrapper">
+        <!-- <div class="third_line_wrapper">
             <input placeholder="Objet" type="text" class="object_input" name="object_input" required>
 
-        </div>
+        </div> -->
         <div class="fourth_line_wrapper">
             <textarea placeholder="Message" class="message_input" name="message_input" required></textarea>
         </div>

@@ -11,7 +11,6 @@ $to  = 'sejour.aepc@gmail.com';
 $userName  = htmlentities($_POST['nom_input']);
 $userFirstname  = htmlentities($_POST['prenom_input']);
 $message  = htmlentities($_POST['message_input']);
-$object_input  = htmlentities($_POST['object_input']);
 $replyTo  = htmlentities($_POST['email_input']);
 $validText = '/[a-zA-Z]{2,250}/';
 $validName = '/[a-zA-Z]{1,50}/';
@@ -20,18 +19,18 @@ $validObject = '/[a-zA-Z]{1,80}/';
 
 
 $validAddress = '/([a-zA-Z{1,30}])[@{1,1}]([a-z]{1,30})\.([a-z]{2,4})$/';
-if (isset($userName) && isset($userFirstname) && isset($message) && isset($object_input) && isset($replyTo)) {
+if (isset($userName) && isset($userFirstname) && isset($message)  && isset($replyTo)) {
 
     // vérification que des liens n'ont pas été insérés 
-    if (preg_match('/www\.|http:|https:/', $userName) || preg_match('/www\.|http:|https:/', $userFirstname) || preg_match('/www\.|http:|https:/', $message) || preg_match('/www\.|http:|https:/', $object_input) || preg_match('/www\.|http:|https:/', $replyTo)) {
+    if (preg_match('/www\.|http:|https:/', $userName) || preg_match('/www\.|http:|https:/', $userFirstname) || preg_match('/www\.|http:|https:/', $message)  || preg_match('/www\.|http:|https:/', $replyTo)) {
         echo 'Erreur : Caractères invalides.';
     } else if (!preg_match($validAddress, $replyTo)) {
         echo 'Erreur : E-mail non valide.';
-    } else if (!preg_match($validName, $userName) || !preg_match($validName, $userFirstname) || !preg_match($validName, $message) || !preg_match($validName, $object_input) || !preg_match($validName, $replyTo)) {
+    } else if (!preg_match($validName, $userName) || !preg_match($validName, $userFirstname) || !preg_match($validName, $message) || !preg_match($validName, $replyTo)) {
         echo 'Erreur : Champs vide(s).';
     } else {
         // Contenu du mail
-        $html_part = '<html><meta charset ="UTF-8"><body>
+        $html_part = '<html><body>
     <h1 style="color:#054872">Nouveau message à partir du site Internet : </h1>
     <div><p>Nom : ' . $userName . '</p> </div><br>
     <div><p>Prénom : ' . $userFirstname . '</p> </div><br>
@@ -44,7 +43,7 @@ if (isset($userName) && isset($userFirstname) && isset($message) && isset($objec
                 [
                     'From' => [
                         'Email' => $from,
-                        'Name' => $userFirstname,
+                        'Name' => "amitiecevenole.com",
                     ],
                     'To' => [
                         [
@@ -52,10 +51,10 @@ if (isset($userName) && isset($userFirstname) && isset($message) && isset($objec
                             'Name' => "Amitié Cévenole "
                         ]
                     ],
-                    'Subject' => $object_input,
+                    'Subject' => "Message en provenance du site internet.",
                     'TextPart' => "Partie texte",
                     'HTMLPart' => $html_part,
-                    'CustomID' => "AppGettingStartedTest"
+                    'CustomID' => "AppGettingStartedTest",
                 ]
             ]
         ];
