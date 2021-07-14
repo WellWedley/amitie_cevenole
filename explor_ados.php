@@ -57,7 +57,7 @@
               </video>
             </div>
             <div class="section__item bg-4">
-              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.38.jpeg" alt="">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.41.jpeg" alt="">
             </div>
             <div class="section__item bg-4">
               <video width="320" height="240" controls class="section_img_content">
@@ -95,9 +95,7 @@
             <div class="section__item bg-4">
               <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.41 (2).jpeg" alt="">
             </div>
-            <div class="section__item bg-4">
-              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.41.jpeg" alt="">
-            </div>
+           
             <div class="section__item bg-5">
               <div class="section_img_content first">
                 <h3>Le petit mot du jour (Dimanche) </h3>
