@@ -21,7 +21,7 @@
   ?>
   <div id="modal_1" class="overlay_flight_traveldil">
     <div class="popup_flight_travlDil">
-      <h2> Explor' Ados  Du 10 au 17 Juillet 2021 </h2>
+      <h2> Explor' Ados Du 10 au 17 Juillet 2021 </h2>
       <!-- <div class="close_flight_travelDl">
                 <a id="close_flight_travelDl" href="#sejour_en_cours">
                     <div class="close_logo">
@@ -41,7 +41,66 @@
           <div class="slider_wrap">
             <div class="section__item bg-5">
               <div class="section_img_content first">
-                <h3>Le petit mot du jour (Dimanche)  </h3>
+                <h3>Le petit mot du jour (Lundi) </h3>
+                <p>Dans la matinée nous avons fait plusieurs jeux: carré magique et monsieur pie. Nous avons préparé et englouti nos sandwich puis passé du temps ensemble avant une baignade bien fraîche ! Ce soir pour la veillée nous allons boire un verre tous ensemble !
+                </p>
+                <p>Bonne semaine et à bientôt
+                  (Hermione et Timothé)</p>
+              </div>
+            </div>
+
+            <div class="section__item bg-4">
+              <video width="320" height="240" controls autoplay muted class="section_img_content">
+                <source src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Video 2021-07-12 at 19.14.39 (1).mp4" type="video/mp4">
+
+                Oups, il semblerait que votre navigateur ne seupporte pas ce type de média.
+              </video>
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.38.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <video width="320" height="240" controls class="section_img_content">
+                <source src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Video 2021-07-12 at 19.14.39 (2).mp4" type="video/mp4">
+                Oups, il semblerait que votre navigateur ne seupporte pas ce type de média.
+              </video>
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.40 (1).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <video width="320" height="240" controls class="section_img_content">
+                <source src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Video 2021-07-12 at 19.14.39.mp4" type="video/mp4">
+                Oups, il semblerait que votre navigateur ne seupporte pas ce type de média.
+              </video>
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.40.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <video width="320" height="240" controls class="section_img_content">
+                <source src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Video 2021-07-12 at 19.14.40 (1).mp4" type="video/mp4">
+                Oups, il semblerait que votre navigateur ne seupporte pas ce type de média.
+              </video>
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.41 (1).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <video width="320" height="240" controls   class="section_img_content">
+                <source src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Video 2021-07-12 at 19.14.40.mp4" type="video/mp4">
+                Oups, il semblerait que votre navigateur ne seupporte pas ce type de média.
+              </video>
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.41 (2).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/03_Lundi/WhatsApp Image 2021-07-12 at 19.14.41.jpeg" alt="">
+            </div>
+            <div class="section__item bg-5">
+              <div class="section_img_content first">
+                <h3>Le petit mot du jour (Dimanche) </h3>
                 <p>Coucou ! On ne vous manque pas encore ? Ça devrait être le cas ! Nous avons déjà bien lancé le séjour, on s'entend tous bien et on a fait un Loup-Garou avant le repas. L'après-midi on est allés faire un Water-polo revisité façon Amitié Cévenole. La participation était au rendez-vous tant au niveau des filles que des garçons ! </p>
                 <p>À bientôt ! 😉</p>
               </div>
@@ -138,7 +197,7 @@
       </div>
 
       <div class="picture_link">
-        <a href="./graines_explorateurs.php" >
+        <a href="./graines_explorateurs.php">
           <img class="graines_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
 
         </a>
