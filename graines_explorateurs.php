@@ -33,7 +33,7 @@
                     <div class="slider_wrap">
                         <div class="section__item bg-5">
                             <div class="section_img_content first">
-                                <h3>Le petit mot du jour (Dimanche) </h3>
+                                <h3>Le petit mot du jour (Lundi) </h3>
                                 <p>
                                     Bonjour à tous ! Aujourd'hui nous nous sommes bien dépensés entre le morpion, le relais et la baignade ! Mais ce n'est pas fini, maintenant nous allons faire travailler les méninges avec un Cluedo ! </p>
                                 <p>À Plus ! 🤪</p>
@@ -72,8 +72,8 @@
                             <div class="section_img_content first">
                                 <h3>Le petit mot du jour (Dimanche) </h3>
                                 <p>
-                                    Bonjour à tous ! Aujourd'hui nous nous sommes bien dépensés entre le morpion, le relais et la baignade ! Mais ce n'est pas fini, maintenant nous allons faire travailler les méninges avec un Cluedo ! </p>
-                                <p>À Plus ! 🤪</p>
+                                Nous avons passé une super journée à l'accrobranche. On a grimpé des arbres immenses et fait des tyroliennes qui vont à la vitesse de la lumière ! </p>
+                                <p>Ce soir, c'est TABLULÉ 🤪</p>
                             </div>
                         </div>
                         <div class="section__item bg-2">
