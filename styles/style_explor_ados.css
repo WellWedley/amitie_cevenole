@@ -19,6 +19,11 @@ html {
     z-index: 13;
 }
 
+.inside_slide_header {
+    position: absolute;
+    top: -20vw;
+}
+
 .overlay_flight_traveldil:target {
     visibility: visible;
     opacity: 1;
@@ -34,7 +39,7 @@ html {
     background: linear-gradient(25deg, rgba(165, 215, 213, 1) 0%, rgba(170, 207, 213, 1) 18.55%, rgba(184, 183, 214, 1) 48.04%, rgba(189, 176, 214, 1) 56.04%, rgba(193, 190, 223, 1) 78.94%, rgba(195, 197, 228, 1) 100%);
     border-radius: 5px;
     width: 80%;
-    height: 60%;
+    height: 90%;
     position: relative;
     top: 15%;
     transition: all 2s ease-in-out;
