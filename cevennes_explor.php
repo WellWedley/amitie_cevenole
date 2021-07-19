@@ -237,7 +237,7 @@
     <div class="button-center">
         <div class="picture_link">
             <a href="./graines_explorateurs.php">
-                <img class="graines_picture" src="./img/sliders/Graines_explorateurs/10_07_au_17_07/02_Dimanche/14.09.17(2).jpeg" alt="">
+                <img class="graines_picture" src="./img/sliders/Graines_explorateurs/10_07_au_17_07/02_Dimanche/14.09.18(1).jpeg" alt="">
 
             </a>
 
@@ -246,7 +246,7 @@
 
         <div class="picture_link">
             <a href="./explor_ados.php">
-                <img class="ados_picture" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.52 (1).jpeg" alt="">
+                <img class="ados_picture" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.04.45.jpeg" alt="">
             </a>
             <a href="./explor_ados.php" class="button_graines">Explor'Ados</a>
         </div>
