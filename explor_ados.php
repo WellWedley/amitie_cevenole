@@ -25,10 +25,11 @@
         <div class="explor_ados_photos_sejours_wrap">
           <div class="slider_wrap">
             <div class="section__item bg-5">
-              <h2> Explor' Ados Du 17 au 24 Juillet 2021 </h2>
+              <div class="section_img_content first">
+                <h2> Explor' Ados Du 17 au 24 Juillet 2021 </h2>
+              </div>
             </div>
-            <div class="section__item bg-4">
-
+            <div class="section__item bg-5">
               <div class="section_img_content first">
                 <h3>Le petit mot du jour (Samedi) </h3>
                 <p>Hello tout le monde ! Nous sommes bien installés, nous avons profité de la rivière pendant 2h cette après midi puis fait des jeux, là on cuisine on vous dit à plus tard !</p>
@@ -36,8 +37,39 @@
             </div>
 
             <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.04.45.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.52 (1).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.52.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.54.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.56.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.58 (1).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.58 (2).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.58.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.59 (1).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 21.07.59.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
               <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 17.44.41.jpeg" alt="">
             </div>
+            <!--  -->
             <div class="section__item bg-4">
               <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/01_Samedi/WhatsApp Image 2021-07-17 at 17.44.42.jpeg" alt="">
             </div>
@@ -56,11 +88,10 @@
 
 
           </div>
-          <!-- second séjour -->
+          <!-- ///////////////////      SECOND SÉJOUR        \\\\\\\\\\\\\\\\\\\\\-->
 
           <div class="slider_wrap">
             <div class="section__item bg-5">
-
               <div class="section_img_content first">
                 <h2> Explor' Ados Du 10 au 17 Juillet 2021 </h2>
               </div>
@@ -259,7 +290,7 @@
 
       <div class="picture_link">
         <a href="./graines_explorateurs.php">
-          <img class="graines_picture" src="./img/sliders/Graines_explorateurs/02_Dimanche/14.09.17.jpeg" alt="">
+          <img class="graines_picture" src="./img/sliders/Graines_explorateurs/10_07_au_17_07/06_Jeudi/WhatsApp Image 2021-07-15 at 21.41.05.jpeg" alt="">
 
         </a>
         <a href="./graines_explorateurs.php" class="button_graines">Graines d'explorateurs</a>
