@@ -36,63 +36,13 @@
 }
 
 .close_flight_travelDl .close_text {
-    /* position: absolute;
-    top: 1vw;
-    right: .2vw; */
     font-size: 1.5vw;
 }
-
-
-/* .close_flight_travelDl .close_logo {
-    font-size: 2vw;
-    position: absolute;
-    top: -2vw;
-    right: 2vw;
-} */
-
-
-/* .close_flight_travelDl .close_text,
-.close_flight_travelDl p {
-    color: #054872;
-} */
 
 .close_flight_travelDl .close_text:hover,
 .close_flight_travelDl p:hover {
     color: #fff;
 }
-
-
-/* .close_flight_travelDl .close_text {
-    position: sticky;
-    right: 2vw;
-    top: 0;
-    color: #054872;
-    font-size: 1.2vw;
-}
-
-.close_flight_travelDl .close_logo {
-    position: sticky;
-    top: -1.5vw;
-    right: 3vw;
-    transition: all 200ms;
-    font-size: 3vw;
-    font-weight: bold;
-    text-decoration: none;
-    color: #054872;
-} */
-
-
-/* Closing Cross */
-
-
-/* .close_flight_travelDl .close_logo:hover,
-.close_flight_travelDl .close_logo:focus,
-.close_flight_travelDl p:hover,
-.close_flight_travelDl .close_text:focus {
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-} */
 
 
 /* SLIDER DU SÉJOURS EXPLOR'ADOS  */
@@ -221,6 +171,7 @@ footer {
     }
     .section__item {
         width: 90vw;
+        height: 55vw;
     }
     .section_img_content {
         max-height: 100%;
