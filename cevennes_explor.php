@@ -32,6 +32,55 @@
                                 <h2 class="slider_title_h2">Cévennes Explor' : Du 17 au 24 Juillet 2021 </h2>
                             </div>
                         </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.04.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.24.30.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.24.40.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.24.59.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.03.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.04 (1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.04 (2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.05 (1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.05 (2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.05.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.06 (1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.06 (2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.06.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.07 (1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.07.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Cevennes_Explor/Du_17_au_24 Juillet_2021/04_Mardi/WhatsApp Image 2021-07-20 at 19.25.08.jpeg" alt="">
+                        </div>
+
                         <div class="section__item bg-5">
                             <div class="section_img_content first">
                                 <h3>Le petit mot du jour (Dimanche) : </h3>

@@ -31,6 +31,69 @@
             </div>
             <div class="section__item bg-5">
               <div class="section_img_content first">
+                <h3>Le petit mot du jour (Mardi) </h3>
+                <p>Nous avons commencé la journée par la spéléo et ensuite nous avons profité de la plage toute la journée. Le soir c'était bataille navale géante, accompagnée de défis !</p>
+              </div>
+            </div>
+
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 09.47.46.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 09.47.49.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 09.47.55.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 09.48.08.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 09.52.31.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 09.52.39.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 09.56.10.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.39.50 (1).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.39.50.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.39.51 (1).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.39.51 (2).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.39.51.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.40.23 (1).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.40.23 (2).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.40.23.jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.40.24 (2).jpeg" alt="">
+            </div>
+            <div class="section__item bg-4">
+              <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_2/04_Mardi/WhatsApp Image 2021-07-20 at 18.40.24.jpeg" alt="">
+            </div>
+            
+
+            <div class="section__item bg-5">
+              <div class="section_img_content first">
                 <h3>Le petit mot du jour (Samedi) </h3>
                 <p>Hello tout le monde ! Nous sommes bien installés, nous avons profité de la rivière pendant 2h cette après midi puis fait des jeux, là on cuisine on vous dit à plus tard !</p>
               </div>
