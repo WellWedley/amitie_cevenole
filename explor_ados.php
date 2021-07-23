@@ -31,6 +31,35 @@ include_once './header.php';
                             <h2> Explor' Ados Du 17 au 24 Juillet 2021 </h2>
                         </div>
                     </div>
+
+
+                    <div class="section__item bg-4">
+                        <video width="320" height="240" controls autoplay muted class="section_img_content">
+                            <source src="./img/sliders/Explor_Ados/Sem_2/06_Jeudi/WhatsApp%20Video%202021-07-22%20at%2017.07.04.mp4"
+                                    type="video/mp4">
+
+                            Oups, il semblerait que votre navigateur ne seupporte pas ce type de média.
+                        </video>
+                    </div>
+                    <div class="section__item bg-4">
+                        <video width="320" height="240" controls autoplay muted class="section_img_content">
+                            <source src="./img/sliders/Explor_Ados/Sem_2/06_Jeudi/WhatsApp%20Video%202021-07-22%20at%2017.09.41.mp4"
+                                    type="video/mp4">
+
+                            Oups, il semblerait que votre navigateur ne seupporte pas ce type de média.
+                        </video>
+                    </div>
+                    <div class="section__item bg-4">
+                        <img class="section_img_content"
+                             src="./img/sliders/Explor_Ados/Sem_2/06_Jeudi/WhatsApp%20Image%202021-07-22%20at%2017.08.30.jpeg"
+                             alt="">
+                    </div> <div class="section__item bg-4">
+                        <img class="section_img_content"
+                             src="./img/sliders/Explor_Ados/Sem_2/06_Jeudi/WhatsApp%20Image%202021-07-22%20at%2017.09.13.jpeg"
+                             alt="">
+                    </div>
+
+
                     <div class="section__item bg-5">
                         <div class="section_img_content first">
                             <h3>Le petit mot du jour (Mercredi) </h3>
