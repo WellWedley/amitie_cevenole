@@ -42,7 +42,7 @@ include_once './header.php';
                         </video>
                     </div>
                     <div class="section__item bg-4">
-                        <video width="320" height="240" controls autoplay muted class="section_img_content">
+                        <video width="320" height="240" controls  muted class="section_img_content">
                             <source src="./img/sliders/Explor_Ados/Sem_2/06_Jeudi/WhatsApp%20Video%202021-07-22%20at%2017.09.41.mp4"
                                     type="video/mp4">
 
