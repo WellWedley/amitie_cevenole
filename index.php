@@ -41,9 +41,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class="decompte">
         <div class="prochain_depart">
-            <h1>PROCHAIN DÉPART EN SÉJOURS DANS...</h1>
+            <h1 style="display: none;">PROCHAIN DÉPART EN SÉJOURS DANS...</h1>
+            <h1>Rendez-vous sur <a href="https://www.facebook.com/amitiecevenole" class="facebook_link_index" target="_blank"> Facebook</a> pour de nouvelles aventures !</h1>
         </div>
-        <div class="news">
+        <div class="news" style="display: none;">
             <div class="clock jour_diz">
                 <h1 id="jours"></h1>
                 <p id="daySubt">Jours</p>
