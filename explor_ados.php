@@ -30,6 +30,42 @@
                                 <h2> Explor' Ados Du 24 au 31 Juillet 2021 </h2>
                             </div>
                         </div>
+                        <div class="section__item bg-5">
+                            <div class="section_img_content first">
+                                <h3>Le petit mot du jour (Dimanche) </h3>
+                                <p>Belle journée à Mons-La-Trivalle, demain nous allons à la spéléo.La rivière est super bonne autant que nos pâtes carbos.</p>
+                            </div>
+                        </div>
+
+                        <div class="section__item bg-4">
+                            <video width="320" height="240" controls muted class="section_img_content">
+                                <source src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Video%202021-07-25%20at%2021.08.21.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Image%202021-07-25%20at%2021.07.34.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Image%202021-07-25%20at%2021.07.41.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Image%202021-07-25%20at%2021.08.22%20(1).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Image%202021-07-25%20at%2021.08.22%20(2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Image%202021-07-25%20at%2021.08.22%20(3).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Image%202021-07-25%20at%2021.08.22.jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Image%202021-07-25%20at%2021.08.23.jpeg" alt="">
+                        </div>
+
+
+
 
 
                         <div class="section__item bg-4">
