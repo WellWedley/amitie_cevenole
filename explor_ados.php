@@ -30,6 +30,37 @@
                                 <h2> Explor' Ados Du 24 au 31 Juillet 2021 </h2>
                             </div>
                         </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.56.59.jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.02%20(1).jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.02%20(2).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.02%20(4).jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.02%20(5).jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.02.jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.03%20(1).jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.03%20(2).jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.03%20(3).jpeg" alt="">
+                        </div>
+                        <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.03%20(5).jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.03.jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.04%20(1).jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.04%20(2).jpeg" alt="">
+                        </div> <div class="section__item bg-4">
+                            <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/05_Mercredi/WhatsApp%20Image%202021-07-28%20at%2020.57.04.jpeg" alt="">
+                        </div>
                         <div class="section__item bg-5">
                             <div class="section_img_content first">
                                 <h3>Le petit mot du jour (Dimanche) </h3>
@@ -63,11 +94,6 @@
                         <div class="section__item bg-4">
                             <img class="section_img_content" src="./img/sliders/Explor_Ados/Sem_3/02_Dimanche/WhatsApp%20Image%202021-07-25%20at%2021.08.23.jpeg" alt="">
                         </div>
-
-
-
-
-
                         <div class="section__item bg-4">
                             <video width="320" height="240" controls muted class="section_img_content">
                                 <source src="./img/sliders/Explor_Ados/Sem_3/01_Samedi/WhatsApp Video 2021-07-24 at 17.22.21.mp4" type="video/mp4">
